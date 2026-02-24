@@ -5,8 +5,8 @@ Coding conventions and tooling guidance for AI agents working in this repository
 ## Stack
 
 - **Python** — primary language
-- **Microsoft Fabric** — data engineering and orchestration
-- **Microsoft Foundry** — agent infrastructure
+- **Microsoft Fabric** — data engineering and orchestration -> data agent
+- **Microsoft Foundry** — agent infrastructure and Foundry IQ for institutional knowledge
 - **Copilot Studio** — conversational AI / agent authoring
 
 ## Python
@@ -29,25 +29,7 @@ uv sync          # install from lockfile
 - Keep modules focused and small; flat structure beats deep nesting.
 - Prefer stdlib and direct SDK calls over wrapper layers.
 
-## File structure
+## Agent coding
 
-```
-project/
-├── pyproject.toml
-├── uv.lock
-├── src/
-│   └── <module>/
-└── tests/
-```
-
-Add sub-packages only when genuinely needed. Co-locate related logic rather than splitting by layer (handlers/, services/, utils/ for tiny projects is overkill).
-
-## Checks
-
-```sh
-uv run ruff check .        # lint
-uv run ruff format .       # format
-uv run pytest              # tests
-```
-
-Fix lint errors before committing. Do not suppress warnings without a comment explaining why.
+- Start with planning and make sure you understand the task and data before coding.
+- Where possible create tests so you can validate your progress and fix issues early.
