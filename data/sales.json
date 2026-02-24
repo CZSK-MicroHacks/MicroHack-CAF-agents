@@ -1,0 +1,9182 @@
+[
+  {
+    "SalesId": 1,
+    "Date": "04.01.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 2,
+    "Date": "11.01.2025",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 3,
+    "Date": "18.01.2025",
+    "Store": "Ostrava",
+    "WineId": 11,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 4,
+    "Date": "25.01.2025",
+    "Store": "Plzeň",
+    "WineId": 36,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 5,
+    "Date": "02.02.2025",
+    "Store": "Olomouc",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 6,
+    "Date": "09.02.2025",
+    "Store": "Liberec",
+    "WineId": 18,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 7,
+    "Date": "15.02.2025",
+    "Store": "České Budějovice",
+    "WineId": 15,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 8,
+    "Date": "22.02.2025",
+    "Store": "Hradec Králové",
+    "WineId": 39,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 9,
+    "Date": "08.03.2025",
+    "Store": "Pardubice",
+    "WineId": 4,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 10,
+    "Date": "16.03.2025",
+    "Store": "Zlín",
+    "WineId": 29,
+    "Quantity": 10,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 11,
+    "Date": "29.03.2025",
+    "Store": "Jihlava",
+    "WineId": 44,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 12,
+    "Date": "12.04.2025",
+    "Store": "Praha",
+    "WineId": 34,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 13,
+    "Date": "18.04.2025",
+    "Store": "Brno",
+    "WineId": 17,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 14,
+    "Date": "19.04.2025",
+    "Store": "Olomouc",
+    "WineId": 1,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 15,
+    "Date": "30.04.2025",
+    "Store": "Ostrava",
+    "WineId": 10,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 16,
+    "Date": "17.05.2025",
+    "Store": "Plzeň",
+    "WineId": 21,
+    "Quantity": 9,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 17,
+    "Date": "07.06.2025",
+    "Store": "České Budějovice",
+    "WineId": 30,
+    "Quantity": 14,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 18,
+    "Date": "21.06.2025",
+    "Store": "Hradec Králové",
+    "WineId": 48,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 19,
+    "Date": "05.07.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 52,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 20,
+    "Date": "19.07.2025",
+    "Store": "Liberec",
+    "WineId": 59,
+    "Quantity": 11,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 21,
+    "Date": "09.08.2025",
+    "Store": "Opava",
+    "WineId": 9,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 22,
+    "Date": "23.08.2025",
+    "Store": "Pardubice",
+    "WineId": 22,
+    "Quantity": 8,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 23,
+    "Date": "13.09.2025",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 24,
+    "Date": "27.09.2025",
+    "Store": "Mikulov",
+    "WineId": 6,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 25,
+    "Date": "18.10.2025",
+    "Store": "Zlín",
+    "WineId": 12,
+    "Quantity": 9,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 26,
+    "Date": "08.11.2025",
+    "Store": "Jihlava",
+    "WineId": 5,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 27,
+    "Date": "29.11.2025",
+    "Store": "Praha",
+    "WineId": 2,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 28,
+    "Date": "13.12.2025",
+    "Store": "Brno",
+    "WineId": 19,
+    "Quantity": 7,
+    "Discount": 8,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 29,
+    "Date": "20.12.2025",
+    "Store": "Praha",
+    "WineId": 20,
+    "Quantity": 2,
+    "Discount": 10,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 30,
+    "Date": "14.02.2026",
+    "Store": "Olomouc",
+    "WineId": 7,
+    "Quantity": 5,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 31,
+    "Date": "03.05.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 32,
+    "Date": "04.05.2025",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 33,
+    "Date": "05.05.2025",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 34,
+    "Date": "07.05.2025",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 35,
+    "Date": "10.05.2025",
+    "Store": "Olomouc",
+    "WineId": 39,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 36,
+    "Date": "11.05.2025",
+    "Store": "Liberec",
+    "WineId": 18,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 37,
+    "Date": "14.05.2025",
+    "Store": "České Budějovice",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 38,
+    "Date": "16.05.2025",
+    "Store": "Hradec Králové",
+    "WineId": 4,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 39,
+    "Date": "18.05.2025",
+    "Store": "Pardubice",
+    "WineId": 29,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 40,
+    "Date": "20.05.2025",
+    "Store": "Zlín",
+    "WineId": 44,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 41,
+    "Date": "22.05.2025",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 42,
+    "Date": "24.05.2025",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 43,
+    "Date": "25.05.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 21,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 44,
+    "Date": "28.05.2025",
+    "Store": "Jihlava",
+    "WineId": 34,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 45,
+    "Date": "30.05.2025",
+    "Store": "Opava",
+    "WineId": 11,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 46,
+    "Date": "01.06.2025",
+    "Store": "Praha",
+    "WineId": 30,
+    "Quantity": 9,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 47,
+    "Date": "06.06.2025",
+    "Store": "Brno",
+    "WineId": 17,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 48,
+    "Date": "08.06.2025",
+    "Store": "Plzeň",
+    "WineId": 41,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 49,
+    "Date": "12.06.2025",
+    "Store": "Ostrava",
+    "WineId": 54,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 50,
+    "Date": "14.06.2025",
+    "Store": "Olomouc",
+    "WineId": 9,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 51,
+    "Date": "20.06.2025",
+    "Store": "České Budějovice",
+    "WineId": 43,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 52,
+    "Date": "22.06.2025",
+    "Store": "Hradec Králové",
+    "WineId": 14,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 53,
+    "Date": "27.06.2025",
+    "Store": "Pardubice",
+    "WineId": 59,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 54,
+    "Date": "01.07.2025",
+    "Store": "Liberec",
+    "WineId": 5,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 55,
+    "Date": "05.07.2025",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 56,
+    "Date": "12.07.2025",
+    "Store": "Mikulov",
+    "WineId": 33,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 57,
+    "Date": "19.07.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 27,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 58,
+    "Date": "26.07.2025",
+    "Store": "Jihlava",
+    "WineId": 10,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 59,
+    "Date": "02.08.2025",
+    "Store": "Opava",
+    "WineId": 6,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 60,
+    "Date": "09.08.2025",
+    "Store": "Zlín",
+    "WineId": 23,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 61,
+    "Date": "06.06.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 62,
+    "Date": "08.06.2025",
+    "Store": "Brno",
+    "WineId": 15,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 63,
+    "Date": "12.06.2025",
+    "Store": "Ostrava",
+    "WineId": 18,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 64,
+    "Date": "14.06.2025",
+    "Store": "Plzeň",
+    "WineId": 36,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 65,
+    "Date": "18.06.2025",
+    "Store": "Olomouc",
+    "WineId": 25,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 66,
+    "Date": "21.06.2025",
+    "Store": "Liberec",
+    "WineId": 8,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 67,
+    "Date": "25.06.2025",
+    "Store": "České Budějovice",
+    "WineId": 39,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 68,
+    "Date": "28.06.2025",
+    "Store": "Hradec Králové",
+    "WineId": 11,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 69,
+    "Date": "02.07.2025",
+    "Store": "Pardubice",
+    "WineId": 29,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 70,
+    "Date": "05.07.2025",
+    "Store": "Zlín",
+    "WineId": 44,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 71,
+    "Date": "07.07.2025",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 10,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 72,
+    "Date": "10.07.2025",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 73,
+    "Date": "12.07.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 34,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 74,
+    "Date": "16.07.2025",
+    "Store": "Jihlava",
+    "WineId": 21,
+    "Quantity": 12,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 75,
+    "Date": "19.07.2025",
+    "Store": "Opava",
+    "WineId": 54,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 76,
+    "Date": "24.07.2025",
+    "Store": "Praha",
+    "WineId": 59,
+    "Quantity": 9,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 77,
+    "Date": "27.07.2025",
+    "Store": "Brno",
+    "WineId": 4,
+    "Quantity": 7,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 78,
+    "Date": "02.08.2025",
+    "Store": "Ostrava",
+    "WineId": 30,
+    "Quantity": 14,
+    "Discount": 6,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 79,
+    "Date": "06.08.2025",
+    "Store": "Plzeň",
+    "WineId": 41,
+    "Quantity": 10,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 80,
+    "Date": "09.08.2025",
+    "Store": "Olomouc",
+    "WineId": 17,
+    "Quantity": 8,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 81,
+    "Date": "13.08.2025",
+    "Store": "Liberec",
+    "WineId": 56,
+    "Quantity": 11,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 82,
+    "Date": "16.08.2025",
+    "Store": "České Budějovice",
+    "WineId": 43,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 83,
+    "Date": "20.08.2025",
+    "Store": "Hradec Králové",
+    "WineId": 12,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 84,
+    "Date": "23.08.2025",
+    "Store": "Pardubice",
+    "WineId": 9,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 85,
+    "Date": "28.08.2025",
+    "Store": "Zlín",
+    "WineId": 48,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 86,
+    "Date": "03.09.2025",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 87,
+    "Date": "06.09.2025",
+    "Store": "Mikulov",
+    "WineId": 5,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 88,
+    "Date": "10.09.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 26,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 89,
+    "Date": "14.09.2025",
+    "Store": "Jihlava",
+    "WineId": 51,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 90,
+    "Date": "20.09.2025",
+    "Store": "Opava",
+    "WineId": 10,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 91,
+    "Date": "02.06.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 92,
+    "Date": "03.06.2025",
+    "Store": "Brno",
+    "WineId": 15,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 93,
+    "Date": "05.06.2025",
+    "Store": "Ostrava",
+    "WineId": 25,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 94,
+    "Date": "06.06.2025",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 95,
+    "Date": "07.06.2025",
+    "Store": "Olomouc",
+    "WineId": 29,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 96,
+    "Date": "08.06.2025",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 97,
+    "Date": "10.06.2025",
+    "Store": "České Budějovice",
+    "WineId": 44,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 98,
+    "Date": "11.06.2025",
+    "Store": "Hradec Králové",
+    "WineId": 11,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 99,
+    "Date": "12.06.2025",
+    "Store": "Pardubice",
+    "WineId": 18,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 100,
+    "Date": "14.06.2025",
+    "Store": "Zlín",
+    "WineId": 4,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 101,
+    "Date": "15.06.2025",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 102,
+    "Date": "16.06.2025",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 103,
+    "Date": "18.06.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 39,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 104,
+    "Date": "19.06.2025",
+    "Store": "Jihlava",
+    "WineId": 21,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 105,
+    "Date": "20.06.2025",
+    "Store": "Opava",
+    "WineId": 34,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 106,
+    "Date": "21.06.2025",
+    "Store": "Praha",
+    "WineId": 30,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 107,
+    "Date": "23.06.2025",
+    "Store": "Brno",
+    "WineId": 9,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 108,
+    "Date": "25.06.2025",
+    "Store": "Plzeň",
+    "WineId": 17,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 109,
+    "Date": "26.06.2025",
+    "Store": "Ostrava",
+    "WineId": 54,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 110,
+    "Date": "27.06.2025",
+    "Store": "Olomouc",
+    "WineId": 41,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 111,
+    "Date": "28.06.2025",
+    "Store": "Liberec",
+    "WineId": 59,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 112,
+    "Date": "30.06.2025",
+    "Store": "České Budějovice",
+    "WineId": 52,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 113,
+    "Date": "02.07.2025",
+    "Store": "Hradec Králové",
+    "WineId": 48,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 114,
+    "Date": "05.07.2025",
+    "Store": "Pardubice",
+    "WineId": 45,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 115,
+    "Date": "06.07.2025",
+    "Store": "Zlín",
+    "WineId": 56,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 116,
+    "Date": "10.07.2025",
+    "Store": "Praha",
+    "WineId": 5,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 117,
+    "Date": "12.07.2025",
+    "Store": "Brno",
+    "WineId": 10,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 118,
+    "Date": "15.07.2025",
+    "Store": "Ostrava",
+    "WineId": 6,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 119,
+    "Date": "18.07.2025",
+    "Store": "Znojmo",
+    "WineId": 51,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 120,
+    "Date": "25.07.2025",
+    "Store": "Mikulov",
+    "WineId": 20,
+    "Quantity": 2,
+    "Discount": 8,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 121,
+    "Date": "01.07.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 122,
+    "Date": "02.07.2025",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 123,
+    "Date": "03.07.2025",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 124,
+    "Date": "04.07.2025",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 125,
+    "Date": "05.07.2025",
+    "Store": "Olomouc",
+    "WineId": 39,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 126,
+    "Date": "06.07.2025",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 127,
+    "Date": "07.07.2025",
+    "Store": "České Budějovice",
+    "WineId": 44,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 128,
+    "Date": "08.07.2025",
+    "Store": "Hradec Králové",
+    "WineId": 29,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 129,
+    "Date": "09.07.2025",
+    "Store": "Pardubice",
+    "WineId": 18,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 130,
+    "Date": "10.07.2025",
+    "Store": "Zlín",
+    "WineId": 54,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 131,
+    "Date": "11.07.2025",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 132,
+    "Date": "12.07.2025",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 133,
+    "Date": "13.07.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 17,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 134,
+    "Date": "14.07.2025",
+    "Store": "Jihlava",
+    "WineId": 21,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 135,
+    "Date": "15.07.2025",
+    "Store": "Opava",
+    "WineId": 11,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 136,
+    "Date": "16.07.2025",
+    "Store": "Praha",
+    "WineId": 30,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 137,
+    "Date": "17.07.2025",
+    "Store": "Brno",
+    "WineId": 10,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 138,
+    "Date": "18.07.2025",
+    "Store": "Ostrava",
+    "WineId": 4,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 139,
+    "Date": "19.07.2025",
+    "Store": "Plzeň",
+    "WineId": 43,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 140,
+    "Date": "20.07.2025",
+    "Store": "Olomouc",
+    "WineId": 34,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 141,
+    "Date": "21.07.2025",
+    "Store": "Liberec",
+    "WineId": 41,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 142,
+    "Date": "22.07.2025",
+    "Store": "České Budějovice",
+    "WineId": 48,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 143,
+    "Date": "23.07.2025",
+    "Store": "Hradec Králové",
+    "WineId": 12,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 144,
+    "Date": "24.07.2025",
+    "Store": "Pardubice",
+    "WineId": 45,
+    "Quantity": 4,
+    "Discount": 3,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 145,
+    "Date": "25.07.2025",
+    "Store": "Zlín",
+    "WineId": 26,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 146,
+    "Date": "26.07.2025",
+    "Store": "Znojmo",
+    "WineId": 51,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 147,
+    "Date": "27.07.2025",
+    "Store": "Mikulov",
+    "WineId": 33,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 148,
+    "Date": "28.07.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 6,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 149,
+    "Date": "29.07.2025",
+    "Store": "Jihlava",
+    "WineId": 27,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 150,
+    "Date": "31.07.2025",
+    "Store": "Opava",
+    "WineId": 19,
+    "Quantity": 2,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 151,
+    "Date": "03.08.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 152,
+    "Date": "03.08.2025",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 153,
+    "Date": "04.08.2025",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 154,
+    "Date": "06.08.2025",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 155,
+    "Date": "08.08.2025",
+    "Store": "Olomouc",
+    "WineId": 11,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 156,
+    "Date": "10.08.2025",
+    "Store": "Liberec",
+    "WineId": 39,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 157,
+    "Date": "12.08.2025",
+    "Store": "České Budějovice",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 158,
+    "Date": "13.08.2025",
+    "Store": "Hradec Králové",
+    "WineId": 29,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 159,
+    "Date": "15.08.2025",
+    "Store": "Pardubice",
+    "WineId": 44,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 160,
+    "Date": "16.08.2025",
+    "Store": "Zlín",
+    "WineId": 21,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 161,
+    "Date": "19.08.2025",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 162,
+    "Date": "20.08.2025",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 163,
+    "Date": "22.08.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 5,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 164,
+    "Date": "24.08.2025",
+    "Store": "Jihlava",
+    "WineId": 30,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 165,
+    "Date": "27.08.2025",
+    "Store": "Opava",
+    "WineId": 34,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 166,
+    "Date": "30.08.2025",
+    "Store": "Praha",
+    "WineId": 18,
+    "Quantity": 14,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 167,
+    "Date": "02.09.2025",
+    "Store": "Brno",
+    "WineId": 4,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 168,
+    "Date": "05.09.2025",
+    "Store": "Ostrava",
+    "WineId": 10,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 169,
+    "Date": "07.09.2025",
+    "Store": "Plzeň",
+    "WineId": 17,
+    "Quantity": 3,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 170,
+    "Date": "09.09.2025",
+    "Store": "Olomouc",
+    "WineId": 41,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 171,
+    "Date": "11.09.2025",
+    "Store": "Liberec",
+    "WineId": 59,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 172,
+    "Date": "13.09.2025",
+    "Store": "České Budějovice",
+    "WineId": 22,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 173,
+    "Date": "16.09.2025",
+    "Store": "Hradec Králové",
+    "WineId": 43,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 174,
+    "Date": "18.09.2025",
+    "Store": "Pardubice",
+    "WineId": 54,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 175,
+    "Date": "20.09.2025",
+    "Store": "Zlín",
+    "WineId": 48,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 176,
+    "Date": "22.09.2025",
+    "Store": "Znojmo",
+    "WineId": 51,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 177,
+    "Date": "25.09.2025",
+    "Store": "Mikulov",
+    "WineId": 33,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 178,
+    "Date": "27.09.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 27,
+    "Quantity": 1,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 179,
+    "Date": "29.09.2025",
+    "Store": "Jihlava",
+    "WineId": 12,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 180,
+    "Date": "02.10.2025",
+    "Store": "Opava",
+    "WineId": 6,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 181,
+    "Date": "02.08.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 182,
+    "Date": "03.08.2025",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 183,
+    "Date": "05.08.2025",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 184,
+    "Date": "06.08.2025",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 185,
+    "Date": "07.08.2025",
+    "Store": "Olomouc",
+    "WineId": 39,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 186,
+    "Date": "09.08.2025",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 187,
+    "Date": "10.08.2025",
+    "Store": "České Budějovice",
+    "WineId": 44,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 188,
+    "Date": "12.08.2025",
+    "Store": "Hradec Králové",
+    "WineId": 4,
+    "Quantity": 6,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 189,
+    "Date": "13.08.2025",
+    "Store": "Pardubice",
+    "WineId": 29,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 190,
+    "Date": "15.08.2025",
+    "Store": "Zlín",
+    "WineId": 34,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 191,
+    "Date": "16.08.2025",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 6,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 192,
+    "Date": "17.08.2025",
+    "Store": "Mikulov",
+    "WineId": 17,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 193,
+    "Date": "19.08.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 1,
+    "Quantity": 3,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 194,
+    "Date": "20.08.2025",
+    "Store": "Jihlava",
+    "WineId": 59,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 195,
+    "Date": "21.08.2025",
+    "Store": "Opava",
+    "WineId": 11,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 196,
+    "Date": "23.08.2025",
+    "Store": "Praha",
+    "WineId": 30,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 197,
+    "Date": "24.08.2025",
+    "Store": "Brno",
+    "WineId": 21,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 198,
+    "Date": "26.08.2025",
+    "Store": "Ostrava",
+    "WineId": 41,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 199,
+    "Date": "27.08.2025",
+    "Store": "Plzeň",
+    "WineId": 18,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 200,
+    "Date": "29.08.2025",
+    "Store": "Olomouc",
+    "WineId": 48,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 201,
+    "Date": "30.08.2025",
+    "Store": "Liberec",
+    "WineId": 10,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 202,
+    "Date": "31.08.2025",
+    "Store": "České Budějovice",
+    "WineId": 9,
+    "Quantity": 6,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 203,
+    "Date": "02.09.2025",
+    "Store": "Hradec Králové",
+    "WineId": 56,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 204,
+    "Date": "04.09.2025",
+    "Store": "Pardubice",
+    "WineId": 45,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 205,
+    "Date": "06.09.2025",
+    "Store": "Zlín",
+    "WineId": 26,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 206,
+    "Date": "07.09.2025",
+    "Store": "Znojmo",
+    "WineId": 51,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 207,
+    "Date": "09.09.2025",
+    "Store": "Mikulov",
+    "WineId": 5,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 208,
+    "Date": "11.09.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 33,
+    "Quantity": 3,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 209,
+    "Date": "13.09.2025",
+    "Store": "Jihlava",
+    "WineId": 27,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 210,
+    "Date": "14.09.2025",
+    "Store": "Opava",
+    "WineId": 12,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 211,
+    "Date": "05.09.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 212,
+    "Date": "07.09.2025",
+    "Store": "Brno",
+    "WineId": 15,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 213,
+    "Date": "10.09.2025",
+    "Store": "Ostrava",
+    "WineId": 25,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 214,
+    "Date": "12.09.2025",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 215,
+    "Date": "14.09.2025",
+    "Store": "Olomouc",
+    "WineId": 36,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 216,
+    "Date": "18.09.2025",
+    "Store": "Liberec",
+    "WineId": 29,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 217,
+    "Date": "20.09.2025",
+    "Store": "České Budějovice",
+    "WineId": 44,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 218,
+    "Date": "22.09.2025",
+    "Store": "Hradec Králové",
+    "WineId": 11,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 219,
+    "Date": "25.09.2025",
+    "Store": "Pardubice",
+    "WineId": 34,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 220,
+    "Date": "28.09.2025",
+    "Store": "Zlín",
+    "WineId": 1,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 221,
+    "Date": "03.10.2025",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 222,
+    "Date": "06.10.2025",
+    "Store": "Mikulov",
+    "WineId": 17,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 223,
+    "Date": "09.10.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 39,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 224,
+    "Date": "12.10.2025",
+    "Store": "Jihlava",
+    "WineId": 59,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 225,
+    "Date": "15.10.2025",
+    "Store": "Opava",
+    "WineId": 21,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 226,
+    "Date": "18.10.2025",
+    "Store": "Praha",
+    "WineId": 30,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 227,
+    "Date": "21.10.2025",
+    "Store": "Brno",
+    "WineId": 4,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 228,
+    "Date": "26.10.2025",
+    "Store": "Ostrava",
+    "WineId": 48,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 229,
+    "Date": "30.10.2025",
+    "Store": "Plzeň",
+    "WineId": 10,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 230,
+    "Date": "02.11.2025",
+    "Store": "Olomouc",
+    "WineId": 18,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 231,
+    "Date": "08.11.2025",
+    "Store": "Liberec",
+    "WineId": 41,
+    "Quantity": 7,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 232,
+    "Date": "15.11.2025",
+    "Store": "České Budějovice",
+    "WineId": 9,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 233,
+    "Date": "22.11.2025",
+    "Store": "Hradec Králové",
+    "WineId": 43,
+    "Quantity": 6,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 234,
+    "Date": "01.12.2025",
+    "Store": "Pardubice",
+    "WineId": 5,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 235,
+    "Date": "06.12.2025",
+    "Store": "Zlín",
+    "WineId": 56,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 236,
+    "Date": "13.12.2025",
+    "Store": "Praha",
+    "WineId": 2,
+    "Quantity": 14,
+    "Discount": 8,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 237,
+    "Date": "19.12.2025",
+    "Store": "Brno",
+    "WineId": 19,
+    "Quantity": 6,
+    "Discount": 7,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 238,
+    "Date": "22.12.2025",
+    "Store": "Ostrava",
+    "WineId": 20,
+    "Quantity": 2,
+    "Discount": 5,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 239,
+    "Date": "27.12.2025",
+    "Store": "Plzeň",
+    "WineId": 6,
+    "Quantity": 11,
+    "Discount": 9,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 240,
+    "Date": "14.02.2026",
+    "Store": "Praha",
+    "WineId": 7,
+    "Quantity": 5,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 241,
+    "Date": "02.09.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 242,
+    "Date": "03.09.2025",
+    "Store": "Brno",
+    "WineId": 15,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 243,
+    "Date": "05.09.2025",
+    "Store": "Ostrava",
+    "WineId": 25,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 244,
+    "Date": "06.09.2025",
+    "Store": "Plzeň",
+    "WineId": 36,
+    "Quantity": 7,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 245,
+    "Date": "07.09.2025",
+    "Store": "Olomouc",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 246,
+    "Date": "09.09.2025",
+    "Store": "Liberec",
+    "WineId": 44,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 247,
+    "Date": "10.09.2025",
+    "Store": "České Budějovice",
+    "WineId": 29,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 248,
+    "Date": "12.09.2025",
+    "Store": "Hradec Králové",
+    "WineId": 11,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 249,
+    "Date": "13.09.2025",
+    "Store": "Pardubice",
+    "WineId": 4,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 250,
+    "Date": "15.09.2025",
+    "Store": "Zlín",
+    "WineId": 21,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 251,
+    "Date": "18.09.2025",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 252,
+    "Date": "20.09.2025",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 253,
+    "Date": "22.09.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 39,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 254,
+    "Date": "24.09.2025",
+    "Store": "Jihlava",
+    "WineId": 59,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 255,
+    "Date": "26.09.2025",
+    "Store": "Opava",
+    "WineId": 34,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 256,
+    "Date": "02.10.2025",
+    "Store": "Praha",
+    "WineId": 18,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 257,
+    "Date": "04.10.2025",
+    "Store": "Brno",
+    "WineId": 17,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 258,
+    "Date": "07.10.2025",
+    "Store": "Plzeň",
+    "WineId": 45,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 259,
+    "Date": "11.10.2025",
+    "Store": "Ostrava",
+    "WineId": 10,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 260,
+    "Date": "14.10.2025",
+    "Store": "Olomouc",
+    "WineId": 51,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 261,
+    "Date": "18.10.2025",
+    "Store": "Liberec",
+    "WineId": 30,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 262,
+    "Date": "22.10.2025",
+    "Store": "České Budějovice",
+    "WineId": 41,
+    "Quantity": 10,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 263,
+    "Date": "26.10.2025",
+    "Store": "Hradec Králové",
+    "WineId": 12,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 264,
+    "Date": "02.11.2025",
+    "Store": "Pardubice",
+    "WineId": 43,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 265,
+    "Date": "09.11.2025",
+    "Store": "Zlín",
+    "WineId": 54,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 266,
+    "Date": "15.11.2025",
+    "Store": "Znojmo",
+    "WineId": 26,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 267,
+    "Date": "30.11.2025",
+    "Store": "Mikulov",
+    "WineId": 5,
+    "Quantity": 14,
+    "Discount": 7,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 268,
+    "Date": "12.12.2025",
+    "Store": "Praha",
+    "WineId": 2,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 269,
+    "Date": "20.12.2025",
+    "Store": "Brno",
+    "WineId": 19,
+    "Quantity": 6,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 270,
+    "Date": "27.12.2025",
+    "Store": "Ostrava",
+    "WineId": 20,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 271,
+    "Date": "02.09.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 272,
+    "Date": "05.09.2025",
+    "Store": "Brno",
+    "WineId": 15,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 273,
+    "Date": "07.09.2025",
+    "Store": "Ostrava",
+    "WineId": 11,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 274,
+    "Date": "10.09.2025",
+    "Store": "Plzeň",
+    "WineId": 25,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 275,
+    "Date": "12.09.2025",
+    "Store": "Olomouc",
+    "WineId": 8,
+    "Quantity": 7,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 276,
+    "Date": "14.09.2025",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 277,
+    "Date": "16.09.2025",
+    "Store": "České Budějovice",
+    "WineId": 44,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 278,
+    "Date": "18.09.2025",
+    "Store": "Hradec Králové",
+    "WineId": 4,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 279,
+    "Date": "20.09.2025",
+    "Store": "Pardubice",
+    "WineId": 29,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 280,
+    "Date": "22.09.2025",
+    "Store": "Zlín",
+    "WineId": 21,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 281,
+    "Date": "24.09.2025",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 282,
+    "Date": "26.09.2025",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 283,
+    "Date": "28.09.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 39,
+    "Quantity": 2,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 284,
+    "Date": "30.09.2025",
+    "Store": "Jihlava",
+    "WineId": 34,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 285,
+    "Date": "02.10.2025",
+    "Store": "Opava",
+    "WineId": 17,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 286,
+    "Date": "07.10.2025",
+    "Store": "Praha",
+    "WineId": 9,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 287,
+    "Date": "11.10.2025",
+    "Store": "Brno",
+    "WineId": 10,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 288,
+    "Date": "15.10.2025",
+    "Store": "Ostrava",
+    "WineId": 18,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 289,
+    "Date": "19.10.2025",
+    "Store": "Plzeň",
+    "WineId": 45,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 290,
+    "Date": "23.10.2025",
+    "Store": "Olomouc",
+    "WineId": 43,
+    "Quantity": 2,
+    "Discount": 2,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 291,
+    "Date": "27.10.2025",
+    "Store": "Liberec",
+    "WineId": 41,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 292,
+    "Date": "31.10.2025",
+    "Store": "České Budějovice",
+    "WineId": 14,
+    "Quantity": 4,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 293,
+    "Date": "05.11.2025",
+    "Store": "Hradec Králové",
+    "WineId": 26,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 294,
+    "Date": "09.11.2025",
+    "Store": "Pardubice",
+    "WineId": 48,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 295,
+    "Date": "13.11.2025",
+    "Store": "Zlín",
+    "WineId": 54,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 296,
+    "Date": "17.11.2025",
+    "Store": "Znojmo",
+    "WineId": 27,
+    "Quantity": 2,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 297,
+    "Date": "29.11.2025",
+    "Store": "Mikulov",
+    "WineId": 33,
+    "Quantity": 3,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 298,
+    "Date": "10.12.2025",
+    "Store": "Praha",
+    "WineId": 2,
+    "Quantity": 2,
+    "Discount": 7,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 299,
+    "Date": "18.12.2025",
+    "Store": "Brno",
+    "WineId": 19,
+    "Quantity": 1,
+    "Discount": 10,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 300,
+    "Date": "22.12.2025",
+    "Store": "Ostrava",
+    "WineId": 20,
+    "Quantity": 1,
+    "Discount": 12,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 301,
+    "Date": "02.11.2025",
+    "Store": "Praha",
+    "WineId": 25,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 302,
+    "Date": "03.11.2025",
+    "Store": "Brno",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 303,
+    "Date": "05.11.2025",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 304,
+    "Date": "07.11.2025",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 305,
+    "Date": "08.11.2025",
+    "Store": "Olomouc",
+    "WineId": 36,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 306,
+    "Date": "09.11.2025",
+    "Store": "Liberec",
+    "WineId": 29,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 307,
+    "Date": "11.11.2025",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 308,
+    "Date": "12.11.2025",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 309,
+    "Date": "14.11.2025",
+    "Store": "České Budějovice",
+    "WineId": 44,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 310,
+    "Date": "15.11.2025",
+    "Store": "Hradec Králové",
+    "WineId": 11,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 311,
+    "Date": "16.11.2025",
+    "Store": "Pardubice",
+    "WineId": 34,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 312,
+    "Date": "18.11.2025",
+    "Store": "Opava",
+    "WineId": 10,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 313,
+    "Date": "19.11.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 5,
+    "Quantity": 2,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 314,
+    "Date": "21.11.2025",
+    "Store": "Zlín",
+    "WineId": 54,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 315,
+    "Date": "22.11.2025",
+    "Store": "Jihlava",
+    "WineId": 39,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 316,
+    "Date": "24.11.2025",
+    "Store": "Praha",
+    "WineId": 18,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 317,
+    "Date": "26.11.2025",
+    "Store": "Brno",
+    "WineId": 43,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 318,
+    "Date": "28.11.2025",
+    "Store": "Ostrava",
+    "WineId": 21,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 319,
+    "Date": "30.11.2025",
+    "Store": "Plzeň",
+    "WineId": 4,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 320,
+    "Date": "03.12.2025",
+    "Store": "Olomouc",
+    "WineId": 45,
+    "Quantity": 4,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 321,
+    "Date": "06.12.2025",
+    "Store": "Liberec",
+    "WineId": 9,
+    "Quantity": 7,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 322,
+    "Date": "09.12.2025",
+    "Store": "České Budějovice",
+    "WineId": 52,
+    "Quantity": 6,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 323,
+    "Date": "12.12.2025",
+    "Store": "Hradec Králové",
+    "WineId": 12,
+    "Quantity": 8,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 324,
+    "Date": "14.12.2025",
+    "Store": "Pardubice",
+    "WineId": 33,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 325,
+    "Date": "18.12.2025",
+    "Store": "Znojmo",
+    "WineId": 6,
+    "Quantity": 3,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 326,
+    "Date": "20.12.2025",
+    "Store": "Mikulov",
+    "WineId": 19,
+    "Quantity": 2,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 327,
+    "Date": "22.12.2025",
+    "Store": "Praha",
+    "WineId": 20,
+    "Quantity": 1,
+    "Discount": 10,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 328,
+    "Date": "27.12.2025",
+    "Store": "Brno",
+    "WineId": 17,
+    "Quantity": 12,
+    "Discount": 7,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 329,
+    "Date": "30.12.2025",
+    "Store": "Ostrava",
+    "WineId": 14,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 330,
+    "Date": "14.02.2026",
+    "Store": "Plzeň",
+    "WineId": 2,
+    "Quantity": 2,
+    "Discount": 8,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 331,
+    "Date": "02.11.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 332,
+    "Date": "03.11.2025",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 333,
+    "Date": "05.11.2025",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 334,
+    "Date": "07.11.2025",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 335,
+    "Date": "08.11.2025",
+    "Store": "Olomouc",
+    "WineId": 11,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 336,
+    "Date": "10.11.2025",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 337,
+    "Date": "12.11.2025",
+    "Store": "České Budějovice",
+    "WineId": 44,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 338,
+    "Date": "14.11.2025",
+    "Store": "Hradec Králové",
+    "WineId": 4,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 339,
+    "Date": "16.11.2025",
+    "Store": "Pardubice",
+    "WineId": 29,
+    "Quantity": 8,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 340,
+    "Date": "18.11.2025",
+    "Store": "Zlín",
+    "WineId": 21,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 341,
+    "Date": "20.11.2025",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 342,
+    "Date": "22.11.2025",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 343,
+    "Date": "24.11.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 39,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 344,
+    "Date": "26.11.2025",
+    "Store": "Jihlava",
+    "WineId": 34,
+    "Quantity": 9,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 345,
+    "Date": "28.11.2025",
+    "Store": "Opava",
+    "WineId": 54,
+    "Quantity": 7,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 346,
+    "Date": "30.11.2025",
+    "Store": "Praha",
+    "WineId": 17,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 347,
+    "Date": "02.12.2025",
+    "Store": "Brno",
+    "WineId": 10,
+    "Quantity": 6,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 348,
+    "Date": "04.12.2025",
+    "Store": "Ostrava",
+    "WineId": 18,
+    "Quantity": 12,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 349,
+    "Date": "06.12.2025",
+    "Store": "Plzeň",
+    "WineId": 56,
+    "Quantity": 8,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 350,
+    "Date": "08.12.2025",
+    "Store": "Olomouc",
+    "WineId": 41,
+    "Quantity": 10,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 351,
+    "Date": "10.12.2025",
+    "Store": "Liberec",
+    "WineId": 5,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 352,
+    "Date": "12.12.2025",
+    "Store": "České Budějovice",
+    "WineId": 9,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 353,
+    "Date": "15.12.2025",
+    "Store": "Hradec Králové",
+    "WineId": 30,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 354,
+    "Date": "18.12.2025",
+    "Store": "Pardubice",
+    "WineId": 43,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 355,
+    "Date": "20.12.2025",
+    "Store": "Zlín",
+    "WineId": 12,
+    "Quantity": 7,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 356,
+    "Date": "22.12.2025",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 357,
+    "Date": "24.12.2025",
+    "Store": "Praha",
+    "WineId": 2,
+    "Quantity": 3,
+    "Discount": 8,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 358,
+    "Date": "27.12.2025",
+    "Store": "Brno",
+    "WineId": 19,
+    "Quantity": 2,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 359,
+    "Date": "30.12.2025",
+    "Store": "Ostrava",
+    "WineId": 20,
+    "Quantity": 1,
+    "Discount": 10,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 360,
+    "Date": "14.02.2026",
+    "Store": "Praha",
+    "WineId": 52,
+    "Quantity": 6,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 361,
+    "Date": "02.11.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 362,
+    "Date": "04.11.2025",
+    "Store": "Brno",
+    "WineId": 15,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 363,
+    "Date": "06.11.2025",
+    "Store": "Ostrava",
+    "WineId": 25,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 364,
+    "Date": "08.11.2025",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 365,
+    "Date": "10.11.2025",
+    "Store": "Olomouc",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 366,
+    "Date": "12.11.2025",
+    "Store": "Liberec",
+    "WineId": 18,
+    "Quantity": 7,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 367,
+    "Date": "14.11.2025",
+    "Store": "České Budějovice",
+    "WineId": 29,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 368,
+    "Date": "16.11.2025",
+    "Store": "Hradec Králové",
+    "WineId": 4,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 369,
+    "Date": "18.11.2025",
+    "Store": "Pardubice",
+    "WineId": 44,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 370,
+    "Date": "20.11.2025",
+    "Store": "Zlín",
+    "WineId": 21,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 371,
+    "Date": "22.11.2025",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 372,
+    "Date": "24.11.2025",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 12,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 373,
+    "Date": "26.11.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 39,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 374,
+    "Date": "28.11.2025",
+    "Store": "Jihlava",
+    "WineId": 34,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 375,
+    "Date": "30.11.2025",
+    "Store": "Opava",
+    "WineId": 11,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 376,
+    "Date": "03.12.2025",
+    "Store": "Praha",
+    "WineId": 10,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 377,
+    "Date": "05.12.2025",
+    "Store": "Brno",
+    "WineId": 17,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 378,
+    "Date": "07.12.2025",
+    "Store": "Ostrava",
+    "WineId": 54,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 379,
+    "Date": "10.12.2025",
+    "Store": "Plzeň",
+    "WineId": 43,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 380,
+    "Date": "12.12.2025",
+    "Store": "Olomouc",
+    "WineId": 30,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 381,
+    "Date": "14.12.2025",
+    "Store": "Liberec",
+    "WineId": 41,
+    "Quantity": 10,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 382,
+    "Date": "16.12.2025",
+    "Store": "České Budějovice",
+    "WineId": 12,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 383,
+    "Date": "18.12.2025",
+    "Store": "Hradec Králové",
+    "WineId": 26,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 384,
+    "Date": "20.12.2025",
+    "Store": "Pardubice",
+    "WineId": 5,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 385,
+    "Date": "22.12.2025",
+    "Store": "Zlín",
+    "WineId": 2,
+    "Quantity": 3,
+    "Discount": 7,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 386,
+    "Date": "24.12.2025",
+    "Store": "Praha",
+    "WineId": 20,
+    "Quantity": 2,
+    "Discount": 10,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 387,
+    "Date": "27.12.2025",
+    "Store": "Brno",
+    "WineId": 19,
+    "Quantity": 3,
+    "Discount": 8,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 388,
+    "Date": "29.12.2025",
+    "Store": "Ostrava",
+    "WineId": 33,
+    "Quantity": 5,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 389,
+    "Date": "12.01.2026",
+    "Store": "Znojmo",
+    "WineId": 59,
+    "Quantity": 11,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 390,
+    "Date": "10.02.2026",
+    "Store": "Mikulov",
+    "WineId": 38,
+    "Quantity": 1,
+    "Discount": 12,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 391,
+    "Date": "02.11.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 392,
+    "Date": "05.11.2025",
+    "Store": "Brno",
+    "WineId": 15,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 393,
+    "Date": "08.11.2025",
+    "Store": "Ostrava",
+    "WineId": 25,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 394,
+    "Date": "12.11.2025",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 395,
+    "Date": "14.11.2025",
+    "Store": "Olomouc",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 396,
+    "Date": "18.11.2025",
+    "Store": "Liberec",
+    "WineId": 44,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 397,
+    "Date": "21.11.2025",
+    "Store": "České Budějovice",
+    "WineId": 29,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 398,
+    "Date": "24.11.2025",
+    "Store": "Hradec Králové",
+    "WineId": 1,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 399,
+    "Date": "28.11.2025",
+    "Store": "Pardubice",
+    "WineId": 11,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 400,
+    "Date": "30.11.2025",
+    "Store": "Zlín",
+    "WineId": 4,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 401,
+    "Date": "03.12.2025",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 402,
+    "Date": "05.12.2025",
+    "Store": "Mikulov",
+    "WineId": 17,
+    "Quantity": 12,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 403,
+    "Date": "07.12.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 5,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 404,
+    "Date": "10.12.2025",
+    "Store": "Jihlava",
+    "WineId": 39,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 405,
+    "Date": "12.12.2025",
+    "Store": "Opava",
+    "WineId": 18,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 406,
+    "Date": "14.12.2025",
+    "Store": "Praha",
+    "WineId": 10,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 407,
+    "Date": "16.12.2025",
+    "Store": "Brno",
+    "WineId": 12,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 408,
+    "Date": "18.12.2025",
+    "Store": "Ostrava",
+    "WineId": 21,
+    "Quantity": 8,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 409,
+    "Date": "20.12.2025",
+    "Store": "Plzeň",
+    "WineId": 2,
+    "Quantity": 2,
+    "Discount": 5,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 410,
+    "Date": "22.12.2025",
+    "Store": "Olomouc",
+    "WineId": 7,
+    "Quantity": 4,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 411,
+    "Date": "23.12.2025",
+    "Store": "Praha",
+    "WineId": 20,
+    "Quantity": 1,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 412,
+    "Date": "26.12.2025",
+    "Store": "České Budějovice",
+    "WineId": 30,
+    "Quantity": 11,
+    "Discount": 7,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 413,
+    "Date": "28.12.2025",
+    "Store": "Hradec Králové",
+    "WineId": 43,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 414,
+    "Date": "30.12.2025",
+    "Store": "Pardubice",
+    "WineId": 41,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 415,
+    "Date": "02.01.2026",
+    "Store": "Liberec",
+    "WineId": 34,
+    "Quantity": 5,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 416,
+    "Date": "05.01.2026",
+    "Store": "Zlín",
+    "WineId": 56,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 417,
+    "Date": "12.01.2026",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 4,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 418,
+    "Date": "23.01.2026",
+    "Store": "Mikulov",
+    "WineId": 38,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 419,
+    "Date": "06.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 9,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 420,
+    "Date": "14.02.2026",
+    "Store": "Brno",
+    "WineId": 52,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 421,
+    "Date": "02.11.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 422,
+    "Date": "05.11.2025",
+    "Store": "Brno",
+    "WineId": 15,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 423,
+    "Date": "09.11.2025",
+    "Store": "Ostrava",
+    "WineId": 25,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 424,
+    "Date": "12.11.2025",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 425,
+    "Date": "15.11.2025",
+    "Store": "Olomouc",
+    "WineId": 44,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 426,
+    "Date": "18.11.2025",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 427,
+    "Date": "21.11.2025",
+    "Store": "České Budějovice",
+    "WineId": 29,
+    "Quantity": 6,
+    "Discount": 4,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 428,
+    "Date": "23.11.2025",
+    "Store": "Hradec Králové",
+    "WineId": 1,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 429,
+    "Date": "26.11.2025",
+    "Store": "Pardubice",
+    "WineId": 11,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 430,
+    "Date": "29.11.2025",
+    "Store": "Zlín",
+    "WineId": 21,
+    "Quantity": 8,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 431,
+    "Date": "03.12.2025",
+    "Store": "Praha",
+    "WineId": 4,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 432,
+    "Date": "05.12.2025",
+    "Store": "Brno",
+    "WineId": 9,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 433,
+    "Date": "07.12.2025",
+    "Store": "Ostrava",
+    "WineId": 34,
+    "Quantity": 9,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 434,
+    "Date": "10.12.2025",
+    "Store": "Plzeň",
+    "WineId": 10,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 435,
+    "Date": "12.12.2025",
+    "Store": "Olomouc",
+    "WineId": 17,
+    "Quantity": 14,
+    "Discount": 7,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 436,
+    "Date": "14.12.2025",
+    "Store": "Liberec",
+    "WineId": 59,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 437,
+    "Date": "16.12.2025",
+    "Store": "České Budějovice",
+    "WineId": 5,
+    "Quantity": 6,
+    "Discount": 5,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 438,
+    "Date": "18.12.2025",
+    "Store": "Hradec Králové",
+    "WineId": 18,
+    "Quantity": 10,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 439,
+    "Date": "20.12.2025",
+    "Store": "Pardubice",
+    "WineId": 41,
+    "Quantity": 15,
+    "Discount": 8,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 440,
+    "Date": "22.12.2025",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 441,
+    "Date": "23.12.2025",
+    "Store": "Mikulov",
+    "WineId": 45,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 442,
+    "Date": "24.12.2025",
+    "Store": "Praha",
+    "WineId": 2,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 443,
+    "Date": "26.12.2025",
+    "Store": "Brno",
+    "WineId": 24,
+    "Quantity": 4,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 444,
+    "Date": "28.12.2025",
+    "Store": "Ostrava",
+    "WineId": 12,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 445,
+    "Date": "30.12.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 7,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 446,
+    "Date": "02.01.2026",
+    "Store": "Jihlava",
+    "WineId": 39,
+    "Quantity": 7,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 447,
+    "Date": "07.01.2026",
+    "Store": "Opava",
+    "WineId": 30,
+    "Quantity": 9,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 448,
+    "Date": "18.01.2026",
+    "Store": "Praha",
+    "WineId": 20,
+    "Quantity": 1,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 449,
+    "Date": "06.02.2026",
+    "Store": "Brno",
+    "WineId": 51,
+    "Quantity": 8,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 450,
+    "Date": "14.02.2026",
+    "Store": "Znojmo",
+    "WineId": 52,
+    "Quantity": 6,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 451,
+    "Date": "05.11.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 452,
+    "Date": "06.11.2025",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 453,
+    "Date": "08.11.2025",
+    "Store": "Ostrava",
+    "WineId": 11,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 454,
+    "Date": "10.11.2025",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 455,
+    "Date": "12.11.2025",
+    "Store": "Olomouc",
+    "WineId": 15,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 456,
+    "Date": "14.11.2025",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 457,
+    "Date": "15.11.2025",
+    "Store": "České Budějovice",
+    "WineId": 18,
+    "Quantity": 6,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 458,
+    "Date": "18.11.2025",
+    "Store": "Hradec Králové",
+    "WineId": 4,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 459,
+    "Date": "20.11.2025",
+    "Store": "Pardubice",
+    "WineId": 44,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 460,
+    "Date": "22.11.2025",
+    "Store": "Zlín",
+    "WineId": 29,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 461,
+    "Date": "23.11.2025",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 462,
+    "Date": "26.11.2025",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 463,
+    "Date": "28.11.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 39,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 464,
+    "Date": "30.11.2025",
+    "Store": "Jihlava",
+    "WineId": 21,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 465,
+    "Date": "03.12.2025",
+    "Store": "Opava",
+    "WineId": 34,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 466,
+    "Date": "05.12.2025",
+    "Store": "Praha",
+    "WineId": 17,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 467,
+    "Date": "07.12.2025",
+    "Store": "Brno",
+    "WineId": 10,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 468,
+    "Date": "10.12.2025",
+    "Store": "Ostrava",
+    "WineId": 12,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 469,
+    "Date": "12.12.2025",
+    "Store": "Plzeň",
+    "WineId": 5,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 470,
+    "Date": "14.12.2025",
+    "Store": "Olomouc",
+    "WineId": 45,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 471,
+    "Date": "16.12.2025",
+    "Store": "Liberec",
+    "WineId": 52,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 472,
+    "Date": "18.12.2025",
+    "Store": "České Budějovice",
+    "WineId": 9,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 473,
+    "Date": "19.12.2025",
+    "Store": "Hradec Králové",
+    "WineId": 43,
+    "Quantity": 11,
+    "Discount": 7,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 474,
+    "Date": "21.12.2025",
+    "Store": "Pardubice",
+    "WineId": 30,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 475,
+    "Date": "23.12.2025",
+    "Store": "Zlín",
+    "WineId": 2,
+    "Quantity": 3,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 476,
+    "Date": "27.12.2025",
+    "Store": "Znojmo",
+    "WineId": 6,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 477,
+    "Date": "29.12.2025",
+    "Store": "Mikulov",
+    "WineId": 33,
+    "Quantity": 4,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 478,
+    "Date": "03.01.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 20,
+    "Quantity": 1,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 479,
+    "Date": "11.01.2026",
+    "Store": "Jihlava",
+    "WineId": 48,
+    "Quantity": 6,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 480,
+    "Date": "05.02.2026",
+    "Store": "Opava",
+    "WineId": 41,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 481,
+    "Date": "05.11.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 482,
+    "Date": "07.11.2025",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 483,
+    "Date": "09.11.2025",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 484,
+    "Date": "12.11.2025",
+    "Store": "Plzeň",
+    "WineId": 36,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 485,
+    "Date": "15.11.2025",
+    "Store": "Olomouc",
+    "WineId": 29,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 486,
+    "Date": "18.11.2025",
+    "Store": "Liberec",
+    "WineId": 8,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 487,
+    "Date": "20.11.2025",
+    "Store": "České Budějovice",
+    "WineId": 44,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 488,
+    "Date": "22.11.2025",
+    "Store": "Hradec Králové",
+    "WineId": 11,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 489,
+    "Date": "24.11.2025",
+    "Store": "Pardubice",
+    "WineId": 18,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 490,
+    "Date": "26.11.2025",
+    "Store": "Zlín",
+    "WineId": 34,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 491,
+    "Date": "28.11.2025",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 492,
+    "Date": "01.12.2025",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 493,
+    "Date": "03.12.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 39,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 494,
+    "Date": "05.12.2025",
+    "Store": "Jihlava",
+    "WineId": 4,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 495,
+    "Date": "07.12.2025",
+    "Store": "Opava",
+    "WineId": 21,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 496,
+    "Date": "10.12.2025",
+    "Store": "Praha",
+    "WineId": 30,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 497,
+    "Date": "12.12.2025",
+    "Store": "Brno",
+    "WineId": 10,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 498,
+    "Date": "14.12.2025",
+    "Store": "Ostrava",
+    "WineId": 17,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 499,
+    "Date": "16.12.2025",
+    "Store": "Plzeň",
+    "WineId": 43,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 500,
+    "Date": "18.12.2025",
+    "Store": "Olomouc",
+    "WineId": 14,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 501,
+    "Date": "20.12.2025",
+    "Store": "Liberec",
+    "WineId": 5,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 502,
+    "Date": "21.12.2025",
+    "Store": "České Budějovice",
+    "WineId": 12,
+    "Quantity": 10,
+    "Discount": 7,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 503,
+    "Date": "22.12.2025",
+    "Store": "Hradec Králové",
+    "WineId": 7,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 504,
+    "Date": "23.12.2025",
+    "Store": "Pardubice",
+    "WineId": 2,
+    "Quantity": 2,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 505,
+    "Date": "27.12.2025",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 6,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 506,
+    "Date": "31.12.2025",
+    "Store": "Praha",
+    "WineId": 19,
+    "Quantity": 3,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 507,
+    "Date": "03.01.2026",
+    "Store": "Brno",
+    "WineId": 48,
+    "Quantity": 5,
+    "Discount": 8,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 508,
+    "Date": "10.01.2026",
+    "Store": "Ostrava",
+    "WineId": 54,
+    "Quantity": 9,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 509,
+    "Date": "24.01.2026",
+    "Store": "Plzeň",
+    "WineId": 56,
+    "Quantity": 6,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 510,
+    "Date": "14.02.2026",
+    "Store": "Praha",
+    "WineId": 33,
+    "Quantity": 2,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 511,
+    "Date": "03.01.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 512,
+    "Date": "04.01.2026",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 513,
+    "Date": "06.01.2026",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 514,
+    "Date": "08.01.2026",
+    "Store": "Plzeň",
+    "WineId": 36,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 515,
+    "Date": "10.01.2026",
+    "Store": "Olomouc",
+    "WineId": 18,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 516,
+    "Date": "11.01.2026",
+    "Store": "Liberec",
+    "WineId": 8,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 517,
+    "Date": "13.01.2026",
+    "Store": "České Budějovice",
+    "WineId": 39,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 518,
+    "Date": "14.01.2026",
+    "Store": "Hradec Králové",
+    "WineId": 29,
+    "Quantity": 9,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 519,
+    "Date": "16.01.2026",
+    "Store": "Pardubice",
+    "WineId": 44,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 520,
+    "Date": "17.01.2026",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 521,
+    "Date": "19.01.2026",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 522,
+    "Date": "20.01.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 4,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 523,
+    "Date": "22.01.2026",
+    "Store": "Zlín",
+    "WineId": 21,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 524,
+    "Date": "24.01.2026",
+    "Store": "Jihlava",
+    "WineId": 34,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 525,
+    "Date": "25.01.2026",
+    "Store": "Opava",
+    "WineId": 11,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 526,
+    "Date": "28.01.2026",
+    "Store": "Praha",
+    "WineId": 10,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 527,
+    "Date": "30.01.2026",
+    "Store": "Brno",
+    "WineId": 12,
+    "Quantity": 6,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 528,
+    "Date": "01.02.2026",
+    "Store": "Ostrava",
+    "WineId": 48,
+    "Quantity": 7,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 529,
+    "Date": "03.02.2026",
+    "Store": "Plzeň",
+    "WineId": 17,
+    "Quantity": 9,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 530,
+    "Date": "05.02.2026",
+    "Store": "Olomouc",
+    "WineId": 54,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 531,
+    "Date": "07.02.2026",
+    "Store": "Liberec",
+    "WineId": 59,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 532,
+    "Date": "08.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 5,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 533,
+    "Date": "10.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 45,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 534,
+    "Date": "11.02.2026",
+    "Store": "Pardubice",
+    "WineId": 26,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 535,
+    "Date": "12.02.2026",
+    "Store": "Znojmo",
+    "WineId": 51,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 536,
+    "Date": "14.02.2026",
+    "Store": "Praha",
+    "WineId": 7,
+    "Quantity": 3,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 537,
+    "Date": "14.02.2026",
+    "Store": "Brno",
+    "WineId": 14,
+    "Quantity": 4,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 538,
+    "Date": "21.02.2026",
+    "Store": "Ostrava",
+    "WineId": 6,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 539,
+    "Date": "24.02.2026",
+    "Store": "Mikulov",
+    "WineId": 35,
+    "Quantity": 1,
+    "Discount": 8,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 540,
+    "Date": "28.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 38,
+    "Quantity": 1,
+    "Discount": 10,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 541,
+    "Date": "03.02.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 542,
+    "Date": "04.02.2026",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 543,
+    "Date": "05.02.2026",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 544,
+    "Date": "06.02.2026",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 545,
+    "Date": "07.02.2026",
+    "Store": "Olomouc",
+    "WineId": 44,
+    "Quantity": 7,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 546,
+    "Date": "08.02.2026",
+    "Store": "Liberec",
+    "WineId": 11,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 547,
+    "Date": "09.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 36,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 548,
+    "Date": "10.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 29,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 549,
+    "Date": "11.02.2026",
+    "Store": "Pardubice",
+    "WineId": 59,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 550,
+    "Date": "12.02.2026",
+    "Store": "Znojmo",
+    "WineId": 21,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 551,
+    "Date": "13.02.2026",
+    "Store": "Mikulov",
+    "WineId": 17,
+    "Quantity": 10,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 552,
+    "Date": "14.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 2,
+    "Quantity": 2,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 553,
+    "Date": "14.02.2026",
+    "Store": "Zlín",
+    "WineId": 30,
+    "Quantity": 5,
+    "Discount": 4,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 554,
+    "Date": "15.02.2026",
+    "Store": "Jihlava",
+    "WineId": 1,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 555,
+    "Date": "15.02.2026",
+    "Store": "Opava",
+    "WineId": 10,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 556,
+    "Date": "16.02.2026",
+    "Store": "Praha",
+    "WineId": 34,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 557,
+    "Date": "16.02.2026",
+    "Store": "Brno",
+    "WineId": 41,
+    "Quantity": 12,
+    "Discount": 7,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 558,
+    "Date": "17.02.2026",
+    "Store": "Ostrava",
+    "WineId": 48,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 559,
+    "Date": "17.02.2026",
+    "Store": "Plzeň",
+    "WineId": 12,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 560,
+    "Date": "18.02.2026",
+    "Store": "Olomouc",
+    "WineId": 4,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 561,
+    "Date": "18.02.2026",
+    "Store": "Liberec",
+    "WineId": 9,
+    "Quantity": 3,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 562,
+    "Date": "19.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 52,
+    "Quantity": 6,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 563,
+    "Date": "19.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 39,
+    "Quantity": 7,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 564,
+    "Date": "20.02.2026",
+    "Store": "Pardubice",
+    "WineId": 56,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 565,
+    "Date": "20.02.2026",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 566,
+    "Date": "21.02.2026",
+    "Store": "Mikulov",
+    "WineId": 5,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 567,
+    "Date": "21.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 6,
+    "Quantity": 3,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 568,
+    "Date": "22.02.2026",
+    "Store": "Zlín",
+    "WineId": 43,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 569,
+    "Date": "23.02.2026",
+    "Store": "Jihlava",
+    "WineId": 22,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 570,
+    "Date": "24.02.2026",
+    "Store": "Opava",
+    "WineId": 27,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 571,
+    "Date": "03.02.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 572,
+    "Date": "04.02.2026",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 573,
+    "Date": "05.02.2026",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 574,
+    "Date": "06.02.2026",
+    "Store": "Plzeň",
+    "WineId": 36,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 575,
+    "Date": "07.02.2026",
+    "Store": "Olomouc",
+    "WineId": 8,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 576,
+    "Date": "08.02.2026",
+    "Store": "Liberec",
+    "WineId": 39,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 577,
+    "Date": "09.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 29,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 578,
+    "Date": "10.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 44,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 579,
+    "Date": "11.02.2026",
+    "Store": "Pardubice",
+    "WineId": 21,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 580,
+    "Date": "12.02.2026",
+    "Store": "Znojmo",
+    "WineId": 41,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 581,
+    "Date": "13.02.2026",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 582,
+    "Date": "13.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 17,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 583,
+    "Date": "14.02.2026",
+    "Store": "Zlín",
+    "WineId": 30,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 584,
+    "Date": "14.02.2026",
+    "Store": "Jihlava",
+    "WineId": 34,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 585,
+    "Date": "14.02.2026",
+    "Store": "Opava",
+    "WineId": 18,
+    "Quantity": 7,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 586,
+    "Date": "15.02.2026",
+    "Store": "Praha",
+    "WineId": 4,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 587,
+    "Date": "15.02.2026",
+    "Store": "Brno",
+    "WineId": 9,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 588,
+    "Date": "16.02.2026",
+    "Store": "Ostrava",
+    "WineId": 10,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 589,
+    "Date": "16.02.2026",
+    "Store": "Plzeň",
+    "WineId": 59,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 590,
+    "Date": "17.02.2026",
+    "Store": "Olomouc",
+    "WineId": 11,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 591,
+    "Date": "18.02.2026",
+    "Store": "Liberec",
+    "WineId": 43,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 592,
+    "Date": "18.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 54,
+    "Quantity": 9,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 593,
+    "Date": "19.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 22,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 594,
+    "Date": "20.02.2026",
+    "Store": "Pardubice",
+    "WineId": 48,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 595,
+    "Date": "20.02.2026",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 7,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 596,
+    "Date": "21.02.2026",
+    "Store": "Mikulov",
+    "WineId": 26,
+    "Quantity": 3,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 597,
+    "Date": "22.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 6,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 598,
+    "Date": "23.02.2026",
+    "Store": "Zlín",
+    "WineId": 52,
+    "Quantity": 6,
+    "Discount": 4,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 599,
+    "Date": "25.02.2026",
+    "Store": "Jihlava",
+    "WineId": 12,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 600,
+    "Date": "27.02.2026",
+    "Store": "Opava",
+    "WineId": 5,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 601,
+    "Date": "03.02.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 602,
+    "Date": "04.02.2026",
+    "Store": "Brno",
+    "WineId": 15,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 603,
+    "Date": "05.02.2026",
+    "Store": "Ostrava",
+    "WineId": 8,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 604,
+    "Date": "06.02.2026",
+    "Store": "Plzeň",
+    "WineId": 25,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 605,
+    "Date": "07.02.2026",
+    "Store": "Olomouc",
+    "WineId": 36,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 606,
+    "Date": "08.02.2026",
+    "Store": "Liberec",
+    "WineId": 21,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 607,
+    "Date": "09.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 44,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 608,
+    "Date": "10.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 11,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 609,
+    "Date": "11.02.2026",
+    "Store": "Pardubice",
+    "WineId": 29,
+    "Quantity": 10,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 610,
+    "Date": "12.02.2026",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 611,
+    "Date": "13.02.2026",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 612,
+    "Date": "14.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 30,
+    "Quantity": 14,
+    "Discount": 8,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 613,
+    "Date": "14.02.2026",
+    "Store": "Zlín",
+    "WineId": 18,
+    "Quantity": 11,
+    "Discount": 7,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 614,
+    "Date": "15.02.2026",
+    "Store": "Jihlava",
+    "WineId": 34,
+    "Quantity": 9,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 615,
+    "Date": "15.02.2026",
+    "Store": "Opava",
+    "WineId": 54,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 616,
+    "Date": "16.02.2026",
+    "Store": "Praha",
+    "WineId": 4,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 617,
+    "Date": "16.02.2026",
+    "Store": "Brno",
+    "WineId": 48,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 618,
+    "Date": "17.02.2026",
+    "Store": "Ostrava",
+    "WineId": 10,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 619,
+    "Date": "17.02.2026",
+    "Store": "Plzeň",
+    "WineId": 17,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 620,
+    "Date": "18.02.2026",
+    "Store": "Olomouc",
+    "WineId": 39,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 621,
+    "Date": "18.02.2026",
+    "Store": "Liberec",
+    "WineId": 59,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 622,
+    "Date": "19.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 56,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 623,
+    "Date": "19.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 52,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 624,
+    "Date": "20.02.2026",
+    "Store": "Pardubice",
+    "WineId": 45,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 625,
+    "Date": "20.02.2026",
+    "Store": "Znojmo",
+    "WineId": 43,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 626,
+    "Date": "21.02.2026",
+    "Store": "Mikulov",
+    "WineId": 27,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 627,
+    "Date": "22.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 6,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 628,
+    "Date": "24.02.2026",
+    "Store": "Zlín",
+    "WineId": 12,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 629,
+    "Date": "26.02.2026",
+    "Store": "Jihlava",
+    "WineId": 2,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 630,
+    "Date": "28.02.2026",
+    "Store": "Opava",
+    "WineId": 19,
+    "Quantity": 1,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 631,
+    "Date": "03.02.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 632,
+    "Date": "04.02.2026",
+    "Store": "Brno",
+    "WineId": 15,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 633,
+    "Date": "05.02.2026",
+    "Store": "Ostrava",
+    "WineId": 25,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 634,
+    "Date": "06.02.2026",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 635,
+    "Date": "07.02.2026",
+    "Store": "Olomouc",
+    "WineId": 39,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 636,
+    "Date": "08.02.2026",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 637,
+    "Date": "09.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 29,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 638,
+    "Date": "10.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 44,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 639,
+    "Date": "11.02.2026",
+    "Store": "Pardubice",
+    "WineId": 21,
+    "Quantity": 9,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 640,
+    "Date": "12.02.2026",
+    "Store": "Znojmo",
+    "WineId": 34,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 641,
+    "Date": "13.02.2026",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 12,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 642,
+    "Date": "14.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 18,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 643,
+    "Date": "14.02.2026",
+    "Store": "Zlín",
+    "WineId": 30,
+    "Quantity": 6,
+    "Discount": 6,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 644,
+    "Date": "15.02.2026",
+    "Store": "Jihlava",
+    "WineId": 5,
+    "Quantity": 3,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 645,
+    "Date": "15.02.2026",
+    "Store": "Opava",
+    "WineId": 11,
+    "Quantity": 8,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 646,
+    "Date": "16.02.2026",
+    "Store": "Praha",
+    "WineId": 10,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 647,
+    "Date": "16.02.2026",
+    "Store": "Brno",
+    "WineId": 12,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 648,
+    "Date": "17.02.2026",
+    "Store": "Ostrava",
+    "WineId": 54,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 649,
+    "Date": "18.02.2026",
+    "Store": "Plzeň",
+    "WineId": 17,
+    "Quantity": 7,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 650,
+    "Date": "18.02.2026",
+    "Store": "Olomouc",
+    "WineId": 41,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 651,
+    "Date": "19.02.2026",
+    "Store": "Liberec",
+    "WineId": 59,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 652,
+    "Date": "19.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 22,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 653,
+    "Date": "20.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 45,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 654,
+    "Date": "20.02.2026",
+    "Store": "Pardubice",
+    "WineId": 26,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 655,
+    "Date": "21.02.2026",
+    "Store": "Znojmo",
+    "WineId": 48,
+    "Quantity": 7,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 656,
+    "Date": "22.02.2026",
+    "Store": "Mikulov",
+    "WineId": 6,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 657,
+    "Date": "23.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 33,
+    "Quantity": 3,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 658,
+    "Date": "24.02.2026",
+    "Store": "Zlín",
+    "WineId": 43,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 659,
+    "Date": "25.02.2026",
+    "Store": "Jihlava",
+    "WineId": 27,
+    "Quantity": 4,
+    "Discount": 5,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 660,
+    "Date": "27.02.2026",
+    "Store": "Opava",
+    "WineId": 31,
+    "Quantity": 2,
+    "Discount": 7,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 661,
+    "Date": "03.01.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 662,
+    "Date": "05.01.2026",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 663,
+    "Date": "07.01.2026",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 664,
+    "Date": "10.01.2026",
+    "Store": "Plzeň",
+    "WineId": 36,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 665,
+    "Date": "12.01.2026",
+    "Store": "Olomouc",
+    "WineId": 8,
+    "Quantity": 7,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 666,
+    "Date": "15.01.2026",
+    "Store": "Liberec",
+    "WineId": 44,
+    "Quantity": 3,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 667,
+    "Date": "18.01.2026",
+    "Store": "České Budějovice",
+    "WineId": 29,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 668,
+    "Date": "20.01.2026",
+    "Store": "Hradec Králové",
+    "WineId": 39,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 669,
+    "Date": "22.01.2026",
+    "Store": "Pardubice",
+    "WineId": 54,
+    "Quantity": 6,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 670,
+    "Date": "24.01.2026",
+    "Store": "Znojmo",
+    "WineId": 34,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 671,
+    "Date": "26.01.2026",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 10,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 672,
+    "Date": "28.01.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 17,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 673,
+    "Date": "30.01.2026",
+    "Store": "Zlín",
+    "WineId": 21,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 674,
+    "Date": "01.02.2026",
+    "Store": "Jihlava",
+    "WineId": 59,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 675,
+    "Date": "02.02.2026",
+    "Store": "Opava",
+    "WineId": 30,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 676,
+    "Date": "04.02.2026",
+    "Store": "Praha",
+    "WineId": 4,
+    "Quantity": 3,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 677,
+    "Date": "06.02.2026",
+    "Store": "Brno",
+    "WineId": 11,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 678,
+    "Date": "08.02.2026",
+    "Store": "Ostrava",
+    "WineId": 18,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 679,
+    "Date": "10.02.2026",
+    "Store": "Plzeň",
+    "WineId": 41,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 680,
+    "Date": "11.02.2026",
+    "Store": "Olomouc",
+    "WineId": 9,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 681,
+    "Date": "13.02.2026",
+    "Store": "Liberec",
+    "WineId": 48,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 682,
+    "Date": "14.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 5,
+    "Quantity": 2,
+    "Discount": 10,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 683,
+    "Date": "14.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 52,
+    "Quantity": 4,
+    "Discount": 8,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 684,
+    "Date": "15.02.2026",
+    "Store": "Pardubice",
+    "WineId": 7,
+    "Quantity": 3,
+    "Discount": 6,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 685,
+    "Date": "16.02.2026",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 686,
+    "Date": "18.02.2026",
+    "Store": "Mikulov",
+    "WineId": 22,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 687,
+    "Date": "20.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 14,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 688,
+    "Date": "22.02.2026",
+    "Store": "Zlín",
+    "WineId": 10,
+    "Quantity": 4,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 689,
+    "Date": "25.02.2026",
+    "Store": "Jihlava",
+    "WineId": 26,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 690,
+    "Date": "28.02.2026",
+    "Store": "Opava",
+    "WineId": 2,
+    "Quantity": 2,
+    "Discount": 12,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 691,
+    "Date": "03.02.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 692,
+    "Date": "05.02.2026",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 693,
+    "Date": "07.02.2026",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 694,
+    "Date": "08.02.2026",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 695,
+    "Date": "09.02.2026",
+    "Store": "Olomouc",
+    "WineId": 11,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 696,
+    "Date": "10.02.2026",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 697,
+    "Date": "11.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 18,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 698,
+    "Date": "11.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 29,
+    "Quantity": 10,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 699,
+    "Date": "12.02.2026",
+    "Store": "Pardubice",
+    "WineId": 44,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 700,
+    "Date": "13.02.2026",
+    "Store": "Znojmo",
+    "WineId": 21,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 701,
+    "Date": "14.02.2026",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 702,
+    "Date": "14.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 5,
+    "Quantity": 2,
+    "Discount": 5,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 703,
+    "Date": "15.02.2026",
+    "Store": "Zlín",
+    "WineId": 34,
+    "Quantity": 9,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 704,
+    "Date": "15.02.2026",
+    "Store": "Jihlava",
+    "WineId": 39,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 705,
+    "Date": "16.02.2026",
+    "Store": "Opava",
+    "WineId": 50,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 706,
+    "Date": "16.02.2026",
+    "Store": "Praha",
+    "WineId": 59,
+    "Quantity": 11,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 707,
+    "Date": "17.02.2026",
+    "Store": "Brno",
+    "WineId": 4,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 708,
+    "Date": "17.02.2026",
+    "Store": "Ostrava",
+    "WineId": 48,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 709,
+    "Date": "18.02.2026",
+    "Store": "Plzeň",
+    "WineId": 10,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 710,
+    "Date": "18.02.2026",
+    "Store": "Olomouc",
+    "WineId": 17,
+    "Quantity": 8,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 711,
+    "Date": "19.02.2026",
+    "Store": "Liberec",
+    "WineId": 9,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 712,
+    "Date": "19.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 41,
+    "Quantity": 7,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 713,
+    "Date": "20.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 12,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 714,
+    "Date": "20.02.2026",
+    "Store": "Pardubice",
+    "WineId": 22,
+    "Quantity": 9,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 715,
+    "Date": "21.02.2026",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 4,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 716,
+    "Date": "22.02.2026",
+    "Store": "Mikulov",
+    "WineId": 6,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 717,
+    "Date": "23.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 20,
+    "Quantity": 1,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 718,
+    "Date": "24.02.2026",
+    "Store": "Zlín",
+    "WineId": 26,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 719,
+    "Date": "25.02.2026",
+    "Store": "Jihlava",
+    "WineId": 51,
+    "Quantity": 8,
+    "Discount": 5,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 720,
+    "Date": "27.02.2026",
+    "Store": "Opava",
+    "WineId": 53,
+    "Quantity": 2,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 721,
+    "Date": "03.02.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 722,
+    "Date": "05.02.2026",
+    "Store": "Brno",
+    "WineId": 15,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 723,
+    "Date": "06.02.2026",
+    "Store": "Ostrava",
+    "WineId": 25,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 724,
+    "Date": "07.02.2026",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 725,
+    "Date": "08.02.2026",
+    "Store": "Olomouc",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 726,
+    "Date": "09.02.2026",
+    "Store": "Liberec",
+    "WineId": 44,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 727,
+    "Date": "10.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 29,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 728,
+    "Date": "11.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 11,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 729,
+    "Date": "12.02.2026",
+    "Store": "Pardubice",
+    "WineId": 18,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 730,
+    "Date": "13.02.2026",
+    "Store": "Znojmo",
+    "WineId": 1,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 731,
+    "Date": "14.02.2026",
+    "Store": "Mikulov",
+    "WineId": 2,
+    "Quantity": 3,
+    "Discount": 5,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 732,
+    "Date": "14.02.2026",
+    "Store": "Praha",
+    "WineId": 52,
+    "Quantity": 6,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 733,
+    "Date": "15.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 39,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 734,
+    "Date": "15.02.2026",
+    "Store": "Zlín",
+    "WineId": 21,
+    "Quantity": 8,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 735,
+    "Date": "16.02.2026",
+    "Store": "Jihlava",
+    "WineId": 34,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 736,
+    "Date": "16.02.2026",
+    "Store": "Opava",
+    "WineId": 10,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 737,
+    "Date": "17.02.2026",
+    "Store": "Praha",
+    "WineId": 4,
+    "Quantity": 12,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 738,
+    "Date": "18.02.2026",
+    "Store": "Brno",
+    "WineId": 17,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 739,
+    "Date": "18.02.2026",
+    "Store": "Ostrava",
+    "WineId": 30,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 740,
+    "Date": "19.02.2026",
+    "Store": "Plzeň",
+    "WineId": 12,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 741,
+    "Date": "19.02.2026",
+    "Store": "Olomouc",
+    "WineId": 45,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 742,
+    "Date": "20.02.2026",
+    "Store": "Liberec",
+    "WineId": 22,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 743,
+    "Date": "21.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 54,
+    "Quantity": 8,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 744,
+    "Date": "21.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 5,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 745,
+    "Date": "22.02.2026",
+    "Store": "Pardubice",
+    "WineId": 41,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 746,
+    "Date": "23.02.2026",
+    "Store": "Znojmo",
+    "WineId": 43,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 747,
+    "Date": "24.02.2026",
+    "Store": "Mikulov",
+    "WineId": 9,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 748,
+    "Date": "25.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 13,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 749,
+    "Date": "26.02.2026",
+    "Store": "Zlín",
+    "WineId": 56,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 750,
+    "Date": "27.02.2026",
+    "Store": "Jihlava",
+    "WineId": 6,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 751,
+    "Date": "02.02.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 752,
+    "Date": "03.02.2026",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 753,
+    "Date": "04.02.2026",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 754,
+    "Date": "05.02.2026",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 755,
+    "Date": "06.02.2026",
+    "Store": "Olomouc",
+    "WineId": 44,
+    "Quantity": 7,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 756,
+    "Date": "07.02.2026",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 757,
+    "Date": "08.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 29,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 758,
+    "Date": "08.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 11,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 759,
+    "Date": "09.02.2026",
+    "Store": "Pardubice",
+    "WineId": 18,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 760,
+    "Date": "10.02.2026",
+    "Store": "Znojmo",
+    "WineId": 21,
+    "Quantity": 7,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 761,
+    "Date": "11.02.2026",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 762,
+    "Date": "12.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 39,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 763,
+    "Date": "12.02.2026",
+    "Store": "Zlín",
+    "WineId": 34,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 764,
+    "Date": "13.02.2026",
+    "Store": "Jihlava",
+    "WineId": 59,
+    "Quantity": 12,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 765,
+    "Date": "13.02.2026",
+    "Store": "Opava",
+    "WineId": 54,
+    "Quantity": 9,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 766,
+    "Date": "14.02.2026",
+    "Store": "Praha",
+    "WineId": 7,
+    "Quantity": 2,
+    "Discount": 10,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 767,
+    "Date": "14.02.2026",
+    "Store": "Brno",
+    "WineId": 2,
+    "Quantity": 3,
+    "Discount": 8,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 768,
+    "Date": "14.02.2026",
+    "Store": "Ostrava",
+    "WineId": 33,
+    "Quantity": 2,
+    "Discount": 7,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 769,
+    "Date": "15.02.2026",
+    "Store": "Plzeň",
+    "WineId": 10,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 770,
+    "Date": "15.02.2026",
+    "Store": "Olomouc",
+    "WineId": 4,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 771,
+    "Date": "16.02.2026",
+    "Store": "Liberec",
+    "WineId": 22,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 772,
+    "Date": "16.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 30,
+    "Quantity": 11,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 773,
+    "Date": "17.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 41,
+    "Quantity": 10,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 774,
+    "Date": "17.02.2026",
+    "Store": "Pardubice",
+    "WineId": 56,
+    "Quantity": 7,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 775,
+    "Date": "18.02.2026",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 776,
+    "Date": "19.02.2026",
+    "Store": "Mikulov",
+    "WineId": 43,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 777,
+    "Date": "20.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 6,
+    "Quantity": 3,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 778,
+    "Date": "22.02.2026",
+    "Store": "Zlín",
+    "WineId": 12,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 779,
+    "Date": "24.02.2026",
+    "Store": "Jihlava",
+    "WineId": 23,
+    "Quantity": 2,
+    "Discount": 6,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 780,
+    "Date": "27.02.2026",
+    "Store": "Opava",
+    "WineId": 19,
+    "Quantity": 1,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 781,
+    "Date": "02.02.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 782,
+    "Date": "03.02.2026",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 783,
+    "Date": "03.02.2026",
+    "Store": "Ostrava",
+    "WineId": 11,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 784,
+    "Date": "04.02.2026",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 785,
+    "Date": "05.02.2026",
+    "Store": "Olomouc",
+    "WineId": 15,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 786,
+    "Date": "05.02.2026",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 787,
+    "Date": "06.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 18,
+    "Quantity": 8,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 788,
+    "Date": "06.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 39,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 789,
+    "Date": "07.02.2026",
+    "Store": "Pardubice",
+    "WineId": 44,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 790,
+    "Date": "07.02.2026",
+    "Store": "Znojmo",
+    "WineId": 4,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 791,
+    "Date": "08.02.2026",
+    "Store": "Mikulov",
+    "WineId": 17,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 792,
+    "Date": "08.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 21,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 793,
+    "Date": "09.02.2026",
+    "Store": "Zlín",
+    "WineId": 29,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 794,
+    "Date": "09.02.2026",
+    "Store": "Jihlava",
+    "WineId": 34,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 795,
+    "Date": "10.02.2026",
+    "Store": "Opava",
+    "WineId": 10,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 796,
+    "Date": "10.02.2026",
+    "Store": "Praha",
+    "WineId": 1,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 797,
+    "Date": "11.02.2026",
+    "Store": "Brno",
+    "WineId": 59,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 798,
+    "Date": "11.02.2026",
+    "Store": "Ostrava",
+    "WineId": 12,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 799,
+    "Date": "12.02.2026",
+    "Store": "Plzeň",
+    "WineId": 30,
+    "Quantity": 7,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 800,
+    "Date": "12.02.2026",
+    "Store": "Olomouc",
+    "WineId": 41,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 801,
+    "Date": "13.02.2026",
+    "Store": "Liberec",
+    "WineId": 50,
+    "Quantity": 8,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 802,
+    "Date": "13.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 48,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 803,
+    "Date": "14.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 7,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 804,
+    "Date": "14.02.2026",
+    "Store": "Pardubice",
+    "WineId": 5,
+    "Quantity": 2,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 805,
+    "Date": "15.02.2026",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 806,
+    "Date": "16.02.2026",
+    "Store": "Mikulov",
+    "WineId": 43,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 807,
+    "Date": "18.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 9,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 808,
+    "Date": "20.02.2026",
+    "Store": "Zlín",
+    "WineId": 22,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 809,
+    "Date": "22.02.2026",
+    "Store": "Jihlava",
+    "WineId": 26,
+    "Quantity": 6,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 810,
+    "Date": "27.02.2026",
+    "Store": "Opava",
+    "WineId": 27,
+    "Quantity": 2,
+    "Discount": 8,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 811,
+    "Date": "03.02.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 812,
+    "Date": "04.02.2026",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 813,
+    "Date": "05.02.2026",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 814,
+    "Date": "06.02.2026",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 815,
+    "Date": "07.02.2026",
+    "Store": "Olomouc",
+    "WineId": 29,
+    "Quantity": 8,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 816,
+    "Date": "08.02.2026",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 817,
+    "Date": "09.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 18,
+    "Quantity": 9,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 818,
+    "Date": "10.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 44,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 819,
+    "Date": "11.02.2026",
+    "Store": "Pardubice",
+    "WineId": 59,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 820,
+    "Date": "12.02.2026",
+    "Store": "Znojmo",
+    "WineId": 21,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 821,
+    "Date": "13.02.2026",
+    "Store": "Mikulov",
+    "WineId": 17,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 822,
+    "Date": "13.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 39,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 823,
+    "Date": "14.02.2026",
+    "Store": "Zlín",
+    "WineId": 34,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 824,
+    "Date": "14.02.2026",
+    "Store": "Jihlava",
+    "WineId": 4,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 825,
+    "Date": "15.02.2026",
+    "Store": "Opava",
+    "WineId": 11,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 826,
+    "Date": "15.02.2026",
+    "Store": "Praha",
+    "WineId": 48,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 827,
+    "Date": "16.02.2026",
+    "Store": "Brno",
+    "WineId": 1,
+    "Quantity": 9,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 828,
+    "Date": "16.02.2026",
+    "Store": "Ostrava",
+    "WineId": 54,
+    "Quantity": 7,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 829,
+    "Date": "17.02.2026",
+    "Store": "Plzeň",
+    "WineId": 30,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 830,
+    "Date": "17.02.2026",
+    "Store": "Olomouc",
+    "WineId": 56,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 831,
+    "Date": "18.02.2026",
+    "Store": "Liberec",
+    "WineId": 41,
+    "Quantity": 14,
+    "Discount": 7,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 832,
+    "Date": "18.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 10,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 833,
+    "Date": "19.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 12,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 834,
+    "Date": "19.02.2026",
+    "Store": "Pardubice",
+    "WineId": 9,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 835,
+    "Date": "20.02.2026",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 836,
+    "Date": "21.02.2026",
+    "Store": "Mikulov",
+    "WineId": 5,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 837,
+    "Date": "22.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 27,
+    "Quantity": 2,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 838,
+    "Date": "24.02.2026",
+    "Store": "Zlín",
+    "WineId": 6,
+    "Quantity": 4,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 839,
+    "Date": "26.02.2026",
+    "Store": "Jihlava",
+    "WineId": 26,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 840,
+    "Date": "28.02.2026",
+    "Store": "Opava",
+    "WineId": 53,
+    "Quantity": 2,
+    "Discount": 8,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 841,
+    "Date": "03.02.2026",
+    "Store": "Praha",
+    "WineId": 25,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 842,
+    "Date": "04.02.2026",
+    "Store": "Brno",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 843,
+    "Date": "05.02.2026",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 844,
+    "Date": "06.02.2026",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 845,
+    "Date": "07.02.2026",
+    "Store": "Olomouc",
+    "WineId": 44,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 846,
+    "Date": "08.02.2026",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 847,
+    "Date": "09.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 29,
+    "Quantity": 8,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 848,
+    "Date": "10.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 1,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 849,
+    "Date": "11.02.2026",
+    "Store": "Pardubice",
+    "WineId": 59,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 850,
+    "Date": "12.02.2026",
+    "Store": "Znojmo",
+    "WineId": 21,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 851,
+    "Date": "13.02.2026",
+    "Store": "Mikulov",
+    "WineId": 17,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 852,
+    "Date": "14.02.2026",
+    "Store": "Praha",
+    "WineId": 2,
+    "Quantity": 2,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 853,
+    "Date": "14.02.2026",
+    "Store": "Brno",
+    "WineId": 7,
+    "Quantity": 3,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 854,
+    "Date": "15.02.2026",
+    "Store": "Ostrava",
+    "WineId": 10,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 855,
+    "Date": "15.02.2026",
+    "Store": "Plzeň",
+    "WineId": 34,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 856,
+    "Date": "16.02.2026",
+    "Store": "Olomouc",
+    "WineId": 11,
+    "Quantity": 7,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 857,
+    "Date": "17.02.2026",
+    "Store": "Liberec",
+    "WineId": 4,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 858,
+    "Date": "18.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 39,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 859,
+    "Date": "19.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 12,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 860,
+    "Date": "20.02.2026",
+    "Store": "Pardubice",
+    "WineId": 41,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 861,
+    "Date": "21.02.2026",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 862,
+    "Date": "22.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 5,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 863,
+    "Date": "22.02.2026",
+    "Store": "Zlín",
+    "WineId": 54,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 864,
+    "Date": "23.02.2026",
+    "Store": "Jihlava",
+    "WineId": 30,
+    "Quantity": 8,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 865,
+    "Date": "23.02.2026",
+    "Store": "Opava",
+    "WineId": 22,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 866,
+    "Date": "24.02.2026",
+    "Store": "Praha",
+    "WineId": 6,
+    "Quantity": 3,
+    "Discount": 5,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 867,
+    "Date": "24.02.2026",
+    "Store": "Brno",
+    "WineId": 26,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 868,
+    "Date": "25.02.2026",
+    "Store": "Ostrava",
+    "WineId": 48,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 869,
+    "Date": "26.02.2026",
+    "Store": "Plzeň",
+    "WineId": 9,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 870,
+    "Date": "28.02.2026",
+    "Store": "Olomouc",
+    "WineId": 19,
+    "Quantity": 2,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 871,
+    "Date": "03.02.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 4,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 872,
+    "Date": "04.02.2026",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 873,
+    "Date": "05.02.2026",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 874,
+    "Date": "06.02.2026",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 875,
+    "Date": "07.02.2026",
+    "Store": "Olomouc",
+    "WineId": 36,
+    "Quantity": 8,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 876,
+    "Date": "08.02.2026",
+    "Store": "Liberec",
+    "WineId": 29,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 877,
+    "Date": "09.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 44,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 878,
+    "Date": "10.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 11,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 879,
+    "Date": "11.02.2026",
+    "Store": "Pardubice",
+    "WineId": 34,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 880,
+    "Date": "12.02.2026",
+    "Store": "Znojmo",
+    "WineId": 21,
+    "Quantity": 10,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 881,
+    "Date": "13.02.2026",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 882,
+    "Date": "14.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 7,
+    "Quantity": 4,
+    "Discount": 6,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 883,
+    "Date": "14.02.2026",
+    "Store": "Zlín",
+    "WineId": 18,
+    "Quantity": 12,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 884,
+    "Date": "15.02.2026",
+    "Store": "Jihlava",
+    "WineId": 4,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 885,
+    "Date": "15.02.2026",
+    "Store": "Opava",
+    "WineId": 39,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 886,
+    "Date": "16.02.2026",
+    "Store": "Praha",
+    "WineId": 59,
+    "Quantity": 9,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 887,
+    "Date": "16.02.2026",
+    "Store": "Brno",
+    "WineId": 10,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 888,
+    "Date": "17.02.2026",
+    "Store": "Ostrava",
+    "WineId": 22,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 889,
+    "Date": "18.02.2026",
+    "Store": "Plzeň",
+    "WineId": 30,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 890,
+    "Date": "19.02.2026",
+    "Store": "Olomouc",
+    "WineId": 17,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 891,
+    "Date": "20.02.2026",
+    "Store": "Liberec",
+    "WineId": 41,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 892,
+    "Date": "20.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 45,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 893,
+    "Date": "21.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 12,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 894,
+    "Date": "21.02.2026",
+    "Store": "Pardubice",
+    "WineId": 9,
+    "Quantity": 3,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 895,
+    "Date": "22.02.2026",
+    "Store": "Znojmo",
+    "WineId": 51,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 896,
+    "Date": "23.02.2026",
+    "Store": "Mikulov",
+    "WineId": 6,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 897,
+    "Date": "24.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 27,
+    "Quantity": 3,
+    "Discount": 7,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 898,
+    "Date": "25.02.2026",
+    "Store": "Zlín",
+    "WineId": 48,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 899,
+    "Date": "26.02.2026",
+    "Store": "Jihlava",
+    "WineId": 2,
+    "Quantity": 1,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 900,
+    "Date": "28.02.2026",
+    "Store": "Opava",
+    "WineId": 13,
+    "Quantity": 2,
+    "Discount": 8,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 901,
+    "Date": "02.01.2025",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 902,
+    "Date": "04.01.2025",
+    "Store": "Brno",
+    "WineId": 15,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 903,
+    "Date": "06.01.2025",
+    "Store": "Plzeň",
+    "WineId": 25,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 904,
+    "Date": "09.01.2025",
+    "Store": "Ostrava",
+    "WineId": 36,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 905,
+    "Date": "12.01.2025",
+    "Store": "Olomouc",
+    "WineId": 8,
+    "Quantity": 7,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 906,
+    "Date": "16.01.2025",
+    "Store": "Liberec",
+    "WineId": 29,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 907,
+    "Date": "19.01.2025",
+    "Store": "České Budějovice",
+    "WineId": 18,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 908,
+    "Date": "22.01.2025",
+    "Store": "Hradec Králové",
+    "WineId": 39,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 909,
+    "Date": "25.01.2025",
+    "Store": "Pardubice",
+    "WineId": 44,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 910,
+    "Date": "28.01.2025",
+    "Store": "Znojmo",
+    "WineId": 21,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 911,
+    "Date": "03.02.2025",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 912,
+    "Date": "08.02.2025",
+    "Store": "Karlovy Vary",
+    "WineId": 34,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 913,
+    "Date": "14.02.2025",
+    "Store": "Zlín",
+    "WineId": 30,
+    "Quantity": 6,
+    "Discount": 5,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 914,
+    "Date": "20.02.2025",
+    "Store": "Jihlava",
+    "WineId": 4,
+    "Quantity": 8,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 915,
+    "Date": "27.02.2025",
+    "Store": "Opava",
+    "WineId": 11,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 916,
+    "Date": "14.03.2025",
+    "Store": "Praha",
+    "WineId": 17,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 917,
+    "Date": "29.03.2025",
+    "Store": "Brno",
+    "WineId": 22,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 918,
+    "Date": "05.04.2025",
+    "Store": "Olomouc",
+    "WineId": 9,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 919,
+    "Date": "18.04.2025",
+    "Store": "Hradec Králové",
+    "WineId": 45,
+    "Quantity": 7,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 920,
+    "Date": "30.04.2025",
+    "Store": "Plzeň",
+    "WineId": 10,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 921,
+    "Date": "10.06.2025",
+    "Store": "České Budějovice",
+    "WineId": 41,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 922,
+    "Date": "21.06.2025",
+    "Store": "Liberec",
+    "WineId": 48,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 923,
+    "Date": "12.07.2025",
+    "Store": "Praha",
+    "WineId": 59,
+    "Quantity": 14,
+    "Discount": 7,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 924,
+    "Date": "26.07.2025",
+    "Store": "Brno",
+    "WineId": 5,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 925,
+    "Date": "09.08.2025",
+    "Store": "Ostrava",
+    "WineId": 54,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 926,
+    "Date": "23.08.2025",
+    "Store": "Pardubice",
+    "WineId": 26,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 927,
+    "Date": "13.09.2025",
+    "Store": "Znojmo",
+    "WineId": 51,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 928,
+    "Date": "11.10.2025",
+    "Store": "Mikulov",
+    "WineId": 6,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 929,
+    "Date": "29.11.2025",
+    "Store": "Praha",
+    "WineId": 2,
+    "Quantity": 3,
+    "Discount": 5,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 930,
+    "Date": "20.12.2025",
+    "Store": "Brno",
+    "WineId": 19,
+    "Quantity": 6,
+    "Discount": 8,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 931,
+    "Date": "02.01.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 932,
+    "Date": "03.01.2026",
+    "Store": "Brno",
+    "WineId": 15,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 933,
+    "Date": "04.01.2026",
+    "Store": "Ostrava",
+    "WineId": 25,
+    "Quantity": 3,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 934,
+    "Date": "05.01.2026",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 935,
+    "Date": "06.01.2026",
+    "Store": "Olomouc",
+    "WineId": 39,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 936,
+    "Date": "07.01.2026",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 937,
+    "Date": "08.01.2026",
+    "Store": "České Budějovice",
+    "WineId": 29,
+    "Quantity": 8,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 938,
+    "Date": "09.01.2026",
+    "Store": "Hradec Králové",
+    "WineId": 17,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 939,
+    "Date": "10.01.2026",
+    "Store": "Pardubice",
+    "WineId": 44,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 940,
+    "Date": "11.01.2026",
+    "Store": "Znojmo",
+    "WineId": 34,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 941,
+    "Date": "12.01.2026",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 942,
+    "Date": "13.01.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 4,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 943,
+    "Date": "14.01.2026",
+    "Store": "Zlín",
+    "WineId": 21,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 944,
+    "Date": "15.01.2026",
+    "Store": "Jihlava",
+    "WineId": 11,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 945,
+    "Date": "16.01.2026",
+    "Store": "Opava",
+    "WineId": 18,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 946,
+    "Date": "18.01.2026",
+    "Store": "Praha",
+    "WineId": 10,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 947,
+    "Date": "20.01.2026",
+    "Store": "Brno",
+    "WineId": 12,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 948,
+    "Date": "22.01.2026",
+    "Store": "Ostrava",
+    "WineId": 48,
+    "Quantity": 5,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 949,
+    "Date": "25.01.2026",
+    "Store": "Plzeň",
+    "WineId": 5,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 950,
+    "Date": "28.01.2026",
+    "Store": "Olomouc",
+    "WineId": 22,
+    "Quantity": 7,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 951,
+    "Date": "02.02.2026",
+    "Store": "Liberec",
+    "WineId": 41,
+    "Quantity": 8,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 952,
+    "Date": "03.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 54,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 953,
+    "Date": "05.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 9,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 954,
+    "Date": "07.02.2026",
+    "Store": "Pardubice",
+    "WineId": 30,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 955,
+    "Date": "09.02.2026",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 3,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 956,
+    "Date": "11.02.2026",
+    "Store": "Mikulov",
+    "WineId": 43,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 957,
+    "Date": "13.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 7,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 958,
+    "Date": "14.02.2026",
+    "Store": "Zlín",
+    "WineId": 52,
+    "Quantity": 12,
+    "Discount": 7,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 959,
+    "Date": "15.02.2026",
+    "Store": "Jihlava",
+    "WineId": 19,
+    "Quantity": 2,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 960,
+    "Date": "20.02.2026",
+    "Store": "Opava",
+    "WineId": 38,
+    "Quantity": 1,
+    "Discount": 3,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 961,
+    "Date": "03.02.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 962,
+    "Date": "04.02.2026",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 963,
+    "Date": "05.02.2026",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 964,
+    "Date": "06.02.2026",
+    "Store": "Plzeň",
+    "WineId": 8,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 965,
+    "Date": "07.02.2026",
+    "Store": "Olomouc",
+    "WineId": 39,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 966,
+    "Date": "08.02.2026",
+    "Store": "Liberec",
+    "WineId": 36,
+    "Quantity": 9,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 967,
+    "Date": "09.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 18,
+    "Quantity": 10,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 968,
+    "Date": "10.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 29,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 969,
+    "Date": "11.02.2026",
+    "Store": "Pardubice",
+    "WineId": 44,
+    "Quantity": 8,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 970,
+    "Date": "12.02.2026",
+    "Store": "Znojmo",
+    "WineId": 41,
+    "Quantity": 12,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 971,
+    "Date": "13.02.2026",
+    "Store": "Mikulov",
+    "WineId": 1,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 972,
+    "Date": "14.02.2026",
+    "Store": "Praha",
+    "WineId": 2,
+    "Quantity": 3,
+    "Discount": 7,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 973,
+    "Date": "14.02.2026",
+    "Store": "Brno",
+    "WineId": 7,
+    "Quantity": 4,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 974,
+    "Date": "15.02.2026",
+    "Store": "Ostrava",
+    "WineId": 10,
+    "Quantity": 6,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 975,
+    "Date": "15.02.2026",
+    "Store": "Plzeň",
+    "WineId": 30,
+    "Quantity": 9,
+    "Discount": 4,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 976,
+    "Date": "16.02.2026",
+    "Store": "Olomouc",
+    "WineId": 34,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 977,
+    "Date": "16.02.2026",
+    "Store": "Liberec",
+    "WineId": 21,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 978,
+    "Date": "17.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 50,
+    "Quantity": 6,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 979,
+    "Date": "17.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 11,
+    "Quantity": 10,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 980,
+    "Date": "18.02.2026",
+    "Store": "Pardubice",
+    "WineId": 22,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 981,
+    "Date": "18.02.2026",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 982,
+    "Date": "19.02.2026",
+    "Store": "Mikulov",
+    "WineId": 9,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 983,
+    "Date": "19.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 5,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 984,
+    "Date": "20.02.2026",
+    "Store": "Zlín",
+    "WineId": 12,
+    "Quantity": 9,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 985,
+    "Date": "20.02.2026",
+    "Store": "Jihlava",
+    "WineId": 17,
+    "Quantity": 7,
+    "Discount": 1,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 986,
+    "Date": "21.02.2026",
+    "Store": "Opava",
+    "WineId": 54,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 987,
+    "Date": "22.02.2026",
+    "Store": "Praha",
+    "WineId": 6,
+    "Quantity": 3,
+    "Discount": 5,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 988,
+    "Date": "23.02.2026",
+    "Store": "Brno",
+    "WineId": 26,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 989,
+    "Date": "25.02.2026",
+    "Store": "Ostrava",
+    "WineId": 43,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 990,
+    "Date": "28.02.2026",
+    "Store": "Plzeň",
+    "WineId": 20,
+    "Quantity": 1,
+    "Discount": 0,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 991,
+    "Date": "03.02.2026",
+    "Store": "Praha",
+    "WineId": 3,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 992,
+    "Date": "04.02.2026",
+    "Store": "Brno",
+    "WineId": 25,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 993,
+    "Date": "04.02.2026",
+    "Store": "Ostrava",
+    "WineId": 15,
+    "Quantity": 8,
+    "Discount": 3,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 994,
+    "Date": "05.02.2026",
+    "Store": "Plzeň",
+    "WineId": 36,
+    "Quantity": 5,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 995,
+    "Date": "06.02.2026",
+    "Store": "Olomouc",
+    "WineId": 8,
+    "Quantity": 7,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 996,
+    "Date": "06.02.2026",
+    "Store": "Liberec",
+    "WineId": 29,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 997,
+    "Date": "07.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 44,
+    "Quantity": 6,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 998,
+    "Date": "07.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 11,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 999,
+    "Date": "08.02.2026",
+    "Store": "Pardubice",
+    "WineId": 18,
+    "Quantity": 4,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1000,
+    "Date": "08.02.2026",
+    "Store": "Znojmo",
+    "WineId": 22,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1001,
+    "Date": "09.02.2026",
+    "Store": "Mikulov",
+    "WineId": 17,
+    "Quantity": 10,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1002,
+    "Date": "09.02.2026",
+    "Store": "Zlín",
+    "WineId": 21,
+    "Quantity": 7,
+    "Discount": 2,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 1003,
+    "Date": "10.02.2026",
+    "Store": "Jihlava",
+    "WineId": 39,
+    "Quantity": 5,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1004,
+    "Date": "10.02.2026",
+    "Store": "Opava",
+    "WineId": 54,
+    "Quantity": 6,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1005,
+    "Date": "11.02.2026",
+    "Store": "Karlovy Vary",
+    "WineId": 4,
+    "Quantity": 3,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1006,
+    "Date": "11.02.2026",
+    "Store": "Praha",
+    "WineId": 30,
+    "Quantity": 12,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1007,
+    "Date": "12.02.2026",
+    "Store": "Brno",
+    "WineId": 34,
+    "Quantity": 8,
+    "Discount": 4,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 1008,
+    "Date": "12.02.2026",
+    "Store": "Ostrava",
+    "WineId": 1,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1009,
+    "Date": "13.02.2026",
+    "Store": "Plzeň",
+    "WineId": 48,
+    "Quantity": 6,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1010,
+    "Date": "13.02.2026",
+    "Store": "Olomouc",
+    "WineId": 56,
+    "Quantity": 9,
+    "Discount": 5,
+    "PaymentMethod": "Cash"
+  },
+  {
+    "SalesId": 1011,
+    "Date": "14.02.2026",
+    "Store": "Praha",
+    "WineId": 7,
+    "Quantity": 2,
+    "Discount": 10,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1012,
+    "Date": "14.02.2026",
+    "Store": "Brno",
+    "WineId": 2,
+    "Quantity": 1,
+    "Discount": 8,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1013,
+    "Date": "14.02.2026",
+    "Store": "České Budějovice",
+    "WineId": 5,
+    "Quantity": 3,
+    "Discount": 7,
+    "PaymentMethod": "Online"
+  },
+  {
+    "SalesId": 1014,
+    "Date": "15.02.2026",
+    "Store": "Hradec Králové",
+    "WineId": 10,
+    "Quantity": 6,
+    "Discount": 4,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1015,
+    "Date": "16.02.2026",
+    "Store": "Pardubice",
+    "WineId": 12,
+    "Quantity": 5,
+    "Discount": 2,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1016,
+    "Date": "16.02.2026",
+    "Store": "Znojmo",
+    "WineId": 45,
+    "Quantity": 7,
+    "Discount": 3,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1017,
+    "Date": "18.02.2026",
+    "Store": "Liberec",
+    "WineId": 43,
+    "Quantity": 4,
+    "Discount": 1,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1018,
+    "Date": "20.02.2026",
+    "Store": "Ostrava",
+    "WineId": 27,
+    "Quantity": 2,
+    "Discount": 0,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1019,
+    "Date": "22.02.2026",
+    "Store": "Praha",
+    "WineId": 51,
+    "Quantity": 15,
+    "Discount": 6,
+    "PaymentMethod": "Card"
+  },
+  {
+    "SalesId": 1020,
+    "Date": "27.02.2026",
+    "Store": "Brno",
+    "WineId": 38,
+    "Quantity": 1,
+    "Discount": 5,
+    "PaymentMethod": "Online"
+  }
+]
