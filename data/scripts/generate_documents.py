@@ -126,11 +126,16 @@ def generate_text(user_prompt: str, system_prompt: str = SYSTEM_PROMPT) -> str:
 def generate_image(prompt: str) -> bytes:
     """Generate an image using gpt-image-1.5. Returns PNG bytes."""
     def _call():
+        framed_prompt = (
+            prompt
+            + " Ensure ALL content fits fully within the image boundaries with generous padding/margins "
+            "on every side. Nothing should be cut off or extend beyond the edges."
+        )
         result = image_client.images.generate(
             model="gpt-image-1.5",
-            prompt=prompt,
+            prompt=framed_prompt,
             n=1,
-            size="1024x1024",
+            size="1536x1024",
             quality="medium",
         )
         # Try b64_json first, then fall back to URL
@@ -509,7 +514,8 @@ def generate_chapter_package(doc_title: str, chapter_title: str) -> dict[str, An
         "Požadavky:\n"
         "- text: 900-1300 slov v češtině, odborný styl, bez markdownu.\n"
         "- image_prompts: 1 až 2 prompty pro informačně bohaté vizuály "
-        "(procesní diagramy, části systému, kroky postupu); v obrázku jen krátké popisky 1-3 slova.\n"
+        "(procesní diagramy, části systému, kroky postupu); v obrázku jen krátké popisky 1-3 slova. "
+        "Obrázek musí mít dostatek okrajů (padding) aby žádný obsah nebyl oříznutý na krajích.\n"
         "- chart_spec: objekt s klíči chart_type (bar|line|scatter|hist|heatmap), title, x_label, y_label "
         "a daty odpovídajícími typu (labels/values nebo x_values/y_values nebo x_labels/y_labels/matrix).\n"
         "  V chart_spec vrať konkrétní datové hodnoty, žádné placeholdery typu A/B/C.\n"
