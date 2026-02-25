@@ -15,7 +15,7 @@ output "search_service_names" {
 
 output "storage_container_names" {
   description = "List of provisioned blob container names."
-  value       = [for k, m in module.user_environment : m.storage_container_name]
+  value       = flatten([for k, m in module.user_environment : m.storage_container_name])
 }
 
 output "foundry_account_names" {

@@ -138,3 +138,27 @@ resource "azapi_resource" "foundry_model_deployment_gpt5nano" {
   schema_validation_enabled = false
   depends_on                = [azapi_resource.foundry_model_deployment_gpt5mini]
 }
+
+resource "azapi_resource" "foundry_model_deployment_textembedding3large" {
+  type      = "Microsoft.CognitiveServices/accounts/deployments@2025-06-01"
+  name      = "text-embedding-3-large"
+  parent_id = azapi_resource.foundry_account.id
+
+  body = {
+    sku = {
+      name     = "GlobalStandard"
+      capacity = 20
+    }
+    properties = {
+      model = {
+        format  = "OpenAI"
+        name    = "text-embedding-3-large"
+        version = "1"
+      }
+      versionUpgradeOption = "OnceNewDefaultVersionAvailable"
+    }
+  }
+
+  schema_validation_enabled = false
+  depends_on                = [azapi_resource.foundry_model_deployment_gpt5nano]
+}

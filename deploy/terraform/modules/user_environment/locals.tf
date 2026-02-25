@@ -5,7 +5,8 @@ locals {
   search_service_name  = "srch-${local.user_name}-${random_string.unique_suffix.result}"
   foundry_account_name = "aif-${local.user_name}${random_string.unique_suffix.result}"
   foundry_project_name = "project-${local.user_name}"
-  data_json_files      = fileset("${path.module}/../../../../data", "*.json")
+  document_audio_files = fileset("${path.module}/../../../../data/documents", "*.mp3")
+  document_pdf_files   = fileset("${path.module}/../../../../data/documents", "*.pdf")
 }
 
 resource "random_string" "unique_suffix" {
