@@ -44,6 +44,28 @@ resource "azapi_resource" "foundry_project" {
   schema_validation_enabled = false
 }
 
+resource "azapi_resource" "foundry_project_connection_ai_search" {
+  type      = "Microsoft.CognitiveServices/accounts/projects/connections@2025-07-01-preview"
+  name      = "ai-search"
+  parent_id = azapi_resource.foundry_project.id
+
+  body = {
+    properties = {
+      category                    = "CognitiveSearch"
+      target                      = "https://${azurerm_search_service.user.name}.search.windows.net/"
+      authType                    = "AAD"
+      useWorkspaceManagedIdentity = true
+    }
+  }
+
+  schema_validation_enabled = false
+
+  depends_on = [
+    azurerm_role_assignment.foundry_project_search_service_contributor,
+    azurerm_role_assignment.foundry_project_search_index_data_contributor
+  ]
+}
+
 resource "azapi_resource" "foundry_model_deployment_gpt52" {
   type      = "Microsoft.CognitiveServices/accounts/deployments@2025-06-01"
   name      = "gpt-5.2"
