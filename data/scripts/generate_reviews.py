@@ -36,6 +36,9 @@ class Review(BaseModel):
 
     ReviewId: int = Field(description="Unique sequential integer ID")
     WineCode: str = Field(description="WineCode referencing a wine from the provided wine list")
+    Date: str = Field(
+        description="Review date in DD.MM.YYYY format, random date between 01.01.2025 and 30.04.2026"
+    )
     User: str = Field(
         description="Realistic Czech email address with varied domains (gmail.com, seznam.cz, email.cz, centrum.cz, post.cz, volny.cz, atlas.cz, tiscali.cz, icloud.com, outlook.cz)"
     )
@@ -89,6 +92,8 @@ jako skutečné hodnocení na e-shopu — různé délky, různé styly psaní, 
 
 PRAVIDLA:
 - Používej POUZE WineCode z následujícího seznamu vín. Žádné jiné kódy!
+- Ke každé recenzi přiřaď náhodné datum (Date) ve formátu DD.MM.YYYY v rozmezí 01.01.2025 až 30.04.2026. \
+Data musí být rovnoměrně rozložená a musí respektovat skutečný počet dní v měsíci (např. únor max 28, duben max 30).
 - Recenze musí být v češtině, 1-4 věty.
 - Různý sentiment: některé velmi pozitivní (nadšené), některé negativní (zklamané), některé smíšené/neutrální.
 - Recenze by měly odkazovat na skutečné vlastnosti vína (chuť, vůně, cena, příležitost, jídlo).
