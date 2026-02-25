@@ -2,7 +2,7 @@ resource "azapi_resource" "foundry_account" {
   type      = "Microsoft.CognitiveServices/accounts@2025-06-01"
   name      = local.foundry_account_name
   parent_id = azapi_resource.rg.id
-  location  = local.foundry_location
+  location  = var.location
   identity {
     type = "SystemAssigned"
   }
@@ -29,7 +29,7 @@ resource "azapi_resource" "foundry_project" {
   type      = "Microsoft.CognitiveServices/accounts/projects@2025-07-01-preview"
   name      = local.foundry_project_name
   parent_id = azapi_resource.foundry_account.id
-  location  = local.foundry_location
+  location  = var.location
   identity {
     type = "SystemAssigned"
   }
@@ -37,7 +37,7 @@ resource "azapi_resource" "foundry_project" {
   body = {
     properties = {
       displayName = local.foundry_project_name
-      description = "Per-user Foundry project ${local.padded}"
+      description = "Per-user Foundry project ${var.user}"
     }
   }
 
@@ -45,14 +45,13 @@ resource "azapi_resource" "foundry_project" {
 }
 
 resource "azapi_resource" "foundry_model_deployment_gpt52" {
-  count     = var.deploy_gpt52 ? 1 : 0
   type      = "Microsoft.CognitiveServices/accounts/deployments@2025-06-01"
-  name      = "dep-gpt52"
+  name      = "gpt-5.2"
   parent_id = azapi_resource.foundry_account.id
 
   body = {
     sku = {
-      name     = "GlobalProvisionedManaged"
+      name     = "GlobalStandard"
       capacity = 100
     }
     properties = {
@@ -72,7 +71,7 @@ resource "azapi_resource" "foundry_model_deployment_gpt52" {
 
 resource "azapi_resource" "foundry_model_deployment_gpt5mini" {
   type      = "Microsoft.CognitiveServices/accounts/deployments@2025-06-01"
-  name      = "dep-gpt5mini"
+  name      = "gpt-5-mini"
   parent_id = azapi_resource.foundry_account.id
 
   body = {
@@ -91,12 +90,12 @@ resource "azapi_resource" "foundry_model_deployment_gpt5mini" {
   }
 
   schema_validation_enabled = false
-  depends_on                = [azapi_resource.foundry_project]
+  depends_on                = [azapi_resource.foundry_model_deployment_gpt52]
 }
 
 resource "azapi_resource" "foundry_model_deployment_gpt5nano" {
   type      = "Microsoft.CognitiveServices/accounts/deployments@2025-06-01"
-  name      = "dep-gpt5nano"
+  name      = "gpt-5-nano"
   parent_id = azapi_resource.foundry_account.id
 
   body = {

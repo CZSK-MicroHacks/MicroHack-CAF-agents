@@ -19,7 +19,7 @@ module "user_environment" {
   source   = "./modules/user_environment"
   for_each = var.manage_azure_resources ? { for i in local.user_indices : i => i } : {}
 
-  user_index              = each.value
+  user                    = var.manage_entra_users ? lookup(module.entra_users, tostring(each.value)).user_principal_name : format("user%03d", each.value)
   location                = local.user_location_map[each.value]
   assigned_user_object_id = var.manage_entra_users ? lookup(module.entra_users, tostring(each.value)).object_id : null
   create_role_assignment  = var.manage_entra_users

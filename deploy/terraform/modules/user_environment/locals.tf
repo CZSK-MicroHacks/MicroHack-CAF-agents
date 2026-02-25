@@ -1,11 +1,10 @@
 locals {
-  padded               = format("%03d", var.user_index)
-  rg_name              = "rg-user${local.padded}"
-  storage_account_name = "stuser${local.padded}${random_string.unique_suffix.result}"
-  search_service_name  = "srch-user${local.padded}-${random_string.unique_suffix.result}"
-  foundry_account_name = "aif${local.padded}${random_string.unique_suffix.result}uk"
-  foundry_project_name = "project-user${local.padded}"
-  foundry_location     = "uksouth"
+  user_name            = split("@", var.user)[0]
+  rg_name              = "rg-${local.user_name}"
+  storage_account_name = "st${local.user_name}${random_string.unique_suffix.result}"
+  search_service_name  = "srch-${local.user_name}-${random_string.unique_suffix.result}"
+  foundry_account_name = "aif-${local.user_name}${random_string.unique_suffix.result}"
+  foundry_project_name = "project-${local.user_name}"
   data_json_files      = fileset("${path.module}/../../../../data", "*.json")
 }
 

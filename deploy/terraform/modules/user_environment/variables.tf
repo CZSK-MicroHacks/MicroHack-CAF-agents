@@ -1,6 +1,6 @@
-variable "user_index" {
-  type        = number
-  description = "Numeric user index (1..n) used to derive naming (rg-userNNN)."
+variable "user" {
+  type        = string
+  description = "Username used to derive per-user resource naming."
 }
 
 variable "location" {

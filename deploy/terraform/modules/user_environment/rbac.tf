@@ -26,7 +26,6 @@ resource "azapi_resource" "rg_owner_role_assignment" {
 }
 
 resource "azurerm_role_assignment" "search_storage_blob_reader" {
-  count              = try(azurerm_search_service.user.identity[0].principal_id, null) == null ? 0 : 1
   scope              = azurerm_storage_account.user.id
   role_definition_id = local.blob_reader_role_definition_id
   principal_id       = azurerm_search_service.user.identity[0].principal_id
