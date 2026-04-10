@@ -59,7 +59,7 @@ Zkus se zeptat na otázku:
 
 
 ### 4. Vypublikovat agenta pro agentní framework (Copilot Studio, MS Foundry, MCP, ...)
-Aplikační team již čeká na tvého agenta, aby jej mohl integrovat do agentního workflow. Předtím, než jej vypublikuješ, doplň potřebné instrukce ... příklady najdeš zde: ([agent instructions](/solutions/agent_instructions.md), [datasource description](/solutions/datasource_description.md), [datasource instructions](/solutions/datasource_instructions.md), [example queries](/solutions/04_data_agent_solution.md)).
+Aplikační team již čeká na tvého agenta, aby jej mohl integrovat do agentního workflow. Předtím, než jej vypublikuješ, doplň potřebné instrukce ... příklady najdeš zde: ([agent instructions](/challenges/business-data-agent/solutions/agent_instructions.md), [datasource description](/solutions/datasource_description.md), [datasource instructions](/challenges/business-data-agent/solutions/datasource_instructions.md), [example queries](/challenges/business-data-agent/solutions/04_data_agent_solution.md)).
 
 
 -  **Udělej:** Vyplň instrukce.
@@ -103,4 +103,4 @@ Na závěr se zeptej agenta jaké Ti doporučí víno a to si večer vyžádej u
 
 
 ## Řešení: 
-> [Few shot example](/Solutions/04_data_agent_solution.md)
+> [Few shot example](/challenges/business-data-agent/Solutions/04_data_agent_solution.md)

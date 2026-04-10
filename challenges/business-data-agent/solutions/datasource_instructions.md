@@ -1,3 +1,4 @@
+```
 ### Table Descriptions
 
 **Table: date_dimension**
@@ -69,3 +70,4 @@ Important columns:
 - Combine review_dimension with date_dimension via the Date column to study sentiment or review volume over time.
 - For sales performance analysis, focus on TotalAmount, Quantity, and Discount, optionally grouped by Store or PaymentMethod for operational insights.
 - Expect the dataset to support scenarios like sales trend monitoring, customer sentiment analysis, wine-type performance evaluation, and regional sales optimization. Highlight how sales trends align or contrast with sentiment patterns to give richer business insights.
+```

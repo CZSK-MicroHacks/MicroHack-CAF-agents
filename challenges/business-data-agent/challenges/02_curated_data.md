@@ -88,4 +88,4 @@ Postup je stejný jako v 1. úkolu:
 
 
 ## Řešení: 
-> [1. Transformovat "Raw" data do "Enriched" vrstvy](/Solutions/02_enriched_data_solution)
+> [1. Transformovat "Raw" data do "Enriched" vrstvy](/challenges/business-data-agent/Solutions/02_enriched_data_solution)
