@@ -1,0 +1,10 @@
+[
+  { "user_name": "admin@MngEnvMCAP048983.onmicrosoft.com", "workspace_name": "CAF2026_user001", "capacity_name": "fabric010sc" },
+  { "user_name": "admin@MngEnvMCAP048983.onmicrosoft.com",   "workspace_name": "CAF2026_user002",   "capacity_name": "fabric020ne" },
+  { "user_name": "admin@MngEnvMCAP048983.onmicrosoft.com", "workspace_name": "CAF2026_user003", "capacity_name": "fabric030wu3" },
+  { "user_name": "admin@MngEnvMCAP048983.onmicrosoft.com",  "workspace_name": "CAF2026_user004",  "capacity_name": "fabric040we" },
+  { "user_name": "admin@MngEnvMCAP048983.onmicrosoft.com", "workspace_name": "CAF2026_user005", "capacity_name": "fabric020sc" },
+  { "user_name": "admin@MngEnvMCAP048983.onmicrosoft.com",   "workspace_name": "CAF2026_user006",   "capacity_name": "fabric030ne" },
+  { "user_name": "admin@MngEnvMCAP048983.onmicrosoft.com", "workspace_name": "CAF2026_user007", "capacity_name": "fabric040wu3" },
+  { "user_name": "admin@MngEnvMCAP048983.onmicrosoft.com",  "workspace_name": "CAF2026_user008",  "capacity_name": "fabric050we" }
+]

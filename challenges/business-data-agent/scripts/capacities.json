@@ -1,0 +1,11 @@
+[
+  { "CapacityName": "fabric010sc",  "Location": "swedencentral", "SKU": "F2" },
+  { "CapacityName": "fabric020ne",  "Location": "northeurope",   "SKU": "F2" },
+  { "CapacityName": "fabric030wu3", "Location": "westus3",       "SKU": "F2" },
+  { "CapacityName": "fabric040we",  "Location": "westeurope",    "SKU": "F2" },
+  { "CapacityName": "fabric020sc",  "Location": "swedencentral", "SKU": "F2" },
+  { "CapacityName": "fabric030ne",  "Location": "northeurope",   "SKU": "F2" },
+  { "CapacityName": "fabric040wu3", "Location": "westus3",       "SKU": "F2" },
+  { "CapacityName": "fabric050we",  "Location": "westeurope",    "SKU": "F2" }
+
+]

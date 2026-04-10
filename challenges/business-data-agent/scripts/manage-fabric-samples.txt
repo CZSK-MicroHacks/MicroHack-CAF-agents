@@ -1,0 +1,26 @@
+-- Create
+powershell -ExecutionPolicy Bypass -File .\manage-fabric.ps1 -Action create -AdminUpn "admin@MngEnvMCAP048983.onmicrosoft.com" -ConfigFile .\capacities.json
+					 
+-- All operation
+powershell -ExecutionPolicy Bypass -File .\manage-fabric.ps1 -Action status -ConfigFile .\capacities.json
+powershell -ExecutionPolicy Bypass -File .\manage-fabric.ps1 -Action pause  -ConfigFile .\capacities.json
+powershell -ExecutionPolicy Bypass -File .\manage-fabric.ps1 -Action start  -ConfigFile .\capacities.json
+powershell -ExecutionPolicy Bypass -File .\manage-fabric.ps1 -Action scale  -ConfigFile .\capacities.json -Sku F2
+
+
+
+-- Per Capacity operation
+powershell -ExecutionPolicy Bypass -File .\manage-fabric.ps1 -Action status -CapacityName fabric01sc
+powershell -ExecutionPolicy Bypass -File .\manage-fabric.ps1 -Action start -CapacityName fabric01sc
+powershell -ExecutionPolicy Bypass -File .\manage-fabric.ps1 -Action pause -CapacityName fabric01sc
+powershell -ExecutionPolicy Bypass -File .\manage-fabric.ps1 -Action scale -CapacityName fabric01sc -Sku F2
+
+
+
+
+-- create workspaces:
+powershell -ExecutionPolicy Bypass -File .\create-workspaces.ps1 -ConfigFile .\workspaces.json
+
+
+-- delete workspaces:
+powershell -ExecutionPolicy Bypass -File .\create-workspaces.ps1 -Action delete -ConfigFile .\workspaces.json
