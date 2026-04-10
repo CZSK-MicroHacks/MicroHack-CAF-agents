@@ -64,5 +64,5 @@ Postup je stejný jako v předchozím úkolu:
 
 
 ## Tvůj poslední úkol je: 
-> [Vytvořit a vyladit datového agenta](04_data_agent)
+> [Vytvořit a vyladit datového agenta](/challenges/business-data-agent/challenges/04_data_agent)
 

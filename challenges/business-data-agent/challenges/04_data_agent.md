@@ -97,10 +97,14 @@ It supports time‑based and segmented analysis to assist with sales optimizatio
 ![](../images/ch04_28.png)
 
 
-Na závěr se zeptej agenta jaké Ti doporučí víno a to si večer vyžádej u sommeliera :).
+ 
+ ## Last question 
+> **Na závěr se můžeš zeptat svého agenta jaké Ti doporučí víno a to si večer vyžádej u sommeliera :).**
+
 
 ![](../images/ch04_31.png)
 
 
-## Řešení: 
+
+## Řešení pro mini challenge: 
 > [Few shot example](/challenges/business-data-agent/Solutions/04_data_agent_solution.md)

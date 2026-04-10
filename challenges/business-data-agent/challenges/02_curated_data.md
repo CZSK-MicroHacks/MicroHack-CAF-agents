@@ -83,7 +83,7 @@ Postup je stejný jako v 1. úkolu:
 ![](../images/ch02_17.png)
 
 ## Tvůj další úkol je: 
-> [Procesovat text recenzí LLM modely do strukturované podoby](03_llm_ai_functions)
+> [Procesovat text recenzí LLM modely do strukturované podoby](/challenges/business-data-agent/challenges/03_llm_ai_functions)
 
 
 
