@@ -107,4 +107,4 @@ It supports time‑based and segmented analysis to assist with sales optimizatio
 
 
 ## Řešení pro mini challenge: 
-> [Few shot example](/challenges/business-data-agent/Solutions/04_data_agent_solution.md)
+> [Few shot example](/challenges/business-data-agent/solutions/04_data_agent_solution.md)
