@@ -27,8 +27,3 @@ Set true only when an assigned_user_object_id is also provided.
 EOT
 }
 
-variable "deploy_gpt52" {
-  type        = bool
-  default     = false
-  description = "Deploy gpt-5.2 model. Requires Global Provisioned Managed throughput quota."
-}

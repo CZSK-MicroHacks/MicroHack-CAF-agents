@@ -66,9 +66,9 @@ resource "azapi_resource" "foundry_project_connection_ai_search" {
   ]
 }
 
-resource "azapi_resource" "foundry_model_deployment_gpt52" {
+resource "azapi_resource" "foundry_model_deployment_gpt54" {
   type      = "Microsoft.CognitiveServices/accounts/deployments@2025-06-01"
-  name      = "gpt-5.2"
+  name      = "gpt-5.4"
   parent_id = azapi_resource.foundry_account.id
 
   body = {
@@ -79,8 +79,8 @@ resource "azapi_resource" "foundry_model_deployment_gpt52" {
     properties = {
       model = {
         format  = "OpenAI"
-        name    = "gpt-5.2"
-        version = "2025-12-11"
+        name    = "gpt-5.4"
+        version = "2026-03-05"
       }
       versionUpgradeOption = "OnceNewDefaultVersionAvailable"
     }
@@ -93,7 +93,7 @@ resource "azapi_resource" "foundry_model_deployment_gpt52" {
 
 resource "azapi_resource" "foundry_model_deployment_gpt5mini" {
   type      = "Microsoft.CognitiveServices/accounts/deployments@2025-06-01"
-  name      = "gpt-5-mini"
+  name      = "gpt-5.4-mini"
   parent_id = azapi_resource.foundry_account.id
 
   body = {
@@ -104,20 +104,20 @@ resource "azapi_resource" "foundry_model_deployment_gpt5mini" {
     properties = {
       model = {
         format  = "OpenAI"
-        name    = "gpt-5-mini"
-        version = "2025-08-07"
+        name    = "gpt-5.4-mini"
+        version = "2026-03-17"
       }
       versionUpgradeOption = "OnceNewDefaultVersionAvailable"
     }
   }
 
   schema_validation_enabled = false
-  depends_on                = [azapi_resource.foundry_model_deployment_gpt52]
+  depends_on                = [azapi_resource.foundry_model_deployment_gpt54]
 }
 
 resource "azapi_resource" "foundry_model_deployment_gpt5nano" {
   type      = "Microsoft.CognitiveServices/accounts/deployments@2025-06-01"
-  name      = "gpt-5-nano"
+  name      = "gpt-5.4-nano"
   parent_id = azapi_resource.foundry_account.id
 
   body = {
@@ -128,8 +128,8 @@ resource "azapi_resource" "foundry_model_deployment_gpt5nano" {
     properties = {
       model = {
         format  = "OpenAI"
-        name    = "gpt-5-nano"
-        version = "2025-08-07"
+        name    = "gpt-5.4-nano"
+        version = "2026-03-17"
       }
       versionUpgradeOption = "OnceNewDefaultVersionAvailable"
     }

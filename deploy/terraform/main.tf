@@ -23,6 +23,5 @@ module "user_environment" {
   location                = local.user_location_map[each.value]
   assigned_user_object_id = var.manage_entra_users ? lookup(module.entra_users, tostring(each.value)).object_id : null
   create_role_assignment  = var.manage_entra_users
-  deploy_gpt52            = var.deploy_gpt52
 }
 

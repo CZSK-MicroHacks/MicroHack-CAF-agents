@@ -28,6 +28,8 @@ That suffix is reused for globally unique resources in that user environment.
 | `entra_user_domain` | string | conditional | Required when `manage_entra_users=true`. |
 | `entra_user_password` | string | conditional | Required when `manage_entra_users=true`. |
 
+Each user environment's Foundry account deploys `gpt-5.4`, `gpt-5.4-mini`, `gpt-5.4-nano`, and `text-embedding-3-large`.
+
 ## Quick start
 ```pwsh
 terraform init
