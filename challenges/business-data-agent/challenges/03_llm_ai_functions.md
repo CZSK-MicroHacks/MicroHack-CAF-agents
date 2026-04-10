@@ -41,7 +41,7 @@ Pro rozšíření Curated vrstvy o poslední tabulku s informacemi o recenzích,
 
 Postup je stejný jako v předchozím úkolu:
 
-- **Udělej:** [Zde](/sourcecode/40_Curated_Enrichment_with_AI.ipynb) si stáhni notebook 40_Curated_Enrichment_with_AI.ipynb
+- **Udělej:** [Zde](/challenges/business-data-agent/sourcecode/40_Curated_Enrichment_with_AI.ipynb) si stáhni notebook 40_Curated_Enrichment_with_AI.ipynb
 - **Udělej:** Naimportuj notebook do svého workspace a otevři jej
 - **Udělej:** Připoj si svůj Lakehouse pomocí Data items > Add Data items > From OneLake catalog
 - **Udělej:** Vyber svůj Lakehouse 
@@ -64,5 +64,5 @@ Postup je stejný jako v předchozím úkolu:
 
 
 ## Tvůj poslední úkol je: 
-> [Vytvořit a vyladit datového agenta](/challenges/business-data-agent/challenges/04_data_agent)
+> [Vytvořit a vyladit datového agenta](/challenges/business-data-agent/challenges/04_data_agent.md)
 

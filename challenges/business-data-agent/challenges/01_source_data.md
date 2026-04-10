@@ -59,4 +59,4 @@ U klasických datových platforem by jsi musel data nejdříve nahrát pomocí E
 
 
 ## Tvůj další úkol je: 
-> [Transformovat data do tabulárního datového modelu](/challenges/business-data-agent/challenges/02_curated_data)
+> [Transformovat data do tabulárního datového modelu](/challenges/business-data-agent/challenges/02_curated_data.md)

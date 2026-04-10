@@ -1,6 +1,6 @@
 ![](../images/lakehouse1.png)
 # Úvod
-Cílem je připravit si data pro datového agenta, tzn. vybudovat ***Enriched a Curated*** vrstvy v [Lakehouse](/challenges/lakehouse-layers) architektuře. K tomu máš připravenou veškerou potřebnou infrastrukturu a knihovny, tj. Managed Apache Spark Cluster (musíme šetřit, takže máš k dispozici pouze jeden "node":)). 
+Cílem je připravit si data pro datového agenta, tzn. vybudovat ***Enriched a Curated*** vrstvy v [Lakehouse](/challenges/business-data-agent/challenges/lakehouse-layers.md) architektuře. K tomu máš připravenou veškerou potřebnou infrastrukturu a knihovny, tj. Managed Apache Spark Cluster (musíme šetřit, takže máš k dispozici pouze jeden "node":)). 
 
 ## Plán
 1. Transformovat "Raw" data do "Enriched" vrstvy
@@ -10,7 +10,7 @@ Transformační kód v ***PYSPARKu*** nemusíš vymýšlet, připravil Ti jej n�
 
 Ale má to jeden háček, **musíš vyřešit "mini" challenge** - kolega Ti odmazal část kódu pro načtení ***JSON souborů*** do DataFrame. Klidně použij [MS Fabric Copilot](https://learn.microsoft.com/en-us/fabric/data-engineering/copilot-notebooks-overview) nebo [M365 Copilot](https://m365.cloud.microsoft/chat) nebo kontextové menu u souboru, případně dole na stránce najdeš řešení :).
 
-- **Udělej:** [Zde](/sourcecode/20_Enriched_layer_ch.ipynb) si stáhni notebook 20_Enriched_layer_ch.ipynb
+- **Udělej:** [Zde](/challenges/business-data-agent/sourcecode/20_Enriched_layer_ch.ipynb) si stáhni notebook 20_Enriched_layer_ch.ipynb
 
 - **Udělej:** Naimportuj notebook do svého workspace a otevři jej
 
@@ -60,7 +60,7 @@ Transformační kód ve ***Spark SQL*** nemusíš vymýšlet, připravil Ti jej 
 
 Postup je stejný jako v 1. úkolu:
 
-- **Udělej:** [Zde](/sourcecode/30_Curated_layer.ipynb) si stáhni notebook 30_Curated_layer.ipynb
+- **Udělej:** [Zde](/challenges/business-data-agent/sourcecode/30_Curated_layer.ipynb) si stáhni notebook 30_Curated_layer.ipynb
 - **Udělej:** Naimportuj notebook do svého workspace a otevři jej
 - **Udělej:** Připoj si svůj Lakehouse pomocí Data items > Add Data items > From OneLake catalog
 - **Udělej:** Vyber svůj Lakehouse
@@ -83,9 +83,9 @@ Postup je stejný jako v 1. úkolu:
 ![](../images/ch02_17.png)
 
 ## Tvůj další úkol je: 
-> [Procesovat text recenzí LLM modely do strukturované podoby](/challenges/business-data-agent/challenges/03_llm_ai_functions)
+> [Procesovat text recenzí LLM modely do strukturované podoby](/challenges/business-data-agent/challenges/03_llm_ai_functions.md)
 
 
 
 ## Řešení: 
-> [1. Transformovat "Raw" data do "Enriched" vrstvy](/challenges/business-data-agent/Solutions/02_enriched_data_solution)
+> [1. Transformovat "Raw" data do "Enriched" vrstvy](/challenges/business-data-agent/Solutions/02_enriched_data_solution.md)
