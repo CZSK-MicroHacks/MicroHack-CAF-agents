@@ -73,7 +73,7 @@ Aplikační team již čeká na tvého agenta, aby jej mohl integrovat do agentn
 ![](../images/ch04_26.png)
 
 
--  **Udělej:** Doplň "Description of purpise and capabilities" a vypublikuj
+-  **Udělej:** Doplň "Description of purpose and capabilities" a vypublikuj
 ```
 This Data Agent helps users analyze wine retail business data using natural language. It provides insights into sales performance, customer sentiment, product trends, store performance, and the impact of discounts over time. The agent accesses data from the Wine_Lakehouse (sales_fact, review_dimension, wine_dimension, date_dimension) to answer questions about revenue and volume trends, customer reviews, seasonal demand, regional performance, and product attributes such as type, category, vintage, or producer.
 It supports time‑based and segmented analysis to assist with sales optimization, promotion effectiveness, and understanding customer preferences across wines and stores. Sample questions:

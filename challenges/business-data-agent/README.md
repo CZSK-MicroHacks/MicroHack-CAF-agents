@@ -11,4 +11,4 @@ Z architektonického pohledu budeš vytvářet [Lakehouse](/challenges/business-
 2. [Transformovat data do tabulárního datového modelu](/challenges/business-data-agent/challenges/02_curated_data.md)
 3. [Procesovat text recenzí LLM modely do strukturované podoby](/challenges/business-data-agent/challenges/03_llm_ai_functions.md)
 4. [Vytvořit a vyladit datového agenta](/challenges/business-data-agent/challenges/04_data_agent.md)
-5. ***volitelný*** [Automatické testovaní datového agenta přes SDK](/challenges/business-data-agent/challenges/05_data_agent_sdk.md)
+5. ***volitelné*** [Automatické testovaní datového agenta pomocí SDK]()

@@ -87,5 +87,5 @@ Postup je stejný jako v 1. úkolu:
 
 
 
-## Řešení: 
+## Řešení pro mini challenge: 
 > [1. Transformovat "Raw" data do "Enriched" vrstvy](/challenges/business-data-agent/solutions/02_enriched_data_solution.md)
