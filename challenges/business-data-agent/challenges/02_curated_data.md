@@ -74,7 +74,7 @@ Postup je stejný jako v 1. úkolu:
 
 - **Udělej:** Spusť jednotlivé buňky v notebooku (projdi si kód) nebo spusť celý notebook najednou.
 
-- **Výsledek:** po úspěšném doběhnutí všech buněk, udělej "Refresh" metadat, poté by jsi měl vidět **nové schéma "Curated" a v něm 3 tabulky: date_dimension, sales_fact a wine_dimension.
+- **Výsledek:** po úspěšném doběhnutí všech buněk, udělej "Refresh" metadat, poté by jsi měl vidět **nové schéma "Curated" a v něm 3 tabulky**: date_dimension, sales_fact a wine_dimension.
 
 ![](../images/ch02_20.png)
 
