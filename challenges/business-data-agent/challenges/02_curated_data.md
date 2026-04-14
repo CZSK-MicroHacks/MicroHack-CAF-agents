@@ -58,7 +58,7 @@ Ale má to jeden háček, **musíš vyřešit "mini" challenge** - kolega Ti odm
 
 Transformační kód ve ***Spark SQL*** nemusíš vymýšlet, připravil Ti jej náš Data Engineer. Pouze si stáhni hotový notebook, který nahraješ do svého Sandboxu (workspace), připojíš si svůj lakehouse a spustíš kód.
 
-Postup je stejný jako v 1. úkolu:
+Postup je stejný jako v 1. části:
 
 - **Udělej:** [Zde](/challenges/business-data-agent/sourcecode/30_Curated_layer.ipynb) si stáhni notebook 30_Curated_layer.ipynb
 - **Udělej:** Naimportuj notebook do svého workspace a otevři jej

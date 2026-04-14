@@ -53,7 +53,7 @@ Zkus se zeptat na otázku:
 
 
 -  **Udělej:** Vyřeš **"mini" challenge** - nastav agenta tak, aby rozuměl tomu, co je myšleno "aktivním influencerem" = **uživatel, který za poslední 3 měsíce napsal 2 a více pozitivních recenzí.**
-    - Můžeš využít [Agent Instructions / Data source Instructions](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-configurations) nebo lépe [Few shots / Example Queries](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-example-queries).
+    - Můžeš využít [Agent Instructions / Data source Instructions](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-configurations) nebo lépe [Few shots / Example Queries](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-example-queries) (případné řešení najdeš dole).
 
 ![](../images/ch04_18.png)
 
