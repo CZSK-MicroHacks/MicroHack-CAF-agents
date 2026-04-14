@@ -16,7 +16,7 @@ Pro business uživatele je nejsnazší používat **AI Functions pomocí jazyka 
 
 ![](../images/ch03_3.png)
 
-- **Udělej:** Nakopíruj níže uvedený SQL dotaz do Query editoru a spust jej
+- **Udělej:** Nakopíruj níže uvedený SQL dotaz do Query editoru a spusť jej
 
 ```SQL
 SELECT
@@ -37,7 +37,7 @@ FROM
 
 
 ### 2. Zpracovat recenze s AI Functions v Apache SPARK 
-Pro rozšíření Curated vrstvy o poslední tabulku s informacemi o recenzích, použij AI Functions ve Sparku. Kód máš připaven v notebook, který si opět nahraj do svého Sandboxu (workspace), připoj si svůj lakehouse a spusť všechny buňky.
+Pro rozšíření Curated vrstvy o poslední tabulku s informacemi o recenzích, použij AI Functions ve Sparku. Kód máš připaven v notebooku, který si opět nahraj do svého Sandboxu (workspace), připoj si svůj lakehouse a spusť všechny buňky.
 
 Postup je stejný jako v předchozím úkolu:
 

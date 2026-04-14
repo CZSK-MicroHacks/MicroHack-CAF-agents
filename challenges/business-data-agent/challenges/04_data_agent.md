@@ -24,7 +24,7 @@ V rámci širších agentních architektur slouží datoví agenti jako konverza
 ![](../images/ch04_5.png)
 
 
-- **Udělej:** Nastav kontext pro agenta: vyber všechny tabulky ze schema Curated
+- **Udělej:** Nastav kontext pro agenta: vyber všechny tabulky ze schéma Curated
 
 ![](../images/ch04_7.png)
 
@@ -32,9 +32,9 @@ V rámci širších agentních architektur slouží datoví agenti jako konverza
 Agent má jediný kontext a to je seznam tabulek, jejich sloupce a datové typy. Pokud máš srozumitelný datový model (dobře pojmenované sloupce s jasným významem), pak je schopen odpovídat na běžné dotazy bez dodatečných instrukcí.
 
 Zkus se zeptat na základní dotazy:
-- Které víno se prodalo v roce 2025 v největším množství. Vrat' kód vína a počet kusů.
-    - **Očekávaná odpověď** je: **iz2019lvvpl , 1721**
-- Jaká byla průměrná výše slevy na jednu transakci v roce 2025? Vrat' pouze číslo.
+- Které víno se prodalo v roce 2025 v největším množství. Vrať kód vína a počet kusů.
+    - **Očekávaná odpověď** je: **iz2019lvvpl, 1721**
+- Jaká byla průměrná výše slevy na jednu transakci v roce 2025? Vrať pouze číslo.
     - **Očekávaná odpověď** je: **2.18**
 - Který měsíc roku 2025 měl nejvyšší tržby? Vrať pouze anglické jméno měsíce.
     - **Očekávaná odpověď** je: **May**
@@ -47,7 +47,7 @@ Zkus se zeptat na základní dotazy:
 
 Zkus se zeptat na otázku:
 - Kolik jsme měli aktivních influencerů k 1.5.2025?
-    - **Očekávaná odpověď** je: **7,** ale agent odpověděl **232**
+    - **Očekávaná odpověď** je: **7**, ale agent odpověděl **232**
 
 ![](../images/ch04_13.png)
 
