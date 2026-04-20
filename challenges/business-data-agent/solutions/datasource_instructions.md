@@ -23,7 +23,7 @@ Important columns:
 Important columns:
 - ReviewId - Primary key
 - Date - Date used to join to date_dimension.date
-- WineCode - Wine code used
+- WineCode - Wine code used, foreign key used to join to wine_dimension.WineCode
 - Review - User's review of wine in Czech language
 - Sentiment - User's sentiment of wine with values "Negative", "Neutral", "Positive"
 - Score - Sentiment score with values between -1.0 to 1.0 (Positive > 0.1, Negative < -0.1, Neutral between 0.1 to -0.1)

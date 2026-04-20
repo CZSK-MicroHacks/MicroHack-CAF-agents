@@ -10,7 +10,7 @@ Pokud jsi zvládl všechny úkoly a máš čas, pak si můžeš vyzkoušet autom
 
 ### 1. Založit nový lakehouse bez schémat
 
-- **Udělej:** Vytvoř nový lakehouse: ***Eval_Agent_Lakehouse***, který **NEpodporuje "Lakehouse schemas"**
+- **Udělej:** Vytvoř nový lakehouse s názvem ***Eval_Agent_Lakehouse***, který **NEpodporuje "Lakehouse schemas"** (omezení SDK)
 
 ![](../images/ch04_34.png)
 

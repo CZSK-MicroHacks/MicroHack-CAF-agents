@@ -1,6 +1,7 @@
 ![](../images/sourcedata1.png)
 # Úvod
-Cílem je získat data z POSky a recenzí do tvého nového Sandboxu vytvořeného v MS Fabric. Data jsou vyexportovaná aplikačním teamem do JSONů a leží v Azure Storage (máš k nim přístup ***Storage Blob Data Reader*** pod tvojí Entra identitou).
+**Cílem je získat data z POSky a recenzí do tvého nového Sandboxu vytvořeného v MS Fabric**. Data jsou vyexportovaná aplikačním teamem do JSON souborů a leží v Azure Blob Storage (máš k nim přístup ***Storage Blob Data Reader*** pod tvojí Entra identitou).
+
 ## Plán
 1. Přihlásit se do svého Sandboxu
 2. Založit Lakehouse
@@ -10,14 +11,25 @@ Cílem je získat data z POSky a recenzí do tvého nového Sandboxu vytvořené
 
 - **Udělej:** Připoj se svým Entra Id do MS Fabric: [Microsoft Fabric](https://app.fabric.microsoft.com/) nebo do [Microsoft Power BI](https://app.powerbi.com/) 
 
-- Zde by jsi měl vidět svůj pracovní prostor: **CAF2026_***EntraId*** (např. CAF2026_user999)
+	- Zde by jsi měl vidět svůj pracovní prostor: **CAF2026_***EntraId*** (např. CAF2026_user999)
 
 ![](../images/ch01_1.png)
+</br>
+</br>
+
+> [!TIP]
+> </br>
+> Pro snazší přepínání mezi objekty si můžeš "zapinovat" svůj workspace do postranní lišty.
+> Vyber název svého workspace a klikni na "Pin"
+
+
+![](../images/ch01_3.png)
+
+</br>
 
 ### 2. Založit Lakehouse
-
-- Založ svůj nový Lakehouse: **wine_lakehouse**, do kterého budeš integrovat zdrojová data z POSky a rezenzí.  
-	- **Udělej:** New item > vyhledej lake > vyber Lakehouse
+Založ svůj nový Lakehouse, do kterého budeš integrovat zdrojová data z POSky a rezenzí.  
+- **Udělej:** New item > vyhledej lake > vyber Lakehouse
 
 ![](../images/ch01_2.png)
 
@@ -31,7 +43,7 @@ Zdrojová data jsou umístěna na Azure blob storage ve formě JSON souborů.
 
 ![](../images/ch01_7.png)
 
-U klasických datových platforem by jsi musel data nejdříve nahrát pomocí ETL nástrojů, ale u MS Fabric to dělat nemusíš. MS Fabric podporuje tzv. [OneLake shortcuts](https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts) ala "symbolic link / soft link na Linuxu".
+U klasických datových platforem by jsi musel data nejdříve nahrát pomocí ETL nástrojů, ale u MS Fabric to dělat nemusíš. **MS Fabric podporuje tzv.** [**OneLake shortcuts**](https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts) ala "symbolic link / soft link na Linuxu".
 
 -  **Udělej:** Ve svém Lakehouse vyber "Files" > ... > "New shortcut" 
 
@@ -41,8 +53,8 @@ U klasických datových platforem by jsi musel data nejdříve nahrát pomocí E
 
 ![](../images/ch01_11.png)
 
--  **Udělej:** vytvoř nové připojení:
-	- URL:  https://XXXXXXXX.dfs.core.windows.net/
+-  **Udělej:** vytvoř nové připojení 
+	- URL:  https://XXXXXXXX.dfs.core.windows.net/ (**zkopíruj URL**)
 	- Auth. kind: Organization account
 	- Signed in.: Tvoje Entra Id
 

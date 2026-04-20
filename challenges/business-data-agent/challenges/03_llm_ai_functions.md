@@ -1,11 +1,13 @@
 ![](../images/llm1.png)
 # Úvod
-Cílem je získat zajímavé informace z recenzí od našich uživatelů jako je sentiment nebo párování vín k jídlu. Recenze je nestrukturovaný text, který je potřeba zpracovat. Jak? Například pomocí LLM modelů. MS Fabric obsahuje **[pre-built AI modely](https://learn.microsoft.com/en-us/fabric/data-science/ai-services/ai-services-overview#prebuilt-ai-models-in-fabric-preview) (OpenAI ala gpt-5x, gpt-4x nebo Text Analytics)**, ale jejich použití vyžaduje hodně kódování. Pokud nechceš kódovat, pak můžeš využit **AI Functions pro [SQL](https://learn.microsoft.com/en-us/fabric/data-warehouse/ai-functions) nebo [Spark / Pandas](https://learn.microsoft.com/en-us/fabric/data-science/ai-functions/overview?tabs=pandas-pyspark%2Cpandas)**.
+**Cílem je získat zajímavé informace z recenzí od našich uživatelů** jako je sentiment nebo párování vín k jídlu. Recenze je nestrukturovaný text, který je potřeba zpracovat. Jak? Například pomocí LLM modelů. 
+
+MS Fabric obsahuje **[pre-built AI modely](https://learn.microsoft.com/en-us/fabric/data-science/ai-services/ai-services-overview#prebuilt-ai-models-in-fabric-preview) (OpenAI ala gpt-5x, gpt-4x nebo Text Analytics)**, ale jejich použití vyžaduje hodně kódování. Pokud nechceš kódovat, pak můžeš využit **AI Functions pro [SQL](https://learn.microsoft.com/en-us/fabric/data-warehouse/ai-functions) nebo [Spark / Pandas](https://learn.microsoft.com/en-us/fabric/data-science/ai-functions/overview?tabs=pandas-pyspark%2Cpandas)**.
 ## Plán
 1. Zkusit AI Functions v SQL (volitelné)
 2. Zpracovat recenze s AI Functions v Apache SPARK 
 
-### 1.Zkusit AI Functions v SQL (volitelné)
+### 1. Zkusit AI Functions v SQL (volitelné)
 Pro business uživatele je nejsnazší používat **AI Functions pomocí jazyka SQL**. V MS Fabric má každý Lakehouse svůj **SQL analytics endpoint**, který se tváří jako klasický SQL Server podporující T-SQL syntaxi.
 
 - **Udělej:** Klikni na wine_lakehouse SQL analytics endpoint 
@@ -30,14 +32,15 @@ SELECT
 FROM 
  [wine_lakehouse].[Enriched].[reviews]
 ```
+<br>
 
-- **Výsledek**: Zpracované recence ve formě strukturovaných dat
+**Výsledek**: Zpracované recence ve formě strukturovaných dat
 
 ![](../images/ch03_5.png)
 
 
 ### 2. Zpracovat recenze s AI Functions v Apache SPARK 
-Pro rozšíření Curated vrstvy o poslední tabulku s informacemi o recenzích, použij AI Functions ve Sparku. Kód máš připaven v notebooku, který si opět nahraj do svého Sandboxu (workspace), připoj si svůj lakehouse a spusť všechny buňky.
+Pro rozšíření Curated vrstvy o poslední tabulku s informacemi o recenzích, použij **AI Functions ve Sparku**. Kód máš připaven v notebooku, který si opět nahraj do svého Sandboxu (workspace), připoj si svůj lakehouse a spusť všechny buňky.
 
 Postup je stejný jako v předchozím úkolu:
 
@@ -51,10 +54,12 @@ Postup je stejný jako v předchozím úkolu:
 
 ![](../images/ch02_28.png)
 
-- **Udělej:** Nastav jej jako "default" Lakehouse ve svém notebooku
+- **Udělej:** (mělo by být "by default") Nastav Lakehouse jako "default" Lakehouse ve svém notebooku
 - **Udělej:** Spusť jednotlivé buňky v notebooku (projdi si kód) nebo spusť celý notebook najednou
+<br>
+<br>
 
-- **Výsledek:** Tabulka review_dimension ve schématu Curated s 1015 řádky.
+**Výsledek:** Tabulka **review_dimension** ve schématu Curated s **1015** řádky.
 
 ![](../images/ch03_7.png)
 
