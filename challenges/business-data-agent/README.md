@@ -13,12 +13,12 @@ Data, která budeš postupně zpracovávat a obohacovat jsou extrakty v JSON sou
 
 ## Výsledek
 Výsledkem bude následující workflow:
-- **Get data** - získání dat z Azure Blob Storage
+- **Get data** - [získání dat](https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts) z Azure Blob Storage
+- **Prepare** - [příprava dat](https://learn.microsoft.com/en-us/fabric/data-engineering/data-engineering-overview) do struktury vhodné pro analýzy
 - **Store** - uložení zdrojových, zpracovaných a obohacených dat ve [OneLake](https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview) ([Fabric - Lakehouse](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview))
-- **Prepare** - příprava dat do struktury vhodné pro analýzy
-- **Analyze and train** - obohacení dat (vytěžení uživatelských recenzí) pomocí LLM
-- **Distribute** - datový agent, který podporuje NL2SQL nad daty ve [OneLake](https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview) ([Fabric - Lakehouse](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview))
-- **Track** - automatizované testování datového agenta
+- **Analyze and train** - [obohacení dat s pomocí LLM](https://learn.microsoft.com/en-us/fabric/data-science/ai-functions/overview?tabs=pandas-pyspark%2Cpandas) (vytěžení uživatelských recenzí) 
+- **Distribute** - [datový agent](https://learn.microsoft.com/en-us/fabric/data-science/concept-data-agent), který podporuje NL2SQL nad daty ve [Fabric - Lakehouse](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview)
+- **Track** - [automatizované testování](https://learn.microsoft.com/en-us/fabric/data-science/evaluate-data-agent) datového agenta
 
 ![](/challenges/business-data-agent/images/ch01_00.png)
 
