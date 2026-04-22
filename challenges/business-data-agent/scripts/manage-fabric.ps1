@@ -79,7 +79,7 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
 # ── Configuration ────────────────────────────────────────────────────────────
-$ResourceGroup = "rg-caf2026-fabric"
+$ResourceGroup = "rg-fabric-for-caf2026"
 $RgLocation    = "swedencentral"
 
 $DefaultCapacities = @(

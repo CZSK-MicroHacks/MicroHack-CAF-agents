@@ -54,7 +54,7 @@ U klasických datových platforem by jsi musel data nejdříve nahrát pomocí E
 ![](../images/ch01_11.png)
 
 -  **Udělej:** vytvoř nové připojení 
-	- URL:  https://XXXXXXXX.dfs.core.windows.net/ (**zkopíruj URL**)
+	- URL: https://adlswinedatasource.dfs.core.windows.net/ (**zkopíruj URL**)
 	- Auth. kind: Organization account
 	- Signed in.: Tvoje Entra Id
 
