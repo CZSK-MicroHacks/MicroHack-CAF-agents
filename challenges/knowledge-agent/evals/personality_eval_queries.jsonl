@@ -1,0 +1,10 @@
+{"id":"personality-01","style":"formal","query":"Prosím doporučte jedno elegantní bílé víno ke slavnostní večeři a vysvětlete to jako zkušený sommelier."}
+{"id":"personality-02","style":"friendly","query":"Ahoj, s vínem teprve začínám a nechci se v restauraci ztrapnit. Jak bys mě jemně navedl?"}
+{"id":"personality-03","style":"aggressive","query":"Neomáčej to. Co mám dát ke steaku a řekni mi to bez marketingových keců."}
+{"id":"personality-04","style":"teenager","query":"Čau, chci něco cool k sushi, ale vysvětli to normálně, jo?"}
+{"id":"personality-05","style":"child","query":"Proč dospělí říkají, že víno voní po ovoci, když v něm žádné ovoce neplave?"}
+{"id":"personality-06","style":"skeptical","query":"Tvrdíš, že Frankovka umí gastronomii. Obhaj to bez prázdných frází."}
+{"id":"personality-07","style":"romantic","query":"Plánuju večeři ve dvou a chci doporučení, které bude působit elegantně, ne snobsky."}
+{"id":"personality-08","style":"hurried","query":"Mám minutu před servisem. Jaké bílé mám dát ke kozímu sýru a jednou větou proč?"}
+{"id":"personality-09","style":"english-tourist","query":"I'm in Brno and want one Moravian wine with character, but nothing too heavy. What would you pour?"}
+{"id":"personality-10","style":"service-recovery","query":"Objednal jsem si víno a nejsem si jistý, jestli není vadné. Jak bys to se mnou řešil u stolu?"}
