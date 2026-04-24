@@ -6,7 +6,7 @@ This Terraform configuration deploys per-user workshop environments in Azure.
 - Resource Group: `rg-userNNN`
 - Storage Account (Blob-capable): `stuserNNNxxxxxx`
 - Azure AI Search (Standard): `srch-userNNN-xxxxxx`
-- Optional Entra user and Owner RBAC on the resource group (when `manage_entra_users=true`)
+- Optional Entra user, membership in the shared `MicroHackUsers` security group, and Owner RBAC on the resource group (when `manage_entra_users=true`)
 
 `NNN` is a zero-padded user index and `xxxxxx` is a generated random 6-character lowercase suffix.
 
@@ -28,7 +28,7 @@ That suffix is reused for globally unique resources in that user environment.
 | `entra_user_domain` | string | conditional | Required when `manage_entra_users=true`. |
 | `entra_user_password` | string | conditional | Required when `manage_entra_users=true`. |
 
-Each user environment's Foundry account deploys `gpt-5.4`, `gpt-5.4-mini`, `gpt-5.4-nano`, and `text-embedding-3-large`.
+Each user environment deploys chat models plus `text-embedding-3-large` on the Foundry account, and also deploys `text-embedding-3-large` on the dedicated Azure OpenAI account used for Search embeddings.
 
 ## Quick start
 ```pwsh
@@ -44,5 +44,7 @@ terraform apply -var-file="sub1.tfvars"
 - `search_service_names`
 - `entra_user_principal_names`
 - `entra_user_object_ids`
+- `entra_security_group_object_id`
+- `entra_security_group_display_name`
 - `region_assignment`
 - `region_distribution`

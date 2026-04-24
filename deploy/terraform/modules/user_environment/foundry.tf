@@ -25,6 +25,29 @@ resource "azapi_resource" "foundry_account" {
   schema_validation_enabled = false
 }
 
+resource "azapi_resource" "openai_account" {
+  type      = "Microsoft.CognitiveServices/accounts@2025-06-01"
+  name      = local.openai_account_name
+  parent_id = azapi_resource.rg.id
+  location  = var.location
+
+  body = {
+    kind = "OpenAI"
+    sku = {
+      name = "S0"
+    }
+    properties = {
+      customSubDomainName           = local.openai_account_name
+      disableLocalAuth              = true
+      dynamicThrottlingEnabled      = false
+      publicNetworkAccess           = "Enabled"
+      restrictOutboundNetworkAccess = false
+    }
+  }
+
+  schema_validation_enabled = false
+}
+
 resource "azapi_resource" "foundry_project" {
   type      = "Microsoft.CognitiveServices/accounts/projects@2025-07-01-preview"
   name      = local.foundry_project_name
@@ -61,8 +84,10 @@ resource "azapi_resource" "foundry_project_connection_ai_search" {
   schema_validation_enabled = false
 
   depends_on = [
+    azurerm_role_assignment.foundry_project_search_reader,
     azurerm_role_assignment.foundry_project_search_service_contributor,
-    azurerm_role_assignment.foundry_project_search_index_data_contributor
+    azurerm_role_assignment.foundry_project_search_index_data_contributor,
+    azurerm_role_assignment.foundry_project_search_index_data_reader
   ]
 }
 
@@ -91,6 +116,54 @@ resource "azapi_resource" "foundry_model_deployment_gpt54" {
   depends_on = [azapi_resource.foundry_project]
 }
 
+resource "azapi_resource" "foundry_model_deployment_gpt5mini_search" {
+  type      = "Microsoft.CognitiveServices/accounts/deployments@2025-06-01"
+  name      = "gpt-5-mini"
+  parent_id = azapi_resource.foundry_account.id
+
+  body = {
+    sku = {
+      name     = "GlobalStandard"
+      capacity = 100
+    }
+    properties = {
+      model = {
+        format  = "OpenAI"
+        name    = "gpt-5-mini"
+        version = "2025-08-07"
+      }
+      versionUpgradeOption = "OnceNewDefaultVersionAvailable"
+    }
+  }
+
+  schema_validation_enabled = false
+  depends_on                = [azapi_resource.foundry_model_deployment_gpt54]
+}
+
+resource "azapi_resource" "foundry_model_deployment_gpt41_search" {
+  type      = "Microsoft.CognitiveServices/accounts/deployments@2025-06-01"
+  name      = "gpt-4.1"
+  parent_id = azapi_resource.foundry_account.id
+
+  body = {
+    sku = {
+      name     = "GlobalStandard"
+      capacity = 100
+    }
+    properties = {
+      model = {
+        format  = "OpenAI"
+        name    = "gpt-4.1"
+        version = "2025-04-14"
+      }
+      versionUpgradeOption = "OnceNewDefaultVersionAvailable"
+    }
+  }
+
+  schema_validation_enabled = false
+  depends_on                = [azapi_resource.foundry_model_deployment_gpt5mini_search]
+}
+
 resource "azapi_resource" "foundry_model_deployment_gpt5mini" {
   type      = "Microsoft.CognitiveServices/accounts/deployments@2025-06-01"
   name      = "gpt-5.4-mini"
@@ -112,7 +185,7 @@ resource "azapi_resource" "foundry_model_deployment_gpt5mini" {
   }
 
   schema_validation_enabled = false
-  depends_on                = [azapi_resource.foundry_model_deployment_gpt54]
+  depends_on                = [azapi_resource.foundry_model_deployment_gpt41_search]
 }
 
 resource "azapi_resource" "foundry_model_deployment_gpt5nano" {
@@ -139,7 +212,7 @@ resource "azapi_resource" "foundry_model_deployment_gpt5nano" {
   depends_on                = [azapi_resource.foundry_model_deployment_gpt5mini]
 }
 
-resource "azapi_resource" "foundry_model_deployment_textembedding3large" {
+resource "azapi_resource" "foundry_model_deployment_textembedding3large_foundry" {
   type      = "Microsoft.CognitiveServices/accounts/deployments@2025-06-01"
   name      = "text-embedding-3-large"
   parent_id = azapi_resource.foundry_account.id
@@ -161,4 +234,28 @@ resource "azapi_resource" "foundry_model_deployment_textembedding3large" {
 
   schema_validation_enabled = false
   depends_on                = [azapi_resource.foundry_model_deployment_gpt5nano]
+}
+
+resource "azapi_resource" "foundry_model_deployment_textembedding3large" {
+  type      = "Microsoft.CognitiveServices/accounts/deployments@2025-06-01"
+  name      = "text-embedding-3-large"
+  parent_id = azapi_resource.openai_account.id
+
+  body = {
+    sku = {
+      name     = "GlobalStandard"
+      capacity = 20
+    }
+    properties = {
+      model = {
+        format  = "OpenAI"
+        name    = "text-embedding-3-large"
+        version = "1"
+      }
+      versionUpgradeOption = "OnceNewDefaultVersionAvailable"
+    }
+  }
+
+  schema_validation_enabled = false
+  depends_on                = [azapi_resource.openai_account]
 }

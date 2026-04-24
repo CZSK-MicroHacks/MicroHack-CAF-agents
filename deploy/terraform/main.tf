@@ -14,6 +14,22 @@ module "entra_users" {
   password   = var.entra_user_password
 }
 
+resource "azuread_group" "microhack_users" {
+  count = var.manage_entra_users ? 1 : 0
+
+  display_name            = "MicroHackUsers"
+  description             = "Workshop users created by Terraform."
+  security_enabled        = true
+  prevent_duplicate_names = true
+}
+
+resource "azuread_group_member" "microhack_users" {
+  for_each = var.manage_entra_users ? module.entra_users : {}
+
+  group_object_id  = azuread_group.microhack_users[0].object_id
+  member_object_id = each.value.object_id
+}
+
 # Per-user resource groups with optional RBAC (created when manage_azure_resources=true)
 module "user_environment" {
   source   = "./modules/user_environment"

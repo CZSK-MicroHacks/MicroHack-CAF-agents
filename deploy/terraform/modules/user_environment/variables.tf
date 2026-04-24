@@ -8,6 +8,12 @@ variable "location" {
   description = "Azure region where the resource group is created."
 }
 
+variable "search_location" {
+  type        = string
+  default     = null
+  description = "Optional Azure region for the Azure AI Search service. Defaults to location when unset."
+}
+
 variable "assigned_user_object_id" {
   type        = string
   default     = null

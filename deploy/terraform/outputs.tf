@@ -38,6 +38,16 @@ output "entra_user_object_ids" {
   value       = var.manage_entra_users ? [for k, u in module.entra_users : u.object_id] : []
 }
 
+output "entra_security_group_object_id" {
+  description = "Object id of the shared Entra security group for workshop users (when manage_entra_users=true)."
+  value       = var.manage_entra_users ? azuread_group.microhack_users[0].object_id : null
+}
+
+output "entra_security_group_display_name" {
+  description = "Display name of the shared Entra security group for workshop users (when manage_entra_users=true)."
+  value       = var.manage_entra_users ? azuread_group.microhack_users[0].display_name : null
+}
+
 output "region_assignment" {
   description = "Map of user index -> region (round-robin assignment)."
   value       = { for i in local.user_indices : i => local.user_location_map[i] }
