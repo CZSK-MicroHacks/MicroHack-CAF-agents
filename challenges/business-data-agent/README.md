@@ -6,7 +6,8 @@ Tvůj nový úkol je vybudovat ***prototyp*** "datového agenta", který bude sc
 
 **Níže najdeš plán kroků**, které musíš vyřešit (nelze je přeskakovat).
 
-Z architektonického pohledu budeš vytvářet [Lakehouse a Medallion architekturu](/challenges/business-data-agent/challenges/lakehouse-layers.md) v platformě [Microsoft Fabric](https://www.microsoft.com/en-us/microsoft-fabric/resources/data-101/what-is-fabric?msockid=37ed1b5fdff06f8b2508082bde936ec1). 
+Z architektonického pohledu budeš vytvářet [Lakehouse a Medallion architekturu](/challenges/business-data-agent/challenges/lakehouse-layers.md) v platformě [Microsoft Fabric](https://www.microsoft.com/en-us/microsoft-fabric/resources/data-101/what-is-fabric?msockid=37ed1b5fdff06f8b2508082bde936ec1) s využitím inteligentní vrstvy [Fabric IQ](https://learn.microsoft.com/en-us/fabric/iq/overview). 
+
 Data, která budeš postupně zpracovávat a obohacovat jsou extrakty v JSON souborech s následující strukturou:
 
 ![](/challenges/business-data-agent/images/model.png)

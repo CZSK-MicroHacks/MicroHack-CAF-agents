@@ -47,7 +47,7 @@ Zkus se zeptat na základní dotazy:
 
 Zkus se zeptat na otázku:
 - Kolik jsme měli aktivních influencerů k 1.5.2025?
-    - **Očekávaná odpověď** je: **7**, ale agent pravděpodobně odpověděl **232**
+    - **Očekávaná odpověď** je: **7**, ale agent pravděpodobně odpověděl **232** nebo **žádní aktivní influenceři k tomu datu nejsou**.
 
 ![](../images/ch04_13.png)
 
