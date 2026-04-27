@@ -18,52 +18,52 @@ Během této výzvy budete:
 ## Přehled dat, se kterými budeme pracovat
 Ve svém storage účtu najdete PDF soubory s obrázky, infografikami, grafy a tabulkami.
 
-[![](images/2026-04-10-11-04-37.png){:class="img-fluid"}](images/2026-04-10-11-04-37.png)
+[![](images/2026-04-10-11-04-37.png)](images/2026-04-10-11-04-37.png)
 
-[![](images/2026-04-10-11-05-48.png){:class="img-fluid"}](images/2026-04-10-11-05-48.png)
+[![](images/2026-04-10-11-05-48.png)](images/2026-04-10-11-05-48.png)
 
 Máme také `wines.json`, který obsahuje data o vínech včetně bohatého textového nestrukturovaného pole s popisem vinařství, chuti, historie, barvy a dalších vlastností.
 
-[![](images/2026-04-10-11-11-03.png){:class="img-fluid"}](images/2026-04-10-11-11-03.png)
+[![](images/2026-04-10-11-11-03.png)](images/2026-04-10-11-11-03.png)
 
 Posledním zdrojem dat jsou nahrávky podcastů s klíčovými hosty z vinařského odvětví.
 
-[![](images/2026-04-10-11-12-40.png){:class="img-fluid"}](images/2026-04-10-11-12-40.png)
+[![](images/2026-04-10-11-12-40.png)](images/2026-04-10-11-12-40.png)
 
 ## Zpracování vín a jejich popisů
 Nejprve zpracujeme soubor `wines.json` a vytvoříme index v **AI Search**. Pracovat budeme v [Azure portálu](https://portal.azure.com). 
 
 Ve své resource group najděte AI search a pojďme importovat data.
 
-[![](images/2026-04-10-13-15-49.png){:class="img-fluid"}](images/2026-04-10-13-15-49.png)
+[![](images/2026-04-10-13-15-49.png)](images/2026-04-10-13-15-49.png)
 
-[![](images/2026-04-10-13-16-27.png){:class="img-fluid"}](images/2026-04-10-13-16-27.png)
+[![](images/2026-04-10-13-16-27.png)](images/2026-04-10-13-16-27.png)
 
-[![](images/2026-04-10-13-16-54.png){:class="img-fluid"}](images/2026-04-10-13-16-54.png)
+[![](images/2026-04-10-13-16-54.png)](images/2026-04-10-13-16-54.png)
 
 Vyberte storage account, wines kontejner a formát bude JSON array. Ověřovat se budeme přes managed identity.
 
-[![](images/2026-04-24-15-06-54.png){:class="img-fluid"}](images/2026-04-24-15-06-54.png)
+[![](images/2026-04-24-15-06-54.png)](images/2026-04-24-15-06-54.png)
 
 Detailní nestrukturovaný popis vína je ve sloupečku Description - to budeme chtít vektorizovat a provádět nad ním semantické vyhledávání.
 
-[![](images/2026-04-24-15-07-55.png){:class="img-fluid"}](images/2026-04-24-15-07-55.png)
+[![](images/2026-04-24-15-07-55.png)](images/2026-04-24-15-07-55.png)
 
 Povolíme semantický ranker pro pokročilejší hybridní vyhledávání a dojdeme na konec.
 
-[![](images/2026-04-10-13-22-49.png){:class="img-fluid"}](images/2026-04-10-13-22-49.png)
+[![](images/2026-04-10-13-22-49.png)](images/2026-04-10-13-22-49.png)
 
-[![](images/2026-04-10-13-23-25.png){:class="img-fluid"}](images/2026-04-10-13-23-25.png)
+[![](images/2026-04-10-13-23-25.png)](images/2026-04-10-13-23-25.png)
 
 Zpracování souboru provádí Indexer - doběhl vám v pořádku?
 
-[![](images/2026-04-10-13-24-46.png){:class="img-fluid"}](images/2026-04-10-13-24-46.png)
+[![](images/2026-04-10-13-24-46.png)](images/2026-04-10-13-24-46.png)
 
 Podívejte se do indexu a zkuste vyhledávání.
 
-[![](images/2026-04-10-13-26-01.png){:class="img-fluid"}](images/2026-04-10-13-26-01.png)
+[![](images/2026-04-10-13-26-01.png)](images/2026-04-10-13-26-01.png)
 
-[![](images/2026-04-10-13-27-36.png){:class="img-fluid"}](images/2026-04-10-13-27-36.png)
+[![](images/2026-04-10-13-27-36.png)](images/2026-04-10-13-27-36.png)
 
 Perfektní, data o vínech máme připravené a jsme schopni hledat v jejich textových popisech. To se bude v naší Knowledge Base určitě hodit.
 
@@ -74,43 +74,43 @@ Teď se vrhneme na nestrukturovaná data - PDF obsahující tabulky, obrázky s 
 
 Vytvoříme nový zdroj znalostí - kontejnerem s PDF dokumenty. Použijte managed identity a model gpt-4.1.
 
-[![](images/2026-04-24-20-02-06.png){:class="img-fluid"}](images/2026-04-24-20-02-06.png)
+[![](images/2026-04-24-20-02-06.png)](images/2026-04-24-20-02-06.png)
 
-[![](images/2026-04-24-20-02-32.png){:class="img-fluid"}](images/2026-04-24-20-02-32.png)
+[![](images/2026-04-24-20-02-32.png)](images/2026-04-24-20-02-32.png)
 
-[![](images/2026-04-24-20-04-28.png){:class="img-fluid"}](images/2026-04-24-20-04-28.png)
+[![](images/2026-04-24-20-04-28.png)](images/2026-04-24-20-04-28.png)
 
 Povolíme vektorizaci na políčku Description (sémantické vyhledávání)
 
-[![](images/2026-04-24-20-05-03.png){:class="img-fluid"}](images/2026-04-24-20-05-03.png)
+[![](images/2026-04-24-20-05-03.png)](images/2026-04-24-20-05-03.png)
 
-[![](images/2026-04-24-20-05-40.png){:class="img-fluid"}](images/2026-04-24-20-05-40.png)
+[![](images/2026-04-24-20-05-40.png)](images/2026-04-24-20-05-40.png)
 
 Přidáme image verbalizaci, tedy textový popis co na obrázku, infografice nebo grafu je.
 
-[![](images/2026-04-24-20-06-31.png){:class="img-fluid"}](images/2026-04-24-20-06-31.png)
+[![](images/2026-04-24-20-06-31.png)](images/2026-04-24-20-06-31.png)
 
-[![](images/2026-04-24-20-07-15.png){:class="img-fluid"}](images/2026-04-24-20-07-15.png)
+[![](images/2026-04-24-20-07-15.png)](images/2026-04-24-20-07-15.png)
 
 Vytvoříme - Foundry IQ to bude nějakou dobu zpracovávat a my se mezitím podíváme na něco dalšího a pak se k tomu vrátíme.
 
-[![](images/2026-04-24-20-08-08.png){:class="img-fluid"}](images/2026-04-24-20-08-08.png)
+[![](images/2026-04-24-20-08-08.png)](images/2026-04-24-20-08-08.png)
 
 ### Přidání indexu
 Do naší budoucí knowledge base ale určitě patří i index, který jsme vytvořili v AI Search z našeho `wines.json`. Bude to další datový zdroj.
 
-[![](images/2026-04-24-20-10-09.png){:class="img-fluid"}](images/2026-04-24-20-10-09.png)
+[![](images/2026-04-24-20-10-09.png)](images/2026-04-24-20-10-09.png)
 
 Pojmenujeme wines, vybereme wines index a budeme chtít nastavit source data files a search fields. To první je co chceme, aby se nám vracelo - určitě ne jen Description, v JSON byly další zajímavé sloupečky a tak můžete označit prakticky všechno kromě text vektoru, takže Area, Category, Classification, Color, Country, Producer, Type, UnitPrice, Vintage, WineCode, WineId, WineName. Search fields jsou pole, které chceme mít dostupné pro vyhledávání - tam můžeme pro zjednodušení dát klidně totéž a knowledge source vytvořit.
 
-[![](images/2026-04-24-20-14-09.png){:class="img-fluid"}](images/2026-04-24-20-14-09.png)
+[![](images/2026-04-24-20-14-09.png)](images/2026-04-24-20-14-09.png)
 
 ### Přidání vybraného webového obsahu
 Pro informace o víně máme vybrané prestižní časopisy a informační stránky a ty chceme aby byly pro vyhledávání dostupné, ale ne celý internet. Přidáme.
 
-[![](images/2026-04-24-20-15-13.png){:class="img-fluid"}](images/2026-04-24-20-15-13.png)
+[![](images/2026-04-24-20-15-13.png)](images/2026-04-24-20-15-13.png)
 
-[![](images/2026-04-24-20-16-20.png){:class="img-fluid"}](images/2026-04-24-20-16-20.png)
+[![](images/2026-04-24-20-16-20.png)](images/2026-04-24-20-16-20.png)
 
 Nasázejte tam tyto stránky a dovolte podstránky:
 
@@ -125,47 +125,47 @@ Nasázejte tam tyto stránky a dovolte podstránky:
 
 Vytvořte.
 
-[![](images/2026-04-24-20-18-20.png){:class="img-fluid"}](images/2026-04-24-20-18-20.png)
+[![](images/2026-04-24-20-18-20.png)](images/2026-04-24-20-18-20.png)
 
 ### Jak zpracování PDF funguje?
 Jste zvídaví a zajímá vás jak se PDF pod kapotou zpracovávají? Pokud ano, prohlédněte si skill pro indexaci vašich dokumentů.
 
-[![](images/2026-04-24-16-06-26.png){:class="img-fluid"}](images/2026-04-24-16-06-26.png)
+[![](images/2026-04-24-16-06-26.png)](images/2026-04-24-16-06-26.png)
 
-[![](images/2026-04-24-16-06-05.png){:class="img-fluid"}](images/2026-04-24-16-06-05.png)
+[![](images/2026-04-24-16-06-05.png)](images/2026-04-24-16-06-05.png)
 
 Výsledkem je index z toho všeho - dokumenty, popisky grafů a obrázků, do textu převedené sloupce a tabulky apod.
 
-[![](images/2026-04-24-16-07-17.png){:class="img-fluid"}](images/2026-04-24-16-07-17.png)
+[![](images/2026-04-24-16-07-17.png)](images/2026-04-24-16-07-17.png)
 
-[![](images/2026-04-24-16-07-52.png){:class="img-fluid"}](images/2026-04-24-16-07-52.png)
+[![](images/2026-04-24-16-07-52.png)](images/2026-04-24-16-07-52.png)
 
 
 ### Vytvoření Knowledge Base
 
 Knowledge zdroje máme připravené nebo se nám plní, pojďme vytvořit Knowledge Base a zařadit je do ní. Dáme jí jméno, vybereme modely, dáme maximální effor na přemýšlení s agentic retrieval. Zajímavý je output mode. Buď můžeme zvolit vrácení samotných upravených dat nebo nechat rovnou syntetizovat hotovou odpověď - nicméně my chceme použít i webové znalosti a pro ty je k dispozici pouze režim syntetizované odpovědi, ale to nám nevadí.
 
-[![](images/2026-04-24-21-07-44.png){:class="img-fluid"}](images/2026-04-24-21-07-44.png)
+[![](images/2026-04-24-21-07-44.png)](images/2026-04-24-21-07-44.png)
 
-[![](images/2026-04-24-21-08-33.png){:class="img-fluid"}](images/2026-04-24-21-08-33.png)
+[![](images/2026-04-24-21-08-33.png)](images/2026-04-24-21-08-33.png)
 
-[![](images/2026-04-24-21-09-08.png){:class="img-fluid"}](images/2026-04-24-21-09-08.png)
+[![](images/2026-04-24-21-09-08.png)](images/2026-04-24-21-09-08.png)
 
-[![](images/2026-04-24-21-09-33.png){:class="img-fluid"}](images/2026-04-24-21-09-33.png)
+[![](images/2026-04-24-21-09-33.png)](images/2026-04-24-21-09-33.png)
 
 Dále nastavíme reasoning effort. Můžeme začít s Low, které bude fungovat ve všech použitých regionech. Později můžete vyzkoušet přepnout na mnohem intenzivnější Medium.
 
-[![](images/2026-04-24-21-11-30.png){:class="img-fluid"}](images/2026-04-24-21-11-30.png)
+[![](images/2026-04-24-21-11-30.png)](images/2026-04-24-21-11-30.png)
 
 Uložíme.
 
-[![](images/2026-04-24-21-12-03.png){:class="img-fluid"}](images/2026-04-24-21-12-03.png)
+[![](images/2026-04-24-21-12-03.png)](images/2026-04-24-21-12-03.png)
 
 Znalostní bázi vyzkoušíme. Zadejte třeba
 
 > Chtěl bych nějakou Frankovku ze sprašových tratí, jaké máte? Píše se o nějaké znich vinepair.
 
-[![](images/2026-04-24-21-13-45.png){:class="img-fluid"}](images/2026-04-24-21-13-45.png)
+[![](images/2026-04-24-21-13-45.png)](images/2026-04-24-21-13-45.png)
 
 Zkuste přepnout na **Medium**, dejte New chat a zeptejte se znova. Výsledky budou pro takhle jednoduchý dotaz asi podobné, ale alespoň zjistíte, jestli ve vašem regionu je Medium podporováno. Pokud ano, nechte to na Medium a uložte.
 
@@ -177,39 +177,39 @@ Pojďme teď vytvořit agenta nad znalostní bází a použijeme Agenty ve Found
 
 Přejděte na [https://ai.azure.com](https://ai.azure.com) a ujistěte se, že máte vybraný správný projekt a váš AI Search je připojen do Foundry.
 
-[![](images/2026-04-24-21-20-08.png){:class="img-fluid"}](images/2026-04-24-21-20-08.png)
+[![](images/2026-04-24-21-20-08.png)](images/2026-04-24-21-20-08.png)
 
 Přejdeme do části agentů.
 
-[![](images/2026-04-24-16-39-59.png){:class="img-fluid"}](images/2026-04-24-16-39-59.png)
+[![](images/2026-04-24-16-39-59.png)](images/2026-04-24-16-39-59.png)
 
-[![](images/2026-04-24-16-41-23.png){:class="img-fluid"}](images/2026-04-24-16-41-23.png)
+[![](images/2026-04-24-16-41-23.png)](images/2026-04-24-16-41-23.png)
 
 Použijeme model gpt-4.1 a začneme s velmi jednoduchým promptem.
 
-[![](images/2026-04-24-21-21-36.png){:class="img-fluid"}](images/2026-04-24-21-21-36.png)
+[![](images/2026-04-24-21-21-36.png)](images/2026-04-24-21-21-36.png)
 
 Z nástrojů odebereme Web search - nechceme neomezené prohledávání Internetu, máme vybrané zdroje jako součást naší Knowledge base.
 
-[![](images/2026-04-24-21-22-35.png){:class="img-fluid"}](images/2026-04-24-21-22-35.png)
+[![](images/2026-04-24-21-22-35.png)](images/2026-04-24-21-22-35.png)
 
 Přidáme naší knowledge base.
 
-[![](images/2026-04-24-16-43-19.png){:class="img-fluid"}](images/2026-04-24-16-43-19.png)
+[![](images/2026-04-24-16-43-19.png)](images/2026-04-24-16-43-19.png)
 
-[![](images/2026-04-24-16-43-47.png){:class="img-fluid"}](images/2026-04-24-16-43-47.png)
+[![](images/2026-04-24-16-43-47.png)](images/2026-04-24-16-43-47.png)
 
 Uložíme a můžeme otestovat.
 
-[![](images/2026-04-24-16-45-19.png){:class="img-fluid"}](images/2026-04-24-16-45-19.png)
+[![](images/2026-04-24-16-45-19.png)](images/2026-04-24-16-45-19.png)
 
 > Chtěl bych nějakou Frankovku ze sprašových tratí, jaké máte? Nevím ale jestli má Frankovka i nějaké světové jméno, přijde mi, že je jen v čechách a pro různá vinná párování ji v zahraničí nepoužívají, je to tak?
 
-[![](images/2026-04-24-21-26-05.png){:class="img-fluid"}](images/2026-04-24-21-26-05.png)
+[![](images/2026-04-24-21-26-05.png)](images/2026-04-24-21-26-05.png)
 
 Podívejme se na zabudovanou observabilitu, ať máme představu co se dělo.
 
-[![](images/2026-04-24-21-26-39.png){:class="img-fluid"}](images/2026-04-24-21-26-39.png)
+[![](images/2026-04-24-21-26-39.png)](images/2026-04-24-21-26-39.png)
 
 
 
@@ -223,49 +223,49 @@ V challenge složce najdete připravené podklady v `evals/`. Pro znalostního a
 
 Vytvořme si první dvě evaluace, osobnost si necháme až na další krok.
 
-[![](images/2026-04-27-11-49-19.png){:class="img-fluid"}](images/2026-04-27-11-49-19.png)
+[![](images/2026-04-27-11-49-19.png)](images/2026-04-27-11-49-19.png)
 
-[![](images/2026-04-27-11-49-53.png){:class="img-fluid"}](images/2026-04-27-11-49-53.png)
+[![](images/2026-04-27-11-49-53.png)](images/2026-04-27-11-49-53.png)
 
-[![](images/2026-04-27-11-50-27.png){:class="img-fluid"}](images/2026-04-27-11-50-27.png)
+[![](images/2026-04-27-11-50-27.png)](images/2026-04-27-11-50-27.png)
 
-[![](images/2026-04-27-11-51-27.png){:class="img-fluid"}](images/2026-04-27-11-51-27.png)
+[![](images/2026-04-27-11-51-27.png)](images/2026-04-27-11-51-27.png)
 
-[![](images/2026-04-27-11-52-10.png){:class="img-fluid"}](images/2026-04-27-11-52-10.png)
+[![](images/2026-04-27-11-52-10.png)](images/2026-04-27-11-52-10.png)
 
-[![](images/2026-04-27-11-53-18.png){:class="img-fluid"}](images/2026-04-27-11-53-18.png)
+[![](images/2026-04-27-11-53-18.png)](images/2026-04-27-11-53-18.png)
 
 Odstraníme většinu evaluátorů a necháme dva základní.
 
-[![](images/2026-04-27-11-55-05.png){:class="img-fluid"}](images/2026-04-27-11-55-05.png)
+[![](images/2026-04-27-11-55-05.png)](images/2026-04-27-11-55-05.png)
 
-[![](images/2026-04-27-11-55-49.png){:class="img-fluid"}](images/2026-04-27-11-55-49.png)
+[![](images/2026-04-27-11-55-49.png)](images/2026-04-27-11-55-49.png)
 
 Totéž udělejte pro `rag_eval_with_ground_truth.jsonl`, ale tam máme i doporučenou odpověď.
 
-[![](images/2026-04-27-12-50-41.png){:class="img-fluid"}](images/2026-04-27-12-50-41.png)
+[![](images/2026-04-27-12-50-41.png)](images/2026-04-27-12-50-41.png)
 
-[![](images/2026-04-27-12-52-02.png){:class="img-fluid"}](images/2026-04-27-12-52-02.png)
+[![](images/2026-04-27-12-52-02.png)](images/2026-04-27-12-52-02.png)
 
-[![](images/2026-04-27-12-51-36.png){:class="img-fluid"}](images/2026-04-27-12-51-36.png)
+[![](images/2026-04-27-12-51-36.png)](images/2026-04-27-12-51-36.png)
 
-[![](images/2026-04-27-12-52-35.png){:class="img-fluid"}](images/2026-04-27-12-52-35.png)
+[![](images/2026-04-27-12-52-35.png)](images/2026-04-27-12-52-35.png)
 
-[![](images/2026-04-27-12-52-55.png){:class="img-fluid"}](images/2026-04-27-12-52-55.png)
+[![](images/2026-04-27-12-52-55.png)](images/2026-04-27-12-52-55.png)
 
 Prompt pro osobnost míří na styl sommeliéra z dobré restaurace: vřelý, profesionální, přesný, bez přehnané neformálnosti i bez studeného tónu. Pro ten si nejprve založíme vlastní evaluátor a ten použijeme pro osobnostní evals.
 
-[![](images/2026-04-27-12-54-06.png){:class="img-fluid"}](images/2026-04-27-12-54-06.png)
+[![](images/2026-04-27-12-54-06.png)](images/2026-04-27-12-54-06.png)
 
 Text pro prompt soudce zkopíruje ze souboru [](./evals/personality_judge_prompt.txt)
 
-[![](images/2026-04-27-12-56-25.png){:class="img-fluid"}](images/2026-04-27-12-56-25.png)
+[![](images/2026-04-27-12-56-25.png)](images/2026-04-27-12-56-25.png)
 
 Tento evaluátor použijeme pro další evals.
 
-[![](images/2026-04-27-13-04-12.png){:class="img-fluid"}](images/2026-04-27-13-04-12.png)
+[![](images/2026-04-27-13-04-12.png)](images/2026-04-27-13-04-12.png)
 
-[![](images/2026-04-27-13-05-06.png){:class="img-fluid"}](images/2026-04-27-13-05-06.png)
+[![](images/2026-04-27-13-05-06.png)](images/2026-04-27-13-05-06.png)
 
 
 Vyzkoušejte evaluace. Protože máme pouze velmi jednoduchý prompt, personality testy možná nedopadly nejlépe. Vylaďte prompt agent tak, aby vám dávalo celé řešení lepší výsledky.
