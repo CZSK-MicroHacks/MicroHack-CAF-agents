@@ -221,9 +221,57 @@ V challenge složce najdete připravené podklady v `evals/`. Pro znalostního a
 - `personality_eval_queries.jsonl` a `personality_judge_prompt.txt` jsou připravené pro vlastní prompt-based evaluator osobnosti.
 - `validate_foundry_assets.py` umí lokálně zkontrolovat formát, v projektu dočasně založit evaluace a zase je smazat.
 
-Prompt pro osobnost míří na styl sommeliéra z dobré restaurace: vřelý, profesionální, přesný, bez přehnané neformálnosti i bez studeného tónu.
+Vytvořme si první dvě evaluace, osobnost si necháme až na další krok.
 
-## Red teaming
+[![](images/2026-04-27-11-49-19.png){:class="img-fluid"}](images/2026-04-27-11-49-19.png)
+
+[![](images/2026-04-27-11-49-53.png){:class="img-fluid"}](images/2026-04-27-11-49-53.png)
+
+[![](images/2026-04-27-11-50-27.png){:class="img-fluid"}](images/2026-04-27-11-50-27.png)
+
+[![](images/2026-04-27-11-51-27.png){:class="img-fluid"}](images/2026-04-27-11-51-27.png)
+
+[![](images/2026-04-27-11-52-10.png){:class="img-fluid"}](images/2026-04-27-11-52-10.png)
+
+[![](images/2026-04-27-11-53-18.png){:class="img-fluid"}](images/2026-04-27-11-53-18.png)
+
+Odstraníme většinu evaluátorů a necháme dva základní.
+
+[![](images/2026-04-27-11-55-05.png){:class="img-fluid"}](images/2026-04-27-11-55-05.png)
+
+[![](images/2026-04-27-11-55-49.png){:class="img-fluid"}](images/2026-04-27-11-55-49.png)
+
+Totéž udělejte pro `rag_eval_with_ground_truth.jsonl`, ale tam máme i doporučenou odpověď.
+
+[![](images/2026-04-27-12-50-41.png){:class="img-fluid"}](images/2026-04-27-12-50-41.png)
+
+[![](images/2026-04-27-12-52-02.png){:class="img-fluid"}](images/2026-04-27-12-52-02.png)
+
+[![](images/2026-04-27-12-51-36.png){:class="img-fluid"}](images/2026-04-27-12-51-36.png)
+
+[![](images/2026-04-27-12-52-35.png){:class="img-fluid"}](images/2026-04-27-12-52-35.png)
+
+[![](images/2026-04-27-12-52-55.png){:class="img-fluid"}](images/2026-04-27-12-52-55.png)
+
+Prompt pro osobnost míří na styl sommeliéra z dobré restaurace: vřelý, profesionální, přesný, bez přehnané neformálnosti i bez studeného tónu. Pro ten si nejprve založíme vlastní evaluátor a ten použijeme pro osobnostní evals.
+
+[![](images/2026-04-27-12-54-06.png){:class="img-fluid"}](images/2026-04-27-12-54-06.png)
+
+Text pro prompt soudce zkopíruje ze souboru [](./evals/personality_judge_prompt.txt)
+
+[![](images/2026-04-27-12-56-25.png){:class="img-fluid"}](images/2026-04-27-12-56-25.png)
+
+Tento evaluátor použijeme pro další evals.
+
+[![](images/2026-04-27-13-04-12.png){:class="img-fluid"}](images/2026-04-27-13-04-12.png)
+
+[![](images/2026-04-27-13-05-06.png){:class="img-fluid"}](images/2026-04-27-13-05-06.png)
+
+
+Vyzkoušejte evaluace. Protože máme pouze velmi jednoduchý prompt, personality testy možná nedopadly nejlépe. Vylaďte prompt agent tak, aby vám dávalo celé řešení lepší výsledky.
+
+
+## Red teaming (volitelné)
 V `evals/red_team_queries.jsonl` je jednoduchá sada manuálních útoků na scope a bezpečnost: off-topic dotazy, nezletilí, pití před řízením, těhotenství, binge drinking nebo alkohol jako coping. K tomu je připravený i `wine_scope_safety_judge_prompt.txt` pro vlastní binární evaluator.
 
 Pokud chcete použít i cloudový Foundry red teaming, validační skript vytvoří správný základ evaluace pro `red_team` scénář s built-in kontrolami jako **Prohibited Actions**, **Task Adherence** a **Sensitive Data Leakage**. Po kontrole se vše zase smaže, aby studentům zůstal čistý projekt.
