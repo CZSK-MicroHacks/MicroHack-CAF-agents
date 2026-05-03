@@ -28,5 +28,17 @@ Po přihlášení změňte environment na MicroHackPro
 Vlevo zvolte Agents → Následně v levém horním rohu Create blank agent.
 <img width="1806" height="546" alt="image" src="https://github.com/user-attachments/assets/b18650c0-70bb-44c4-be34-799e4c2e1dcb" />
 
-Vyberte Skip to configure (přeskočte konverzační nastavení wizardu).
+Krok 2 — Základní nastavení
+Vyplňte:
+Pole	Hodnota
+Name	Název (pro demo budu používat Bobulák)
+Wine Orchestrator brings together two specialists: a Wine Analyst that surfaces sales, pricing, and performance data from Fabric, and a Wines Knowledge agent that provides pairing advice, tasting notes, varietal characteristics, and wine history from Foundry. Ask anything from "Which wines sold best last quarter?" to "What pairs well with grilled lamb?" — the orchestrator routes your question to the right expert and returns a single, coherent answer.
+<img width="875" height="388" alt="image" src="https://github.com/user-attachments/assets/1a6fbb87-bd2b-485d-b444-12c7d4d4faa5" />
+Pokud chcete, můžete nahrát ikonu můžete využít tuto
+<img width="192" height="192" alt="CAGWine" src="https://github.com/user-attachments/assets/e0bc9a7e-529e-46ec-a4c1-23f20063fa0b" />
+
+
+CAGWine.png
+Language	Czech (cs-CZ)
+
 
