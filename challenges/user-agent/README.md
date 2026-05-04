@@ -108,6 +108,11 @@ V Copilot Studiu to bude vypadat takto. Prosím potvrdit.
 V Copilot Studiu by jste měli vidět 2 připojené agenty:
 <img width="1388" height="500" alt="image" src="https://github.com/user-attachments/assets/dc6c9507-eedb-42cd-b68c-95d7c47f7c0e" />
 
+Při prvním testu je potřeba potvrdit přístup do Foundry a Fabric
+<img width="680" height="470" alt="image" src="https://github.com/user-attachments/assets/c59953e5-5f7e-44a7-aaa3-98ac9e7075bf" />
+Foundry je potřeba potvrdit v Connection manager
+<img width="893" height="336" alt="image" src="https://github.com/user-attachments/assets/8bc4c9cd-dd17-49af-981e-578469094b1a" />
+
 
 
 
