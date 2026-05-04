@@ -113,12 +113,26 @@ Při prvním testu je potřeba potvrdit přístup do Foundry a Fabric
 Foundry je potřeba potvrdit v Connection manager
 <img width="893" height="336" alt="image" src="https://github.com/user-attachments/assets/8bc4c9cd-dd17-49af-981e-578469094b1a" />
 
+Nyní můžete agenta v testovacím okně testovat na ptát se na otázky ohledně
+- prodejností vín
+- historie vín
+- prodejnost vín a další
+<img width="726" height="998" alt="image" src="https://github.com/user-attachments/assets/237d89c2-ae38-48e8-9009-a3f925c18be5" />
 
+Sidequest #3
+Evaulation - zde je možné provádět hromadné testy agenta. 
+<img width="1314" height="925" alt="image" src="https://github.com/user-attachments/assets/1c3e2810-c9e7-4953-99bb-8d6c7bc74133" />
 
+Přes Create a test set 
+<img width="1421" height="728" alt="image" src="https://github.com/user-attachments/assets/76efa678-5946-4961-b321-c8e2fcd4999d" />
+Zde si můžete vybrat, zda si otázky necháte vygenerovat, nebo nahrajete otázky vlastní ať vymyšlené, nebo z historických údají z použití agenta. 
+Příklad 10 generovaných otázek:
+<img width="2108" height="998" alt="image" src="https://github.com/user-attachments/assets/0e965c1e-5fe2-43a3-93a7-e979c819ee1b" />
 
+Ještě je potřeba vybrat testovací metodu. V dostupných jsou:
+<img width="857" height="1037" alt="image" src="https://github.com/user-attachments/assets/7bcb6670-e6d4-4df3-aeef-2d58f9a90438" />
 
-
-
+Gratulujeme k vašemu multi agentnímu prostředí.
 
 
 
