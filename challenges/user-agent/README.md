@@ -103,7 +103,7 @@ Agent Id je k vidění v ai.foundry.com na detailu agenta v kodu: wines-knowledg
 <img width="1778" height="803" alt="image" src="https://github.com/user-attachments/assets/01dd306a-2aa6-473c-987d-20d4a48b66aa" />
 
 V Copilot Studiu to bude vypadat takto. Prosím potvrdit.
-<img width="1616" height="1125" alt="image" src="https://github.com/user-attachments/assets/f97b2991-a72c-4e55-b1ee-cdd9a4b69d08" />
+<img width="1155" height="791" alt="image" src="https://github.com/user-attachments/assets/81795f1d-0941-4671-a3af-753de47b253f" />
 
 V Copilot Studiu by jste měli vidět 2 připojené agenty:
 <img width="1388" height="500" alt="image" src="https://github.com/user-attachments/assets/dc6c9507-eedb-42cd-b68c-95d7c47f7c0e" />
