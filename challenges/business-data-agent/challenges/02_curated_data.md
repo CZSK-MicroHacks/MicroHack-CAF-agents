@@ -44,12 +44,12 @@ Ale má to jeden háček, **musíš vyřešit "mini" challenge** - kolega Ti odm
 
 - **Udělej:** Vyřeš **"mini" challenge**, který je uveden v Notebooku, poté spusť jednotlivé buňky v notebooku (projdi si kód) nebo spusť celý notebook najednou. 
 	- Popis screenshotu:
-		- 1. Shortcut na data v Azure Storage
-		- 2. V každé složce najdeš jeden JSON soubor (nápověda: má kontextové menu)
-		- 3. Doplň chybějící kód (kód je stejný, pouze cesta a název na JSON soubor jsou různé)
-		- 4. Můžeš zavolat Copilot chat / případně je k dispozici u každé buňky (potřebuješ načíst data z JSON souborů)
-		- 5. Spusť kód buňky - můžeš jít buňku po buňce a spouštět je
-		- 6. Případně můžeš spustit všechny buňky najednou
+		- (1) Shortcut na data v Azure Storage
+		- (2) V každé složce najdeš jeden JSON soubor (nápověda: má kontextové menu)
+		- (3) Doplň chybějící kód (kód je stejný, pouze cesta a název na JSON soubor jsou různé)
+		- (4) Můžeš zavolat Copilot chat / případně je k dispozici u každé buňky (potřebuješ načíst data z JSON souborů)
+		- (5) Spusť kód buňky - můžeš jít buňku po buňce a spouštět je
+		- (6) Případně můžeš spustit všechny buňky najednou
 
 ![](../images/ch02_13.png)
 
