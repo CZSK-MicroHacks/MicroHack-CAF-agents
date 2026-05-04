@@ -99,7 +99,7 @@ a následně v sekci Agents správného agenta. Pokud pokračujete z Azure track
 <img width="1327" height="892" alt="image" src="https://github.com/user-attachments/assets/c5273c6d-3dc0-47d3-95ef-1fa0470394dc" />
 Pro připojení zkopírujte ID z řádku prohlížeče. To použijte v Copilot Studiu pro propojení s Foundry prostředím a klikněte Next. 
 
-Agent Id je k vidění v ai.foundry.com na detailu agenta v kodu: wines-knowledge-agent:4
+Agent Id je k vidění v ai.foundry.com na detailu agenta v kodu: wines-knowledge-agent
 <img width="1778" height="803" alt="image" src="https://github.com/user-attachments/assets/01dd306a-2aa6-473c-987d-20d4a48b66aa" />
 
 V Copilot Studiu to bude vypadat takto. Prosím potvrdit.
