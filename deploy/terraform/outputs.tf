@@ -50,10 +50,10 @@ output "entra_security_group_display_name" {
 
 output "region_assignment" {
   description = "Map of user index -> region (round-robin assignment)."
-  value       = { for i in local.user_indices : i => local.user_location_map[i] }
+  value       = { for i in local.azure_user_indices : i => local.user_location_map[i] }
 }
 
 output "region_distribution" {
   description = "Count of environments per region."
-  value       = { for r in var.locations : r => length([for i in local.user_indices : local.user_location_map[i] if local.user_location_map[i] == r]) }
+  value       = { for r in toset(var.locations) : r => length([for i in local.azure_user_indices : local.user_location_map[i] if local.user_location_map[i] == r]) }
 }

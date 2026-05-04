@@ -20,7 +20,9 @@ That suffix is reused for globally unique resources in that user environment.
 ## Variables
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
-| `n` | number | yes | Number of user environments. |
+| `n` | number | yes | Default number of seats when count overrides are unset. |
+| `n_entra` | number | no | Optional override for the number of Entra users. Defaults to `n`. |
+| `n_azure` | number | no | Optional override for the number of Azure user environments. Defaults to `n`. |
 | `locations` | list(string) | yes | Azure regions used in round-robin distribution. |
 | `subscription_id` | string | yes | Target Azure subscription ID. |
 | `manage_azure_resources` | bool | no (default `true`) | Deploy per-user Azure resources. |

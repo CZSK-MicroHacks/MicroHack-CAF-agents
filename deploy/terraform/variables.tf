@@ -1,7 +1,34 @@
 variable "n" {
   type        = number
   default     = 5
-  description = "Number of user environments to provision. Each gets a resource group with optional RBAC. Must be >= 1."
+  description = "Default number of seats to provision when n_entra or n_azure are not set. Must be >= 1."
+
+  validation {
+    condition     = var.n >= 1
+    error_message = "n must be greater than or equal to 1."
+  }
+}
+
+variable "n_entra" {
+  type        = number
+  default     = null
+  description = "Optional override for the number of Entra ID users to provision. Defaults to n when unset."
+
+  validation {
+    condition     = var.n_entra == null ? true : var.n_entra >= 1
+    error_message = "n_entra must be null or greater than or equal to 1."
+  }
+}
+
+variable "n_azure" {
+  type        = number
+  default     = null
+  description = "Optional override for the number of Azure user environments to provision. Defaults to n when unset."
+
+  validation {
+    condition     = var.n_azure == null ? true : var.n_azure >= 1
+    error_message = "n_azure must be null or greater than or equal to 1."
+  }
 }
 
 variable "locations" {
@@ -21,7 +48,7 @@ variable "manage_entra_users" {
   default     = true
   description = <<EOT
 Flag controlling whether temporary Entra ID user accounts are provisioned and granted Owner on each user resource group.
-When true: creates n users and assigns Owner RBAC on each resource group.
+When true: creates n_entra users, or n users when n_entra is unset, and assigns Owner RBAC on each resource group.
 When false: no Entra users are created and no role assignments are added.
 EOT
 }
@@ -56,7 +83,7 @@ variable "manage_azure_resources" {
   default     = true
   description = <<EOT
 Flag controlling whether user resource groups should be deployed.
-When true: per-user resource groups with optional RBAC are provisioned.
+When true: n_azure per-user resource groups, or n resource groups when n_azure is unset, are provisioned with optional RBAC.
 When false: only Entra ID users are created (if manage_entra_users is true).
 EOT
 }

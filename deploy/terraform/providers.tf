@@ -17,7 +17,7 @@ terraform {
 
 provider "azurerm" {
   subscription_id     = var.subscription_id
-  storage_use_azuread = true
+  storage_use_azuread = false
   features {}
 }
 

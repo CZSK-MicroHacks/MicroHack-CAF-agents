@@ -1,7 +1,7 @@
 variable "user_index" {
   type        = number
   description = <<EOT
-Numeric user index (1..n) aligned with per-user infra module.
+Numeric user index (1..n_entra, or 1..n when n_entra is unset).
 Used only for generating deterministic UPN and display name (labuserNNN@domain).
 EOT
 }
