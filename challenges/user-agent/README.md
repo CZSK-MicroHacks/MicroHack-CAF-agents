@@ -89,7 +89,7 @@ Záložka Tools → + Add tool → Agent → Azure AI Foundry Agent.
 Vytvořte nové připojení
 <img width="1539" height="1060" alt="image" src="https://github.com/user-attachments/assets/7589d42e-abd5-4b71-82a5-1d69c0bc031b" />
 
-ID je: https://ai.azure.com/nextgen/r/XmMhB9ANR7ijiNaRqUyNkg,rg-user-test,,aif-user-testfszjsz,project-user-test/build/agents/wines-knowledge-agent/build
+ID je: https://aif-user-testfszjsz.services.ai.azure.com/api/projects/project-user-test
 
 Popřípadě dle instrukcí níže  je možné údaje pro propojení je nutní získat z Azure Foundry - ai.azure.com. V portálu je nutné přepnout na New Foundry!
 <img width="591" height="189" alt="image" src="https://github.com/user-attachments/assets/8a80c6e1-b5f0-4cad-98de-e486a384103c" />
