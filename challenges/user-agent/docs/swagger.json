@@ -1,0 +1,146 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Orders API",
+    "description": "Secure API with Azure AD authentication",
+    "version": "v1"
+  },
+  "servers": [
+    {
+      "url": "https://api-orders.nicedune-e3c5a94e.swedencentral.azurecontainerapps.io/",
+      "description": "Primary server"
+    }
+  ],
+  "paths": {
+    "/api/orders": {
+      "post": {
+        "tags": [
+          "api-orders"
+        ],
+        "operationId": "CreateOrder",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateOrderRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "api-orders"
+        ],
+        "operationId": "GetAllOrders",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/orders/{id}": {
+      "get": {
+        "tags": [
+          "api-orders"
+        ],
+        "operationId": "GetOrderById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/values": {
+      "get": {
+        "tags": [
+          "api-orders"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateOrderRequest": {
+        "type": "object",
+        "properties": {
+          "orderItems": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderItem"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderItem": {
+        "type": "object",
+        "properties": {
+          "product": {
+            "type": "string",
+            "nullable": true
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "oauth2": {
+        "type": "oauth2",
+        "flows": {
+          "authorizationCode": {
+            "authorizationUrl": "https://login.microsoftonline.com/b48accae-439a-467a-9fbf-8ad011508424/oauth2/v2.0/authorize",
+            "tokenUrl": "https://login.microsoftonline.com/b48accae-439a-467a-9fbf-8ad011508424/oauth2/v2.0/token",
+            "scopes": {
+              "api://54f6c8bd-003c-4fb5-a035-a41c7f8854ab/All": "Access to API"
+            }
+          }
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "oauth2": [ ]
+    }
+  ]
+}
