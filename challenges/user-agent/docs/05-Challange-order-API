@@ -1,1 +1,8 @@
 Poslední challange bude do sekce Tools v Copilot Studiu přidat přes API objednávkový systém:
+- Sekce Tools
+- Add a tool
+- Rest API a Create the Rest API you need
+- Pužijte swagger.json a jeho popis je zde: https://api-orders.nicedune-e3c5a94e.swedencentral.azurecontainerapps.io/swagger/index.html
+- upravte instrukce, aby objednávka byla předána
+- Kontrolu zda byla objedávka předána je možná zde: https://ui-orders.nicedune-e3c5a94e.swedencentral.azurecontainerapps.io/
+Happy hacking
