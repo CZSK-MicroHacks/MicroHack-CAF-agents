@@ -1,8 +1,50 @@
-Poslední challange bude do sekce Tools v Copilot Studiu přidat přes API objednávkový systém:
-- Sekce Tools
-- Add a tool
-- Rest API a Create the Rest API you need
-- Pužijte swagger.json a jeho popis je zde: https://api-orders.nicedune-e3c5a94e.swedencentral.azurecontainerapps.io/swagger/index.html
-- upravte instrukce, aby objednávka byla předána
-- Kontrolu zda byla objedávka předána je možná zde: https://ui-orders.nicedune-e3c5a94e.swedencentral.azurecontainerapps.io/
-Happy hacking
+# Challenge: Copilot Studio – Order API Integration
+
+Cílem tohoto úkolu je napojit externí objednávkový systém pomocí REST API jako nástroj (Tool) v Copilot Studiu a upravit chování agenta tak, aby uměl vytvářet objednávky.
+
+---
+
+## 1. Přidání nástroje (Tool)
+
+1. Otevři **Copilot Studio**
+2. Přejdi do sekce **Tools**
+3. Klikni:
+   - **Add a tool**
+   - **REST API**
+   - **Create the REST API you need**
+
+---
+
+## 2. Import Swagger definice
+
+Použij API dokumentaci:
+
+- [Swagger dokumentace](https://api-orders.nicedune-e3c5a94e.swedencentral.azurecontainerapps.io/swagger/index.html)
+
+### Postup:
+
+- Stáhni / použij `swagger.json`
+- Importuj ho do Copilot Studio při vytváření REST toolu
+- Ověř:
+  - dostupné endpointy (např. vytvoření objednávky)
+  - požadované parametry
+
+---
+
+## 3. Úprava instrukcí agenta
+
+Uprav **Instructions**, aby agent:
+
+- rozpoznal požadavek na vytvoření objednávky
+- sesbíral potřebná data
+- zavolal API tool
+- předal správné parametry
+- vrátil potvrzení uživateli
+
+### Příklad:
+
+```text
+If the user wants to create an order:
+- Collect required details (product, quantity, customer info)
+- Call the Order API tool
+- Confirm order creation to the user
