@@ -79,6 +79,7 @@ wines-knowledge-agent
 V Copilot Studiu potvrďte připojení.
 
 <img width="1155" height="791" alt="Potvrzení Foundry agenta v Copilot Studiu" src="https://github.com/user-attachments/assets/81795f1d-0941-4671-a3af-753de47b253f" />
+Popis: Wines Knowledge provides expert knowledge about wine as a product and cultural topic: food pairing, grape varietal characteristics, terroir, wine regions, vinification and aging, history, serving temperature, glassware, and tasting notes.  Use for questions like:  "What pairs with grilled lamb?" "Tell me about Barolo" "Difference between Chablis and Californian Chardonnay" "What temperature to serve red wine at?" "What grapes grow in the Mikulov sub-region?" Do not use for questions about sales, pricing, volumes, or customers — that's Wine Analyst.
 
 Po dokončení byste měli v Copilot Studiu vidět dva připojené agenty.
 
