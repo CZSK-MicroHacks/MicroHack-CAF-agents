@@ -19,15 +19,16 @@ Cílem tohoto úkolu je napojit externí objednávkový systém pomocí REST API
 
 Použij API dokumentaci:
 
-- [Swagger dokumentace](https://api-orders.nicedune-e3c5a94e.swedencentral.azurecontainerapps.io/mcp)
+- [Swagger dokumentace](https://api-orders.nicedune-e3c5a94e.swedencentral.azurecontainerapps.io/swagger)
+- [MCP endpoint](https://api-orders.nicedune-e3c5a94e.swedencentral.azurecontainerapps.io/mcp)
 
 ### Postup:
 
-- Stáhni / použij `swagger.json`
-- Importuj ho do Copilot Studio při vytváření REST toolu
+- Vytvoř nový Tool typu MCP - použij MCP endpoint url
+- Přiřaď tool k agentovi 
+
 - Ověř:
-  - dostupné endpointy (např. vytvoření objednávky)
-  - požadované parametry
+  - vidíš seznam metod (nástrojů) co Tool rozpoznal, automaticky rozumím parametrům 
 
 ---
 
