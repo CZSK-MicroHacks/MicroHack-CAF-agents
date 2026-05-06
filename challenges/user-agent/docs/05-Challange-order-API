@@ -19,7 +19,7 @@ Cílem tohoto úkolu je napojit externí objednávkový systém pomocí REST API
 
 Použij API dokumentaci:
 
-- [Swagger dokumentace](https://api-orders.nicedune-e3c5a94e.swedencentral.azurecontainerapps.io/swagger/index.html)
+- [Swagger dokumentace](https://api-orders.nicedune-e3c5a94e.swedencentral.azurecontainerapps.io/mcp)
 
 ### Postup:
 
