@@ -6,7 +6,7 @@ V této kapitole připojíte k User agentovi dva specialisty: Fabric Data Agenta
 
 ## Krok 1: Připojení agenta Wine Analyst z Fabric
 
-V Copilot Studiu otevřete záložku **Tools** a vyberte **+ Add tool**. Potom zvolte **Agent** a následně **Fabric Data Agent**.
+V Copilot Studiu otevřete záložku **Agernts** a vyberte **+ Add agent**. Potom zvolte **Connect to external agent** a následně **Fabric Data Agent**.
 
 <img width="724" height="570" alt="Přidání Fabric Data Agenta" src="https://github.com/user-attachments/assets/6b929c4d-8066-43af-a4a7-0af685bf62f1" />
 
